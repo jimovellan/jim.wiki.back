@@ -10,5 +10,6 @@ namespace jim.wiki.core.Authentication.Interfaces
     public interface IUserDataService
     {
         IUserData GetUser();
+        string GetToken(IUserData userData);
     }
 }

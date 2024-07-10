@@ -14,7 +14,7 @@ using System.Reflection;
 [assembly: System.Reflection.AssemblyCompanyAttribute("jim.wiki.back.application")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Debug")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
-[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+cf7f6fa4ca80a8a98e0e6e1ab4f788ed1086768f")]
+[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+04b0a44c78a55a02acfbe78fc13620fa1c5a142f")]
 [assembly: System.Reflection.AssemblyProductAttribute("jim.wiki.back.application")]
 [assembly: System.Reflection.AssemblyTitleAttribute("jim.wiki.back.application")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]

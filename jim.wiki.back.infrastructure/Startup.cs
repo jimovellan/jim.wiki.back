@@ -21,7 +21,9 @@ namespace jim.wiki.back.infrastructure
             serviceCollection
                 .AddApplicationOptions(configuration)
                 .AddDDBBConection(configuration)
-                .RegisterAplicationServices(configuration);
+                .RegisterAplicationServices(configuration)
+                .GenerateAdminUser(configuration);
+                
                 
         }
     }

@@ -46,6 +46,19 @@
           }
         }
       },
+      "BCrypt.Net-Next/4.0.3": {
+        "type": "package",
+        "compile": {
+          "lib/net6.0/BCrypt.Net-Next.dll": {
+            "related": ".xml"
+          }
+        },
+        "runtime": {
+          "lib/net6.0/BCrypt.Net-Next.dll": {
+            "related": ".xml"
+          }
+        }
+      },
       "EfCore.SchemaCompare/8.0.0": {
         "type": "package",
         "dependencies": {
@@ -2008,6 +2021,37 @@
         "azureicon.png",
         "lib/netstandard2.0/Azure.Identity.dll",
         "lib/netstandard2.0/Azure.Identity.xml"
+      ]
+    },
+    "BCrypt.Net-Next/4.0.3": {
+      "sha512": "W+U9WvmZQgi5cX6FS5GDtDoPzUCV4LkBLkywq/kRZhuDwcbavOzcDAr3LXJFqHUi952Yj3LEYoWW0jbEUQChsA==",
+      "type": "package",
+      "path": "bcrypt.net-next/4.0.3",
+      "files": [
+        ".nupkg.metadata",
+        ".signature.p7s",
+        "bcrypt.net-next.4.0.3.nupkg.sha512",
+        "bcrypt.net-next.nuspec",
+        "ico.png",
+        "lib/net20/BCrypt.Net-Next.dll",
+        "lib/net20/BCrypt.Net-Next.xml",
+        "lib/net35/BCrypt.Net-Next.dll",
+        "lib/net35/BCrypt.Net-Next.xml",
+        "lib/net462/BCrypt.Net-Next.dll",
+        "lib/net462/BCrypt.Net-Next.xml",
+        "lib/net472/BCrypt.Net-Next.dll",
+        "lib/net472/BCrypt.Net-Next.xml",
+        "lib/net48/BCrypt.Net-Next.dll",
+        "lib/net48/BCrypt.Net-Next.xml",
+        "lib/net5.0/BCrypt.Net-Next.dll",
+        "lib/net5.0/BCrypt.Net-Next.xml",
+        "lib/net6.0/BCrypt.Net-Next.dll",
+        "lib/net6.0/BCrypt.Net-Next.xml",
+        "lib/netstandard2.0/BCrypt.Net-Next.dll",
+        "lib/netstandard2.0/BCrypt.Net-Next.xml",
+        "lib/netstandard2.1/BCrypt.Net-Next.dll",
+        "lib/netstandard2.1/BCrypt.Net-Next.xml",
+        "readme.md"
       ]
     },
     "EfCore.SchemaCompare/8.0.0": {
@@ -4845,6 +4889,7 @@
   },
   "projectFileDependencyGroups": {
     "net8.0": [
+      "BCrypt.Net-Next >= 4.0.3",
       "EfCore.SchemaCompare >= 8.0.0",
       "MediatR.Extensions.Microsoft.DependencyInjection >= 11.1.0",
       "Microsoft.EntityFrameworkCore >= 8.0.6",
@@ -4868,11 +4913,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Proyectos\\propios\\jim.wiki.back\\jim.wiki.back.infrastructure\\jim.wiki.back.infrastructure.csproj",
+      "projectUniqueName": "C:\\Proyectos\\propios\\jim.wiki.back2\\jim.wiki.back\\jim.wiki.back.infrastructure\\jim.wiki.back.infrastructure.csproj",
       "projectName": "jim.wiki.back.infrastructure",
-      "projectPath": "C:\\Proyectos\\propios\\jim.wiki.back\\jim.wiki.back.infrastructure\\jim.wiki.back.infrastructure.csproj",
+      "projectPath": "C:\\Proyectos\\propios\\jim.wiki.back2\\jim.wiki.back\\jim.wiki.back.infrastructure\\jim.wiki.back.infrastructure.csproj",
       "packagesPath": "C:\\Users\\nacho\\.nuget\\packages\\",
-      "outputPath": "C:\\Proyectos\\propios\\jim.wiki.back\\jim.wiki.back.infrastructure\\obj\\",
+      "outputPath": "C:\\Proyectos\\propios\\jim.wiki.back2\\jim.wiki.back\\jim.wiki.back.infrastructure\\obj\\",
       "projectStyle": "PackageReference",
       "fallbackFolders": [
         "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
@@ -4894,14 +4939,14 @@
         "net8.0": {
           "targetAlias": "net8.0",
           "projectReferences": {
-            "C:\\Proyectos\\propios\\jim.wiki.back\\jim.wiki.back.application\\jim.wiki.back.application.csproj": {
-              "projectPath": "C:\\Proyectos\\propios\\jim.wiki.back\\jim.wiki.back.application\\jim.wiki.back.application.csproj"
+            "C:\\Proyectos\\propios\\jim.wiki.back2\\jim.wiki.back\\jim.wiki.back.application\\jim.wiki.back.application.csproj": {
+              "projectPath": "C:\\Proyectos\\propios\\jim.wiki.back2\\jim.wiki.back\\jim.wiki.back.application\\jim.wiki.back.application.csproj"
             },
-            "C:\\Proyectos\\propios\\jim.wiki.back\\jim.wiki.back.model\\jim.wiki.back.model.csproj": {
-              "projectPath": "C:\\Proyectos\\propios\\jim.wiki.back\\jim.wiki.back.model\\jim.wiki.back.model.csproj"
+            "C:\\Proyectos\\propios\\jim.wiki.back2\\jim.wiki.back\\jim.wiki.back.model\\jim.wiki.back.model.csproj": {
+              "projectPath": "C:\\Proyectos\\propios\\jim.wiki.back2\\jim.wiki.back\\jim.wiki.back.model\\jim.wiki.back.model.csproj"
             },
-            "C:\\Proyectos\\propios\\jim.wiki.back\\jim.wiki.core\\jim.wiki.core.csproj": {
-              "projectPath": "C:\\Proyectos\\propios\\jim.wiki.back\\jim.wiki.core\\jim.wiki.core.csproj"
+            "C:\\Proyectos\\propios\\jim.wiki.back2\\jim.wiki.back\\jim.wiki.core\\jim.wiki.core.csproj": {
+              "projectPath": "C:\\Proyectos\\propios\\jim.wiki.back2\\jim.wiki.back\\jim.wiki.core\\jim.wiki.core.csproj"
             }
           }
         }
@@ -4921,6 +4966,10 @@
       "net8.0": {
         "targetAlias": "net8.0",
         "dependencies": {
+          "BCrypt.Net-Next": {
+            "target": "Package",
+            "version": "[4.0.3, )"
+          },
           "EfCore.SchemaCompare": {
             "target": "Package",
             "version": "[8.0.0, )"

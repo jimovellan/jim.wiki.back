@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Proyectos\\propios\\jim.wiki.back\\jim.wiki.back.model\\jim.wiki.back.model.csproj": {}
+    "C:\\Proyectos\\propios\\jim.wiki.back2\\jim.wiki.back\\jim.wiki.back.model\\jim.wiki.back.model.csproj": {}
   },
   "projects": {
-    "C:\\Proyectos\\propios\\jim.wiki.back\\jim.wiki.back.model\\jim.wiki.back.model.csproj": {
+    "C:\\Proyectos\\propios\\jim.wiki.back2\\jim.wiki.back\\jim.wiki.back.model\\jim.wiki.back.model.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Proyectos\\propios\\jim.wiki.back\\jim.wiki.back.model\\jim.wiki.back.model.csproj",
+        "projectUniqueName": "C:\\Proyectos\\propios\\jim.wiki.back2\\jim.wiki.back\\jim.wiki.back.model\\jim.wiki.back.model.csproj",
         "projectName": "jim.wiki.back.model",
-        "projectPath": "C:\\Proyectos\\propios\\jim.wiki.back\\jim.wiki.back.model\\jim.wiki.back.model.csproj",
+        "projectPath": "C:\\Proyectos\\propios\\jim.wiki.back2\\jim.wiki.back\\jim.wiki.back.model\\jim.wiki.back.model.csproj",
         "packagesPath": "C:\\Users\\nacho\\.nuget\\packages\\",
-        "outputPath": "C:\\Proyectos\\propios\\jim.wiki.back\\jim.wiki.back.model\\obj\\",
+        "outputPath": "C:\\Proyectos\\propios\\jim.wiki.back2\\jim.wiki.back\\jim.wiki.back.model\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
           "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
@@ -33,8 +33,8 @@
           "net8.0": {
             "targetAlias": "net8.0",
             "projectReferences": {
-              "C:\\Proyectos\\propios\\jim.wiki.back\\jim.wiki.core\\jim.wiki.core.csproj": {
-                "projectPath": "C:\\Proyectos\\propios\\jim.wiki.back\\jim.wiki.core\\jim.wiki.core.csproj"
+              "C:\\Proyectos\\propios\\jim.wiki.back2\\jim.wiki.back\\jim.wiki.core\\jim.wiki.core.csproj": {
+                "projectPath": "C:\\Proyectos\\propios\\jim.wiki.back2\\jim.wiki.back\\jim.wiki.core\\jim.wiki.core.csproj"
               }
             }
           }
@@ -73,14 +73,14 @@
         }
       }
     },
-    "C:\\Proyectos\\propios\\jim.wiki.back\\jim.wiki.core\\jim.wiki.core.csproj": {
+    "C:\\Proyectos\\propios\\jim.wiki.back2\\jim.wiki.back\\jim.wiki.core\\jim.wiki.core.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Proyectos\\propios\\jim.wiki.back\\jim.wiki.core\\jim.wiki.core.csproj",
+        "projectUniqueName": "C:\\Proyectos\\propios\\jim.wiki.back2\\jim.wiki.back\\jim.wiki.core\\jim.wiki.core.csproj",
         "projectName": "jim.wiki.core",
-        "projectPath": "C:\\Proyectos\\propios\\jim.wiki.back\\jim.wiki.core\\jim.wiki.core.csproj",
+        "projectPath": "C:\\Proyectos\\propios\\jim.wiki.back2\\jim.wiki.back\\jim.wiki.core\\jim.wiki.core.csproj",
         "packagesPath": "C:\\Users\\nacho\\.nuget\\packages\\",
-        "outputPath": "C:\\Proyectos\\propios\\jim.wiki.back\\jim.wiki.core\\obj\\",
+        "outputPath": "C:\\Proyectos\\propios\\jim.wiki.back2\\jim.wiki.back\\jim.wiki.core\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
           "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"

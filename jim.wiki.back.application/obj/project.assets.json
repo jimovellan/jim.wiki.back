@@ -2675,11 +2675,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Proyectos\\propios\\jim.wiki.back\\jim.wiki.back.application\\jim.wiki.back.application.csproj",
+      "projectUniqueName": "C:\\Proyectos\\propios\\jim.wiki.back2\\jim.wiki.back\\jim.wiki.back.application\\jim.wiki.back.application.csproj",
       "projectName": "jim.wiki.back.application",
-      "projectPath": "C:\\Proyectos\\propios\\jim.wiki.back\\jim.wiki.back.application\\jim.wiki.back.application.csproj",
+      "projectPath": "C:\\Proyectos\\propios\\jim.wiki.back2\\jim.wiki.back\\jim.wiki.back.application\\jim.wiki.back.application.csproj",
       "packagesPath": "C:\\Users\\nacho\\.nuget\\packages\\",
-      "outputPath": "C:\\Proyectos\\propios\\jim.wiki.back\\jim.wiki.back.application\\obj\\",
+      "outputPath": "C:\\Proyectos\\propios\\jim.wiki.back2\\jim.wiki.back\\jim.wiki.back.application\\obj\\",
       "projectStyle": "PackageReference",
       "fallbackFolders": [
         "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
@@ -2701,11 +2701,11 @@
         "net8.0": {
           "targetAlias": "net8.0",
           "projectReferences": {
-            "C:\\Proyectos\\propios\\jim.wiki.back\\jim.wiki.back.model\\jim.wiki.back.model.csproj": {
-              "projectPath": "C:\\Proyectos\\propios\\jim.wiki.back\\jim.wiki.back.model\\jim.wiki.back.model.csproj"
+            "C:\\Proyectos\\propios\\jim.wiki.back2\\jim.wiki.back\\jim.wiki.back.model\\jim.wiki.back.model.csproj": {
+              "projectPath": "C:\\Proyectos\\propios\\jim.wiki.back2\\jim.wiki.back\\jim.wiki.back.model\\jim.wiki.back.model.csproj"
             },
-            "C:\\Proyectos\\propios\\jim.wiki.back\\jim.wiki.core\\jim.wiki.core.csproj": {
-              "projectPath": "C:\\Proyectos\\propios\\jim.wiki.back\\jim.wiki.core\\jim.wiki.core.csproj"
+            "C:\\Proyectos\\propios\\jim.wiki.back2\\jim.wiki.back\\jim.wiki.core\\jim.wiki.core.csproj": {
+              "projectPath": "C:\\Proyectos\\propios\\jim.wiki.back2\\jim.wiki.back\\jim.wiki.core\\jim.wiki.core.csproj"
             }
           }
         }
