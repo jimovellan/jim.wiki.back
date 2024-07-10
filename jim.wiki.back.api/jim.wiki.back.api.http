@@ -1,0 +1,6 @@
+@jim.wiki.back.api_HostAddress = https://localhost:7207
+
+GET {{jim.wiki.back.api_HostAddress}}/weatherforecast/
+Accept: application/json
+
+###

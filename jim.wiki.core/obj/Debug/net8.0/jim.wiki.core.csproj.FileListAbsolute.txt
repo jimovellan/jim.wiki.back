@@ -1,0 +1,14 @@
+C:\Proyectos\propios\jim.wiki.back\jim.wiki.core\bin\Debug\net8.0\jim.wiki.core.deps.json
+C:\Proyectos\propios\jim.wiki.back\jim.wiki.core\bin\Debug\net8.0\jim.wiki.core.runtimeconfig.json
+C:\Proyectos\propios\jim.wiki.back\jim.wiki.core\bin\Debug\net8.0\jim.wiki.core.dll
+C:\Proyectos\propios\jim.wiki.back\jim.wiki.core\bin\Debug\net8.0\jim.wiki.core.pdb
+C:\Proyectos\propios\jim.wiki.back\jim.wiki.core\obj\Debug\net8.0\jim.wiki.core.csproj.AssemblyReference.cache
+C:\Proyectos\propios\jim.wiki.back\jim.wiki.core\obj\Debug\net8.0\jim.wiki.core.GeneratedMSBuildEditorConfig.editorconfig
+C:\Proyectos\propios\jim.wiki.back\jim.wiki.core\obj\Debug\net8.0\jim.wiki.core.AssemblyInfoInputs.cache
+C:\Proyectos\propios\jim.wiki.back\jim.wiki.core\obj\Debug\net8.0\jim.wiki.core.AssemblyInfo.cs
+C:\Proyectos\propios\jim.wiki.back\jim.wiki.core\obj\Debug\net8.0\jim.wiki.core.csproj.CoreCompileInputs.cache
+C:\Proyectos\propios\jim.wiki.back\jim.wiki.core\obj\Debug\net8.0\jim.wiki.core.dll
+C:\Proyectos\propios\jim.wiki.back\jim.wiki.core\obj\Debug\net8.0\refint\jim.wiki.core.dll
+C:\Proyectos\propios\jim.wiki.back\jim.wiki.core\obj\Debug\net8.0\jim.wiki.core.pdb
+C:\Proyectos\propios\jim.wiki.back\jim.wiki.core\obj\Debug\net8.0\jim.wiki.core.genruntimeconfig.cache
+C:\Proyectos\propios\jim.wiki.back\jim.wiki.core\obj\Debug\net8.0\ref\jim.wiki.core.dll
