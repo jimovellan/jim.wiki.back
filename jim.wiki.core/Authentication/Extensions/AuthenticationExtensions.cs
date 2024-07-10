@@ -35,28 +35,26 @@ namespace jim.wiki.core.Authentication.Extensions
 
                 if (optJwtConfiguration == null || optJwtConfiguration.Value == null || !(optJwtConfiguration.Value.Enable ?? false)) return;
 
-                var key = Encoding.ASCII.GetBytes(optJwtConfiguration.Value.Secret);
+                var key = Encoding.UTF8.GetBytes(optJwtConfiguration.Value.Secret);
 
-                serviceCollection.AddAuthentication(x =>
-                {
-                    x.DefaultAuthenticateScheme = JwtBearerDefaults.AuthenticationScheme;
-                    x.DefaultChallengeScheme = JwtBearerDefaults.AuthenticationScheme;
-                    
-                }).AddJwtBearer(x =>
+                serviceCollection.AddAuthentication(JwtBearerDefaults.AuthenticationScheme)
+                    .AddJwtBearer(x =>
                 {
                     x.TokenValidationParameters = new Microsoft.IdentityModel.Tokens.TokenValidationParameters()
                     {
-                        ValidateIssuerSigningKey = true,
-                        ValidateAudience = optJwtConfiguration.Value.VerifyAudience,
-                        IssuerSigningKey = new SymmetricSecurityKey(key),
+                        ValidateIssuer = false,
+                        ValidateAudience = false,
                         ValidateLifetime = true,
+                        ValidateIssuerSigningKey = true,
+                        IssuerSigningKey = new SymmetricSecurityKey(key),
+                        
 
                     };
                 });
 
                 serviceCollection.AddAuthorization(options =>
                 {
-                    options.DefaultPolicy = new AuthorizationPolicyBuilder(JwtBearerDefaults.AuthenticationScheme)
+                    options.FallbackPolicy = new AuthorizationPolicyBuilder()
                         .RequireAuthenticatedUser()
                         .Build();
                 });

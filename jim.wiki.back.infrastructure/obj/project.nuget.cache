@@ -1,11 +1,12 @@
 {
   "version": 2,
-  "dgSpecHash": "eCFaT1oPR/M=",
+  "dgSpecHash": "7FDgwLorVKM=",
   "success": true,
-  "projectFilePath": "C:\\Proyectos\\propios\\jim.wiki.back\\jim.wiki.back.infrastructure\\jim.wiki.back.infrastructure.csproj",
+  "projectFilePath": "C:\\Proyectos\\propios\\jim.wiki.back2\\jim.wiki.back\\jim.wiki.back.infrastructure\\jim.wiki.back.infrastructure.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\nacho\\.nuget\\packages\\azure.core\\1.35.0\\azure.core.1.35.0.nupkg.sha512",
     "C:\\Users\\nacho\\.nuget\\packages\\azure.identity\\1.10.3\\azure.identity.1.10.3.nupkg.sha512",
+    "C:\\Users\\nacho\\.nuget\\packages\\bcrypt.net-next\\4.0.3\\bcrypt.net-next.4.0.3.nupkg.sha512",
     "C:\\Users\\nacho\\.nuget\\packages\\efcore.schemacompare\\8.0.0\\efcore.schemacompare.8.0.0.nupkg.sha512",
     "C:\\Users\\nacho\\.nuget\\packages\\humanizer.core\\2.14.1\\humanizer.core.2.14.1.nupkg.sha512",
     "C:\\Users\\nacho\\.nuget\\packages\\mediatr\\11.0.0\\mediatr.11.0.0.nupkg.sha512",

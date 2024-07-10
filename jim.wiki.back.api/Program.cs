@@ -5,6 +5,7 @@ using jim.wiki.core.Authentication.Extensions;
 using Microsoft.AspNetCore.Authentication.JwtBearer;
 using Microsoft.AspNetCore.Authorization;
 using Microsoft.EntityFrameworkCore;
+using Microsoft.OpenApi.Models;
 
 namespace jim.wiki.back.api
 {
@@ -13,7 +14,7 @@ namespace jim.wiki.back.api
         public static void Main(string[] args)
         {
             var builder = WebApplication.CreateBuilder(args);
-
+            builder.Services.AddHttpContextAccessor();
             // Add services to the container
             builder.Services.ApplyAppConfiguration(builder.Configuration);
 
@@ -24,7 +25,32 @@ namespace jim.wiki.back.api
 
             builder.Services.ConfigureJWTAuthentication(builder.Configuration);
 
-            builder.Services.AddHttpContextAccessor();
+            
+
+
+            builder.Services.AddEndpointsApiExplorer();
+            builder.Services.AddSwaggerGen(options =>
+            {
+                options.AddSecurityDefinition("Bearer", new OpenApiSecurityScheme
+                {
+                    Description = "JWT Authorization header using the Bearer scheme. Example: \"Authorization: Bearer {token}\"",
+                    Name = "Authorization",
+                    In = ParameterLocation.Header,
+                    Type = SecuritySchemeType.ApiKey,
+                    Scheme = "Bearer"
+                });
+
+                options.AddSecurityRequirement(new OpenApiSecurityRequirement{
+    {
+        new OpenApiSecurityScheme{
+            Reference = new OpenApiReference{
+                Type = ReferenceType.SecurityScheme,
+                Id = "Bearer"
+            }
+        },
+        new string[]{}
+    }});
+            });
 
             var app = builder.Build();
 
@@ -35,15 +61,11 @@ namespace jim.wiki.back.api
                 app.UseSwaggerUI();
             }
 
-            using (var scope = app.Services.CreateScope())
-            {
-                var ctx = scope.ServiceProvider.GetService<ApplicationContext>();
-                ctx.Database.Migrate();
-            }
-            
-            
+           
 
 
+            app.UseAuthentication();
+            app.UseAuthorization();
             app.UseHttpsRedirection();
 
             

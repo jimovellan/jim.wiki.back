@@ -1,0 +1,193 @@
+# Build Folders (binaries)
+bin/
+obj/
+
+# User-specific files
+*.rsuser
+*.suo
+*.user
+*.userosscache
+*.sln.docstates
+
+# Mono Auto Generated Files
+mono_crash.*
+
+# Windows image file caches
+Thumbs.db
+ehthumbs.db
+
+# Folder config file
+Desktop.ini
+
+# Recycle Bin used on file shares
+$RECYCLE.BIN/
+
+# VS Code files
+.vscode/
+
+# Rider files
+.idea/
+
+# Mac files
+*.DS_Store
+
+# Windows Installer files
+*.cab
+*.msi
+*.msm
+*.msp
+
+# Windows shortcuts
+*.lnk
+
+# Dotnet
+project.lock.json
+project.fragment.lock.json
+artifacts/
+
+# NuGet
+*.nupkg
+# The packages folder can be ignored because of Package Restore
+**/packages/*
+# except build/, which is used as an MSBuild target.
+!**/packages/build/
+# Uncomment if necessary however generally it will be regenerated when needed
+#!**/packages/repositories.config
+
+# .NET Core
+project.lock.json
+project.fragment.lock.json
+artifacts/
+generated/
+bin/
+obj/
+App_Data/
+
+# Azure
+*.azurePubxml
+# Windows Azure Build Output
+csx/
+*.build.csdef
+
+# NUnit
+*.VisualState.xml
+TestResult.xml
+
+# Build Results of an ATL Project
+[Dd]ebugPS/
+[Rr]eleasePS/
+dlldata.c
+
+# DNX
+.project.lock.json
+*.dnxproj
+.project.json
+
+# MSBuild Binary and Structured Log
+msbuild.binlog
+
+# Visual Studio 2019
+.vs/
+
+# Local History for JetBrains IDEs
+.localhistory/
+
+# ASP.NET Scaffolding
+ScaffoldingReadMe.txt
+
+# StyleCop
+StyleCopReport.xml
+
+# User-specific files (Mono Auto Generated Files)
+mono_crash.*
+
+# Coverage Results
+coverage/
+
+# Web service settings
+[Ww]eb[Tt]est/[Ww]eb[Tt]est*.xml
+.vscode/
+.idea/
+
+# Web Servers
+.vscode/
+.idea/
+
+# Windows image file caches
+Thumbs.db
+ehthumbs.db
+
+# Folder config file
+Desktop.ini
+
+# Recycle Bin used on file shares
+$RECYCLE.BIN/
+
+# Windows Installer files
+*.cab
+*.msi
+*.msm
+*.msp
+
+# Windows shortcuts
+*.lnk
+
+# Packaging Directories
+*.pyc
+__pycache__/
+
+# Linux Files
+*.un~
+
+# Recycle Bin used on file shares
+$RECYCLE.BIN/
+
+# Auto-generated files by Visual Studio
+Generated_Code/
+
+# SQL Server files
+*.mdf
+*.ldf
+
+# Node.js files
+node_modules/
+yarn.lock
+
+# Logs
+*.log
+logs/
+
+# IDEs and editors
+.idea/
+.vscode/
+*.sublime-project
+*.sublime-workspace
+
+# Python files
+*.pyc
+*.pyo
+*.pyd
+*.pyz
+
+# Office Temp Files
+~$*
+~$*
+
+# Directories
+_DNT/
+
+# Mac files
+.DS_Store
+
+# Linux files
+*.un~
+
+# Windows image file caches
+Thumbs.db
+ehthumbs.db
+
+# Folder config file
+Desktop.ini
+
+# Recycle Bin used on file shares
+$RECYCLE.BIN/

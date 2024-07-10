@@ -8,6 +8,6 @@ build_property.PlatformNeutralAssembly =
 build_property.EnforceExtendedAnalyzerRules = 
 build_property._SupportedPlatformList = Linux,macOS,Windows
 build_property.RootNamespace = jim.wiki.core
-build_property.ProjectDir = C:\Proyectos\propios\jim.wiki.back\jim.wiki.core\
+build_property.ProjectDir = C:\Proyectos\propios\jim.wiki.back2\jim.wiki.back\jim.wiki.core\
 build_property.EnableComHosting = 
 build_property.EnableGeneratedComInterfaceComImportInterop = 

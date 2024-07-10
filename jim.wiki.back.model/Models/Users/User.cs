@@ -15,6 +15,8 @@ namespace jim.wiki.back.model.Models.Users
 
         public string Email { get; set; }
 
+        public string Hash { get; set; }
+
         public virtual ICollection<UserRole> RolesUser { get; set; }
     }
 }
