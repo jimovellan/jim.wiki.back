@@ -1,6 +1,17 @@
-# Build Folders (binaries)
-**bin/
-**obj/
+# Ignorar bin y obj en todas las subcarpetas
+**/bin/
+**/obj/
+
+# Ignorar archivos específicos de Visual Studio
+.vs/
+*.suo
+*.user
+*.userosscache
+*.sln.docstates
+
+# Ignorar paquetes NuGet
+*.nupkg
+*.snupkg
 
 # User-specific files
 *.rsuser
@@ -8,6 +19,7 @@
 *.user
 *.userosscache
 *.sln.docstates
+
 
 # Mono Auto Generated Files
 mono_crash.*
