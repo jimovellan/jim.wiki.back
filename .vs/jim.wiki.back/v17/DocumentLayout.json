@@ -7,8 +7,8 @@
       "RelativeMoniker": "D:0:0:{A684BECA-73D2-44A3-A488-9CC5C589CDE8}|jim.wiki.back.application\\jim.wiki.back.application.csproj|solutionrelative:jim.wiki.back.application\\features\\autentication\\refreshtoken.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{B2D18D06-30A9-4540-A694-D24665F89B08}|jim.wiki.core\\jim.wiki.core.csproj|c:\\proyectos\\propios\\jim.wiki.back2\\jim.wiki.back\\jim.wiki.core\\results\\resultextensions.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{B2D18D06-30A9-4540-A694-D24665F89B08}|jim.wiki.core\\jim.wiki.core.csproj|solutionrelative:jim.wiki.core\\results\\resultextensions.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{A684BECA-73D2-44A3-A488-9CC5C589CDE8}|jim.wiki.back.application\\jim.wiki.back.application.csproj|c:\\proyectos\\propios\\jim.wiki.back2\\jim.wiki.back\\jim.wiki.back.application\\features\\autentication\\errors\\authenticationerrors.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{A684BECA-73D2-44A3-A488-9CC5C589CDE8}|jim.wiki.back.application\\jim.wiki.back.application.csproj|solutionrelative:jim.wiki.back.application\\features\\autentication\\errors\\authenticationerrors.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{A684BECA-73D2-44A3-A488-9CC5C589CDE8}|jim.wiki.back.application\\jim.wiki.back.application.csproj|c:\\proyectos\\propios\\jim.wiki.back2\\jim.wiki.back\\jim.wiki.back.application\\features\\autentication\\login.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
@@ -19,12 +19,16 @@
       "RelativeMoniker": "D:0:0:{B2D18D06-30A9-4540-A694-D24665F89B08}|jim.wiki.core\\jim.wiki.core.csproj|solutionrelative:jim.wiki.core\\results\\result.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{B2D18D06-30A9-4540-A694-D24665F89B08}|jim.wiki.core\\jim.wiki.core.csproj|c:\\proyectos\\propios\\jim.wiki.back2\\jim.wiki.back\\jim.wiki.core\\errors\\error.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{B2D18D06-30A9-4540-A694-D24665F89B08}|jim.wiki.core\\jim.wiki.core.csproj|solutionrelative:jim.wiki.core\\errors\\error.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
       "AbsoluteMoniker": "D:0:0:{84884F6C-0CF5-4260-971D-A45638B87DFD}|jim.wiki.back.api\\jim.wiki.back.api.csproj|c:\\proyectos\\propios\\jim.wiki.back2\\jim.wiki.back\\jim.wiki.back.api\\controllers\\logincontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{84884F6C-0CF5-4260-971D-A45638B87DFD}|jim.wiki.back.api\\jim.wiki.back.api.csproj|solutionrelative:jim.wiki.back.api\\controllers\\logincontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{B2D18D06-30A9-4540-A694-D24665F89B08}|jim.wiki.core\\jim.wiki.core.csproj|c:\\proyectos\\propios\\jim.wiki.back2\\jim.wiki.back\\jim.wiki.core\\results\\resultextensions.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{B2D18D06-30A9-4540-A694-D24665F89B08}|jim.wiki.core\\jim.wiki.core.csproj|solutionrelative:jim.wiki.core\\results\\resultextensions.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{B2D18D06-30A9-4540-A694-D24665F89B08}|jim.wiki.core\\jim.wiki.core.csproj|c:\\proyectos\\propios\\jim.wiki.back2\\jim.wiki.back\\jim.wiki.core\\errors\\error.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{B2D18D06-30A9-4540-A694-D24665F89B08}|jim.wiki.core\\jim.wiki.core.csproj|solutionrelative:jim.wiki.core\\errors\\error.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{ED0FD077-0FE2-45B3-BA32-F7F2BCD19FB5}|jim.wiki.back.model\\jim.wiki.back.model.csproj|c:\\proyectos\\propios\\jim.wiki.back2\\jim.wiki.back\\jim.wiki.back.model\\models\\users\\user.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
@@ -286,24 +290,41 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 10,
+          "SelectedChildIndex": 9,
           "Children": [
             {
               "$type": "Document",
               "DocumentIndex": 1,
+              "Title": "AuthenticationErrors.cs",
+              "DocumentMoniker": "C:\\Proyectos\\propios\\jim.wiki.back2\\jim.wiki.back\\jim.wiki.back.application\\Features\\Autentication\\Errors\\AuthenticationErrors.cs",
+              "RelativeDocumentMoniker": "jim.wiki.back.application\\Features\\Autentication\\Errors\\AuthenticationErrors.cs",
+              "ToolTip": "C:\\Proyectos\\propios\\jim.wiki.back2\\jim.wiki.back\\jim.wiki.back.application\\Features\\Autentication\\Errors\\AuthenticationErrors.cs",
+              "RelativeToolTip": "jim.wiki.back.application\\Features\\Autentication\\Errors\\AuthenticationErrors.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAA0AAABsAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-07-12T22:01:31.839Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{cce594b6-0c39-4442-ba28-10c64ac7e89f}"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 5,
               "Title": "ResultExtensions.cs",
               "DocumentMoniker": "C:\\Proyectos\\propios\\jim.wiki.back2\\jim.wiki.back\\jim.wiki.core\\Results\\ResultExtensions.cs",
               "RelativeDocumentMoniker": "jim.wiki.core\\Results\\ResultExtensions.cs",
               "ToolTip": "C:\\Proyectos\\propios\\jim.wiki.back2\\jim.wiki.back\\jim.wiki.core\\Results\\ResultExtensions.cs",
               "RelativeToolTip": "jim.wiki.core\\Results\\ResultExtensions.cs",
-              "ViewState": "AQIAAFMAAAAAAAAAAAAuwGQAAAAgAAAA",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAoAAAAJAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2024-07-12T21:01:02.571Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 4,
+              "DocumentIndex": 6,
               "Title": "Error.cs",
               "DocumentMoniker": "C:\\Proyectos\\propios\\jim.wiki.back2\\jim.wiki.back\\jim.wiki.core\\Errors\\Error.cs",
               "RelativeDocumentMoniker": "jim.wiki.core\\Errors\\Error.cs",
@@ -315,10 +336,6 @@
               "EditorCaption": ""
             },
             {
-              "$type": "Bookmark",
-              "Name": "ST:0:0:{cce594b6-0c39-4442-ba28-10c64ac7e89f}"
-            },
-            {
               "$type": "Document",
               "DocumentIndex": 3,
               "Title": "Result.cs",
@@ -326,38 +343,14 @@
               "RelativeDocumentMoniker": "jim.wiki.core\\Results\\Result.cs",
               "ToolTip": "C:\\Proyectos\\propios\\jim.wiki.back2\\jim.wiki.back\\jim.wiki.core\\Results\\Result.cs",
               "RelativeToolTip": "jim.wiki.core\\Results\\Result.cs",
-              "ViewState": "AQIAABkAAAAAAAAAAADgvyYAAAAoAAAA",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAABIAAAAAAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2024-07-11T17:45:34.228Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 6,
-              "Title": "User.cs",
-              "DocumentMoniker": "C:\\Proyectos\\propios\\jim.wiki.back2\\jim.wiki.back\\jim.wiki.back.model\\Models\\Users\\User.cs",
-              "RelativeDocumentMoniker": "jim.wiki.back.model\\Models\\Users\\User.cs",
-              "ToolTip": "C:\\Proyectos\\propios\\jim.wiki.back2\\jim.wiki.back\\jim.wiki.back.model\\Models\\Users\\User.cs",
-              "RelativeToolTip": "jim.wiki.back.model\\Models\\Users\\User.cs",
-              "ViewState": "AQIAACgAAAAAAAAAAAApwDkAAABRAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-07-05T20:53:20.825Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 10,
-              "Title": "AddUserRol.cs",
-              "DocumentMoniker": "C:\\Proyectos\\propios\\jim.wiki.back2\\jim.wiki.back\\jim.wiki.back.application\\Features\\Users\\AddUserRol.cs",
-              "RelativeDocumentMoniker": "jim.wiki.back.application\\Features\\Users\\AddUserRol.cs",
-              "ToolTip": "C:\\Proyectos\\propios\\jim.wiki.back2\\jim.wiki.back\\jim.wiki.back.application\\Features\\Users\\AddUserRol.cs",
-              "RelativeToolTip": "jim.wiki.back.application\\Features\\Users\\AddUserRol.cs",
-              "ViewState": "AQIAABQAAAAAAAAAAAAgwCgAAAA4AAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-07-07T16:05:15.736Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 7,
+              "DocumentIndex": 8,
               "Title": "CreateUser.cs",
               "DocumentMoniker": "C:\\Proyectos\\propios\\jim.wiki.back2\\jim.wiki.back\\jim.wiki.back.application\\Features\\Users\\CreateUser.cs",
               "RelativeDocumentMoniker": "jim.wiki.back.application\\Features\\Users\\CreateUser.cs",
@@ -369,7 +362,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 14,
+              "DocumentIndex": 15,
               "Title": "CreateRol.cs",
               "DocumentMoniker": "C:\\Proyectos\\propios\\jim.wiki.back2\\jim.wiki.back\\jim.wiki.back.application\\Features\\Users\\CreateRol.cs",
               "RelativeDocumentMoniker": "jim.wiki.back.application\\Features\\Users\\CreateRol.cs",
@@ -381,7 +374,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 13,
+              "DocumentIndex": 14,
               "Title": "Rol.cs",
               "DocumentMoniker": "C:\\Proyectos\\propios\\jim.wiki.back2\\jim.wiki.back\\jim.wiki.back.model\\Models\\Users\\Rol.cs",
               "RelativeDocumentMoniker": "jim.wiki.back.model\\Models\\Users\\Rol.cs",
@@ -399,7 +392,7 @@
               "RelativeDocumentMoniker": "jim.wiki.back.application\\Features\\Autentication\\Login.cs",
               "ToolTip": "C:\\Proyectos\\propios\\jim.wiki.back2\\jim.wiki.back\\jim.wiki.back.application\\Features\\Autentication\\Login.cs",
               "RelativeToolTip": "jim.wiki.back.application\\Features\\Autentication\\Login.cs",
-              "ViewState": "AQIAACAAAAAAAAAAAAAgwFIAAAAwAAAA",
+              "ViewState": "AQIAABwAAAAAAAAAAAA4wEgAAABIAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2024-07-10T21:54:11.07Z",
               "EditorCaption": ""
@@ -412,14 +405,51 @@
               "RelativeDocumentMoniker": "jim.wiki.back.application\\Features\\Autentication\\RefreshToken.cs",
               "ToolTip": "C:\\Proyectos\\propios\\jim.wiki.back2\\jim.wiki.back\\jim.wiki.back.application\\Features\\Autentication\\RefreshToken.cs",
               "RelativeToolTip": "jim.wiki.back.application\\Features\\Autentication\\RefreshToken.cs",
-              "ViewState": "AQIAABQAAAAAAAAAAAAwwCsAAABBAAAA",
+              "ViewState": "AQIAAA4AAAAAAAAAAAAQwCgAAABYAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2024-07-11T17:17:13.543Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 15,
+              "DocumentIndex": 4,
+              "Title": "LoginController.cs",
+              "DocumentMoniker": "C:\\Proyectos\\propios\\jim.wiki.back2\\jim.wiki.back\\jim.wiki.back.api\\Controllers\\LoginController.cs",
+              "RelativeDocumentMoniker": "jim.wiki.back.api\\Controllers\\LoginController.cs",
+              "ToolTip": "C:\\Proyectos\\propios\\jim.wiki.back2\\jim.wiki.back\\jim.wiki.back.api\\Controllers\\LoginController.cs",
+              "RelativeToolTip": "jim.wiki.back.api\\Controllers\\LoginController.cs",
+              "ViewState": "AQIAAAcAAAAAAAAAAAAMwBEAAAAhAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-07-10T18:54:02.623Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 11,
+              "Title": "AddUserRol.cs",
+              "DocumentMoniker": "C:\\Proyectos\\propios\\jim.wiki.back2\\jim.wiki.back\\jim.wiki.back.application\\Features\\Users\\AddUserRol.cs",
+              "RelativeDocumentMoniker": "jim.wiki.back.application\\Features\\Users\\AddUserRol.cs",
+              "ToolTip": "C:\\Proyectos\\propios\\jim.wiki.back2\\jim.wiki.back\\jim.wiki.back.application\\Features\\Users\\AddUserRol.cs",
+              "RelativeToolTip": "jim.wiki.back.application\\Features\\Users\\AddUserRol.cs",
+              "ViewState": "AQIAABQAAAAAAAAAAAAgwCgAAAA4AAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-07-07T16:05:15.736Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 7,
+              "Title": "User.cs",
+              "DocumentMoniker": "C:\\Proyectos\\propios\\jim.wiki.back2\\jim.wiki.back\\jim.wiki.back.model\\Models\\Users\\User.cs",
+              "RelativeDocumentMoniker": "jim.wiki.back.model\\Models\\Users\\User.cs",
+              "ToolTip": "C:\\Proyectos\\propios\\jim.wiki.back2\\jim.wiki.back\\jim.wiki.back.model\\Models\\Users\\User.cs",
+              "RelativeToolTip": "jim.wiki.back.model\\Models\\Users\\User.cs",
+              "ViewState": "AQIAACgAAAAAAAAAAAApwDkAAABRAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-07-05T20:53:20.825Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 16,
               "Title": "UserData.cs",
               "DocumentMoniker": "C:\\Proyectos\\propios\\jim.wiki.back2\\jim.wiki.back\\jim.wiki.core\\Authentication\\Models\\UserData.cs",
               "RelativeDocumentMoniker": "jim.wiki.core\\Authentication\\Models\\UserData.cs",
@@ -431,20 +461,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 5,
-              "Title": "LoginController.cs",
-              "DocumentMoniker": "C:\\Proyectos\\propios\\jim.wiki.back2\\jim.wiki.back\\jim.wiki.back.api\\Controllers\\LoginController.cs",
-              "RelativeDocumentMoniker": "jim.wiki.back.api\\Controllers\\LoginController.cs",
-              "ToolTip": "C:\\Proyectos\\propios\\jim.wiki.back2\\jim.wiki.back\\jim.wiki.back.api\\Controllers\\LoginController.cs",
-              "RelativeToolTip": "jim.wiki.back.api\\Controllers\\LoginController.cs",
-              "ViewState": "AQIAAAYAAAAAAAAAAAAAABMAAAAYAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-07-10T18:54:02.623Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 16,
+              "DocumentIndex": 17,
               "Title": "Aggregate.cs",
               "DocumentMoniker": "C:\\Proyectos\\propios\\jim.wiki.back2\\jim.wiki.back\\jim.wiki.core\\Repository\\Interfaces\\Aggregate.cs",
               "RelativeDocumentMoniker": "jim.wiki.core\\Repository\\Interfaces\\Aggregate.cs",
@@ -456,7 +473,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 9,
+              "DocumentIndex": 10,
               "Title": "RepositoryGeneric.cs",
               "DocumentMoniker": "C:\\Proyectos\\propios\\jim.wiki.back2\\jim.wiki.back\\jim.wiki.back.infrastructure\\Repository\\RepositoryGeneric.cs",
               "RelativeDocumentMoniker": "jim.wiki.back.infrastructure\\Repository\\RepositoryGeneric.cs",
@@ -468,7 +485,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 8,
+              "DocumentIndex": 9,
               "Title": "ApplicationContext.cs",
               "DocumentMoniker": "C:\\Proyectos\\propios\\jim.wiki.back2\\jim.wiki.back\\jim.wiki.back.infrastructure\\Repository\\ApplicationContext.cs",
               "RelativeDocumentMoniker": "jim.wiki.back.infrastructure\\Repository\\ApplicationContext.cs",
@@ -480,7 +497,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 11,
+              "DocumentIndex": 12,
               "Title": "Email.cs",
               "DocumentMoniker": "C:\\Proyectos\\propios\\jim.wiki.back2\\jim.wiki.back\\jim.wiki.back.model\\Models\\ObjectsValue\\Email.cs",
               "RelativeDocumentMoniker": "jim.wiki.back.model\\Models\\ObjectsValue\\Email.cs",
@@ -492,7 +509,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 17,
+              "DocumentIndex": 18,
               "Title": "IRepositoryBase.cs",
               "DocumentMoniker": "C:\\Proyectos\\propios\\jim.wiki.back2\\jim.wiki.back\\jim.wiki.core\\Repository\\Interfaces\\IRepositoryBase.cs",
               "RelativeDocumentMoniker": "jim.wiki.core\\Repository\\Interfaces\\IRepositoryBase.cs",
@@ -504,7 +521,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 18,
+              "DocumentIndex": 19,
               "Title": "ILogicalEntity.cs",
               "DocumentMoniker": "C:\\Proyectos\\propios\\jim.wiki.back2\\jim.wiki.back\\jim.wiki.core\\Repository\\Abstractions\\ILogicalEntity.cs",
               "RelativeDocumentMoniker": "jim.wiki.core\\Repository\\Abstractions\\ILogicalEntity.cs",
@@ -516,7 +533,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 12,
+              "DocumentIndex": 13,
               "Title": "UserRole.cs",
               "DocumentMoniker": "C:\\Proyectos\\propios\\jim.wiki.back2\\jim.wiki.back\\jim.wiki.back.model\\Models\\Users\\UserRole.cs",
               "RelativeDocumentMoniker": "jim.wiki.back.model\\Models\\Users\\UserRole.cs",
@@ -528,7 +545,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 19,
+              "DocumentIndex": 20,
               "Title": "IAuditEntity.cs",
               "DocumentMoniker": "C:\\Proyectos\\propios\\jim.wiki.back2\\jim.wiki.back\\jim.wiki.core\\Repository\\Abstractions\\IAuditEntity.cs",
               "RelativeDocumentMoniker": "jim.wiki.core\\Repository\\Abstractions\\IAuditEntity.cs",
@@ -540,7 +557,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 20,
+              "DocumentIndex": 21,
               "Title": "UserToken.cs",
               "DocumentMoniker": "C:\\Proyectos\\propios\\jim.wiki.back2\\jim.wiki.back\\jim.wiki.back.model\\Models\\Users\\UserToken.cs",
               "RelativeDocumentMoniker": "jim.wiki.back.model\\Models\\Users\\UserToken.cs",
@@ -552,7 +569,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 22,
+              "DocumentIndex": 23,
               "Title": "IUserData.cs",
               "DocumentMoniker": "C:\\Proyectos\\propios\\jim.wiki.back2\\jim.wiki.back\\jim.wiki.core\\Authentication\\Models\\IUserData.cs",
               "RelativeDocumentMoniker": "jim.wiki.core\\Authentication\\Models\\IUserData.cs",
@@ -564,7 +581,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 23,
+              "DocumentIndex": 24,
               "Title": "UserDataService.cs",
               "DocumentMoniker": "C:\\Proyectos\\propios\\jim.wiki.back2\\jim.wiki.back\\jim.wiki.back.infrastructure\\Autentication\\Services\\UserDataService.cs",
               "RelativeDocumentMoniker": "jim.wiki.back.infrastructure\\Autentication\\Services\\UserDataService.cs",
@@ -576,7 +593,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 29,
+              "DocumentIndex": 30,
               "Title": "IPasswordService.cs",
               "DocumentMoniker": "C:\\Proyectos\\propios\\jim.wiki.back2\\jim.wiki.back\\jim.wiki.back.model\\Services\\IPasswordService.cs",
               "RelativeDocumentMoniker": "jim.wiki.back.model\\Services\\IPasswordService.cs",
@@ -588,7 +605,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 28,
+              "DocumentIndex": 29,
               "Title": "Startup.cs",
               "DocumentMoniker": "C:\\Proyectos\\propios\\jim.wiki.back2\\jim.wiki.back\\jim.wiki.back.infrastructure\\Startup.cs",
               "RelativeDocumentMoniker": "jim.wiki.back.infrastructure\\Startup.cs",
@@ -600,7 +617,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 25,
+              "DocumentIndex": 26,
               "Title": "Program.cs",
               "DocumentMoniker": "C:\\Proyectos\\propios\\jim.wiki.back2\\jim.wiki.back\\jim.wiki.back.api\\Program.cs",
               "RelativeDocumentMoniker": "jim.wiki.back.api\\Program.cs",
@@ -612,7 +629,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 26,
+              "DocumentIndex": 27,
               "Title": "ServiceCollectionExtension.cs",
               "DocumentMoniker": "C:\\Proyectos\\propios\\jim.wiki.back2\\jim.wiki.back\\jim.wiki.back.infrastructure\\Extensions\\ServiceCollectionExtension.cs",
               "RelativeDocumentMoniker": "jim.wiki.back.infrastructure\\Extensions\\ServiceCollectionExtension.cs",
@@ -624,7 +641,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 21,
+              "DocumentIndex": 22,
               "Title": "PasswordService.cs",
               "DocumentMoniker": "C:\\Proyectos\\propios\\jim.wiki.back2\\jim.wiki.back\\jim.wiki.back.infrastructure\\Services\\PasswordService.cs",
               "RelativeDocumentMoniker": "jim.wiki.back.infrastructure\\Services\\PasswordService.cs",
@@ -636,7 +653,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 24,
+              "DocumentIndex": 25,
               "Title": "AuthenticationExtensions.cs",
               "DocumentMoniker": "C:\\Proyectos\\propios\\jim.wiki.back2\\jim.wiki.back\\jim.wiki.core\\Authentication\\Extensions\\AuthenticationExtensions.cs",
               "RelativeDocumentMoniker": "jim.wiki.core\\Authentication\\Extensions\\AuthenticationExtensions.cs",
@@ -648,7 +665,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 27,
+              "DocumentIndex": 28,
               "Title": "ApplicationContextModelSnapshot.cs",
               "DocumentMoniker": "C:\\Proyectos\\propios\\jim.wiki.back2\\jim.wiki.back\\jim.wiki.back.infrastructure\\Repository\\Migrations\\ApplicationContextModelSnapshot.cs",
               "RelativeDocumentMoniker": "jim.wiki.back.infrastructure\\Repository\\Migrations\\ApplicationContextModelSnapshot.cs",
@@ -660,7 +677,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 35,
+              "DocumentIndex": 36,
               "Title": "DeleteUser.cs",
               "DocumentMoniker": "C:\\Proyectos\\propios\\jim.wiki.back2\\jim.wiki.back\\jim.wiki.back.application\\Features\\Users\\DeleteUser.cs",
               "RelativeDocumentMoniker": "jim.wiki.back.application\\Features\\Users\\DeleteUser.cs",
@@ -672,7 +689,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 31,
+              "DocumentIndex": 32,
               "Title": "appsettings.json",
               "DocumentMoniker": "C:\\Proyectos\\propios\\jim.wiki.back2\\jim.wiki.back\\jim.wiki.back.api\\appsettings.json",
               "RelativeDocumentMoniker": "jim.wiki.back.api\\appsettings.json",
@@ -684,7 +701,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 30,
+              "DocumentIndex": 31,
               "Title": "appsettings.Development.json",
               "DocumentMoniker": "C:\\Proyectos\\propios\\jim.wiki.back2\\jim.wiki.back\\jim.wiki.back.api\\appsettings.Development.json",
               "RelativeDocumentMoniker": "jim.wiki.back.api\\appsettings.Development.json",
@@ -696,7 +713,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 32,
+              "DocumentIndex": 33,
               "Title": "AuditablePipelineBehavior.cs",
               "DocumentMoniker": "C:\\Proyectos\\propios\\jim.wiki.back2\\jim.wiki.back\\jim.wiki.core\\Pipelines\\Behaviors\\AuditablePipelineBehavior.cs",
               "RelativeDocumentMoniker": "jim.wiki.core\\Pipelines\\Behaviors\\AuditablePipelineBehavior.cs",
@@ -708,7 +725,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 34,
+              "DocumentIndex": 35,
               "Title": "AuditoriaExtensions.cs",
               "DocumentMoniker": "C:\\Proyectos\\propios\\jim.wiki.back2\\jim.wiki.back\\jim.wiki.core\\Auditory\\Repository\\Extensions\\AuditoriaExtensions.cs",
               "RelativeDocumentMoniker": "jim.wiki.core\\Auditory\\Repository\\Extensions\\AuditoriaExtensions.cs",
@@ -720,7 +737,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 33,
+              "DocumentIndex": 34,
               "Title": "GetUsersAll.cs",
               "DocumentMoniker": "C:\\Proyectos\\propios\\jim.wiki.back2\\jim.wiki.back\\jim.wiki.back.application\\Features\\Users\\GetUsersAll.cs",
               "RelativeDocumentMoniker": "jim.wiki.back.application\\Features\\Users\\GetUsersAll.cs",
@@ -732,7 +749,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 36,
+              "DocumentIndex": 37,
               "Title": "IAuditableRequest.cs",
               "DocumentMoniker": "C:\\Proyectos\\propios\\jim.wiki.back2\\jim.wiki.back\\jim.wiki.core\\Pipelines\\Abstrantions\\IAuditableRequest.cs",
               "RelativeDocumentMoniker": "jim.wiki.core\\Pipelines\\Abstrantions\\IAuditableRequest.cs",
@@ -744,7 +761,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 37,
+              "DocumentIndex": 38,
               "Title": "JWTConfiguration.cs",
               "DocumentMoniker": "C:\\Proyectos\\propios\\jim.wiki.back2\\jim.wiki.back\\jim.wiki.core\\Authentication\\Models\\JWTConfiguration.cs",
               "RelativeDocumentMoniker": "jim.wiki.core\\Authentication\\Models\\JWTConfiguration.cs",
@@ -756,7 +773,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 42,
+              "DocumentIndex": 43,
               "Title": "AuditContextPostgresModelSnapshot.cs",
               "DocumentMoniker": "C:\\Proyectos\\propios\\jim.wiki.back2\\jim.wiki.back\\jim.wiki.core\\Auditory\\Repository\\Migrations\\Postgres\\AuditContextPostgresModelSnapshot.cs",
               "RelativeDocumentMoniker": "jim.wiki.core\\Auditory\\Repository\\Migrations\\Postgres\\AuditContextPostgresModelSnapshot.cs",
@@ -768,7 +785,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 44,
+              "DocumentIndex": 45,
               "Title": "AuditContextPostgres.cs",
               "DocumentMoniker": "C:\\Proyectos\\propios\\jim.wiki.back2\\jim.wiki.back\\jim.wiki.core\\Auditory\\Repository\\Context\\Postgress\\AuditContextPostgres.cs",
               "RelativeDocumentMoniker": "jim.wiki.core\\Auditory\\Repository\\Context\\Postgress\\AuditContextPostgres.cs",
@@ -780,7 +797,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 45,
+              "DocumentIndex": 46,
               "Title": "AuditRepository.cs",
               "DocumentMoniker": "C:\\Proyectos\\propios\\jim.wiki.back2\\jim.wiki.back\\jim.wiki.core\\Auditory\\Repository\\AuditRepository.cs",
               "RelativeDocumentMoniker": "jim.wiki.core\\Auditory\\Repository\\AuditRepository.cs",
@@ -792,7 +809,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 40,
+              "DocumentIndex": 41,
               "Title": "AuditContextSqlServer.cs",
               "DocumentMoniker": "C:\\Proyectos\\propios\\jim.wiki.back2\\jim.wiki.back\\jim.wiki.core\\Auditory\\Repository\\Context\\SqlServer\\AuditContextSqlServer.cs",
               "RelativeDocumentMoniker": "jim.wiki.core\\Auditory\\Repository\\Context\\SqlServer\\AuditContextSqlServer.cs",
@@ -804,7 +821,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 39,
+              "DocumentIndex": 40,
               "Title": "Constantes.cs",
               "DocumentMoniker": "C:\\Proyectos\\propios\\jim.wiki.back2\\jim.wiki.back\\jim.wiki.core\\Auditory\\Repository\\Common\\Constantes.cs",
               "RelativeDocumentMoniker": "jim.wiki.core\\Auditory\\Repository\\Common\\Constantes.cs",
@@ -816,7 +833,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 38,
+              "DocumentIndex": 39,
               "Title": "Audit.cs",
               "DocumentMoniker": "C:\\Proyectos\\propios\\jim.wiki.back2\\jim.wiki.back\\jim.wiki.core\\Auditory\\Models\\Audit.cs",
               "RelativeDocumentMoniker": "jim.wiki.core\\Auditory\\Models\\Audit.cs",
@@ -828,7 +845,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 41,
+              "DocumentIndex": 42,
               "Title": "AuditContextSqlSeverModelSnapshot.cs",
               "DocumentMoniker": "C:\\Proyectos\\propios\\jim.wiki.back2\\jim.wiki.back\\jim.wiki.core\\Auditory\\Repository\\Migrations\\SqlServer\\AuditContextSqlSeverModelSnapshot.cs",
               "RelativeDocumentMoniker": "jim.wiki.core\\Auditory\\Repository\\Migrations\\SqlServer\\AuditContextSqlSeverModelSnapshot.cs",
@@ -840,7 +857,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 43,
+              "DocumentIndex": 44,
               "Title": "20240707083158_audit.cs",
               "DocumentMoniker": "C:\\Proyectos\\propios\\jim.wiki.back2\\jim.wiki.back\\jim.wiki.core\\Auditory\\Repository\\Migrations\\Postgres\\20240707083158_audit.cs",
               "RelativeDocumentMoniker": "jim.wiki.core\\Auditory\\Repository\\Migrations\\Postgres\\20240707083158_audit.cs",
@@ -852,7 +869,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 46,
+              "DocumentIndex": 47,
               "Title": "TransactionalPipelineBehavior.cs",
               "DocumentMoniker": "C:\\Proyectos\\propios\\jim.wiki.back2\\jim.wiki.back\\jim.wiki.core\\Pipelines\\Behaviors\\TransactionalPipelineBehavior.cs",
               "RelativeDocumentMoniker": "jim.wiki.core\\Pipelines\\Behaviors\\TransactionalPipelineBehavior.cs",
@@ -864,7 +881,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 47,
+              "DocumentIndex": 48,
               "Title": "ITransactionalRequest.cs",
               "DocumentMoniker": "C:\\Proyectos\\propios\\jim.wiki.back2\\jim.wiki.back\\jim.wiki.core\\Pipelines\\Abstrantions\\ITransactionalRequest.cs",
               "RelativeDocumentMoniker": "jim.wiki.core\\Pipelines\\Abstrantions\\ITransactionalRequest.cs",
@@ -876,7 +893,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 52,
+              "DocumentIndex": 53,
               "Title": "UserEntityConfigurator.cs",
               "DocumentMoniker": "C:\\Proyectos\\propios\\jim.wiki.back2\\jim.wiki.back\\jim.wiki.back.infrastructure\\Repository\\Configurations\\UserEntityConfigurator.cs",
               "RelativeDocumentMoniker": "jim.wiki.back.infrastructure\\Repository\\Configurations\\UserEntityConfigurator.cs",
@@ -888,7 +905,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 48,
+              "DocumentIndex": 49,
               "Title": "UserRoles.cs",
               "DocumentMoniker": "C:\\Proyectos\\propios\\jim.wiki.back2\\jim.wiki.back\\jim.wiki.back.infrastructure\\Repository\\Configurations\\UserRoles.cs",
               "RelativeDocumentMoniker": "jim.wiki.back.infrastructure\\Repository\\Configurations\\UserRoles.cs",
@@ -900,7 +917,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 49,
+              "DocumentIndex": 50,
               "Title": "RolEntityConfigurator.cs",
               "DocumentMoniker": "C:\\Proyectos\\propios\\jim.wiki.back2\\jim.wiki.back\\jim.wiki.back.infrastructure\\Repository\\Configurations\\RolEntityConfigurator.cs",
               "RelativeDocumentMoniker": "jim.wiki.back.infrastructure\\Repository\\Configurations\\RolEntityConfigurator.cs",
@@ -912,7 +929,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 50,
+              "DocumentIndex": 51,
               "Title": "DatabaseConfiguration.cs",
               "DocumentMoniker": "C:\\Proyectos\\propios\\jim.wiki.back2\\jim.wiki.back\\jim.wiki.back.infrastructure\\Repository\\Configurations\\DatabaseConfiguration.cs",
               "RelativeDocumentMoniker": "jim.wiki.back.infrastructure\\Repository\\Configurations\\DatabaseConfiguration.cs",
@@ -924,7 +941,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 51,
+              "DocumentIndex": 52,
               "Title": "20240707151751_roles.cs",
               "DocumentMoniker": "C:\\Proyectos\\propios\\jim.wiki.back2\\jim.wiki.back\\jim.wiki.back.infrastructure\\Repository\\Migrations\\20240707151751_roles.cs",
               "RelativeDocumentMoniker": "jim.wiki.back.infrastructure\\Repository\\Migrations\\20240707151751_roles.cs",
@@ -936,7 +953,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 53,
+              "DocumentIndex": 54,
               "Title": "20240707162711_roles_relation.cs",
               "DocumentMoniker": "C:\\Proyectos\\propios\\jim.wiki.back2\\jim.wiki.back\\jim.wiki.back.infrastructure\\Repository\\Migrations\\20240707162711_roles_relation.cs",
               "RelativeDocumentMoniker": "jim.wiki.back.infrastructure\\Repository\\Migrations\\20240707162711_roles_relation.cs",
@@ -948,7 +965,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 54,
+              "DocumentIndex": 55,
               "Title": "UserController.cs",
               "DocumentMoniker": "C:\\Proyectos\\propios\\jim.wiki.back2\\jim.wiki.back\\jim.wiki.back.api\\Controllers\\UserController.cs",
               "RelativeDocumentMoniker": "jim.wiki.back.api\\Controllers\\UserController.cs",
@@ -960,7 +977,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 55,
+              "DocumentIndex": 56,
               "Title": "RolController.cs",
               "DocumentMoniker": "C:\\Proyectos\\propios\\jim.wiki.back2\\jim.wiki.back\\jim.wiki.back.api\\Controllers\\RolController.cs",
               "RelativeDocumentMoniker": "jim.wiki.back.api\\Controllers\\RolController.cs",
@@ -972,7 +989,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 57,
+              "DocumentIndex": 58,
               "Title": "RolDto.cs",
               "DocumentMoniker": "C:\\Proyectos\\propios\\jim.wiki.back2\\jim.wiki.back\\jim.wiki.back.application\\Features\\Users\\Dto\\RolDto.cs",
               "RelativeDocumentMoniker": "jim.wiki.back.application\\Features\\Users\\Dto\\RolDto.cs",
@@ -984,7 +1001,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 56,
+              "DocumentIndex": 57,
               "Title": "UserDto.cs",
               "DocumentMoniker": "C:\\Proyectos\\propios\\jim.wiki.back2\\jim.wiki.back\\jim.wiki.back.application\\Features\\Users\\Dto\\UserDto.cs",
               "RelativeDocumentMoniker": "jim.wiki.back.application\\Features\\Users\\Dto\\UserDto.cs",
@@ -996,7 +1013,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 58,
+              "DocumentIndex": 59,
               "Title": "GetUserById.cs",
               "DocumentMoniker": "C:\\Proyectos\\propios\\jim.wiki.back2\\jim.wiki.back\\jim.wiki.back.application\\Features\\Users\\GetUserById.cs",
               "RelativeDocumentMoniker": "jim.wiki.back.application\\Features\\Users\\GetUserById.cs",
@@ -1008,7 +1025,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 60,
+              "DocumentIndex": 61,
               "Title": "IAuditContext.cs",
               "DocumentMoniker": "C:\\Proyectos\\propios\\jim.wiki.back2\\jim.wiki.back\\jim.wiki.core\\Auditory\\Repository\\Interfaces\\IAuditContext.cs",
               "RelativeDocumentMoniker": "jim.wiki.core\\Auditory\\Repository\\Interfaces\\IAuditContext.cs",
@@ -1020,7 +1037,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 59,
+              "DocumentIndex": 60,
               "Title": "IAuditRepository.cs",
               "DocumentMoniker": "C:\\Proyectos\\propios\\jim.wiki.back2\\jim.wiki.back\\jim.wiki.core\\Auditory\\Repository\\Interfaces\\IAuditRepository.cs",
               "RelativeDocumentMoniker": "jim.wiki.core\\Auditory\\Repository\\Interfaces\\IAuditRepository.cs",
@@ -1032,7 +1049,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 61,
+              "DocumentIndex": 62,
               "Title": "ContextBase.cs",
               "DocumentMoniker": "C:\\Proyectos\\propios\\jim.wiki.back2\\jim.wiki.back\\jim.wiki.core\\Repository\\ContextBase.cs",
               "RelativeDocumentMoniker": "jim.wiki.core\\Repository\\ContextBase.cs",
@@ -1044,7 +1061,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 62,
+              "DocumentIndex": 63,
               "Title": "DatabaseTypeEnum.cs",
               "DocumentMoniker": "C:\\Proyectos\\propios\\jim.wiki.back2\\jim.wiki.back\\jim.wiki.core\\Enumerations\\DatabaseTypeEnum.cs",
               "RelativeDocumentMoniker": "jim.wiki.core\\Enumerations\\DatabaseTypeEnum.cs",
@@ -1056,7 +1073,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 63,
+              "DocumentIndex": 64,
               "Title": "IUnitOfWork.cs",
               "DocumentMoniker": "C:\\Proyectos\\propios\\jim.wiki.back2\\jim.wiki.back\\jim.wiki.core\\Repository\\Interfaces\\IUnitOfWork.cs",
               "RelativeDocumentMoniker": "jim.wiki.core\\Repository\\Interfaces\\IUnitOfWork.cs",
@@ -1068,7 +1085,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 64,
+              "DocumentIndex": 65,
               "Title": "EnumerableExtensions.cs",
               "DocumentMoniker": "C:\\Proyectos\\propios\\jim.wiki.back2\\jim.wiki.back\\jim.wiki.core\\Extensions\\EnumerableExtensions.cs",
               "RelativeDocumentMoniker": "jim.wiki.core\\Extensions\\EnumerableExtensions.cs",
@@ -1080,7 +1097,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 65,
+              "DocumentIndex": 66,
               "Title": "Entity.cs",
               "DocumentMoniker": "C:\\Proyectos\\propios\\jim.wiki.back2\\jim.wiki.back\\jim.wiki.core\\Repository\\Abstractions\\Entity.cs",
               "RelativeDocumentMoniker": "jim.wiki.core\\Repository\\Abstractions\\Entity.cs",
@@ -1092,7 +1109,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 66,
+              "DocumentIndex": 67,
               "Title": "UserInfoDto.cs",
               "DocumentMoniker": "C:\\Proyectos\\propios\\jim.wiki.back2\\jim.wiki.back\\jim.wiki.back.model\\Dtos\\Users\\UserInfoDto.cs",
               "RelativeDocumentMoniker": "jim.wiki.back.model\\Dtos\\Users\\UserInfoDto.cs",
@@ -1104,7 +1121,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 67,
+              "DocumentIndex": 68,
               "Title": "IUserInfo.cs",
               "DocumentMoniker": "C:\\Proyectos\\propios\\jim.wiki.back2\\jim.wiki.back\\jim.wiki.back.model\\Services\\IUserInfo.cs",
               "RelativeDocumentMoniker": "jim.wiki.back.model\\Services\\IUserInfo.cs",
@@ -1116,7 +1133,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 68,
+              "DocumentIndex": 69,
               "Title": "20240706154336_initial.cs",
               "DocumentMoniker": "C:\\Proyectos\\propios\\jim.wiki.back2\\jim.wiki.back\\jim.wiki.back.infrastructure\\Repository\\Migrations\\20240706154336_initial.cs",
               "RelativeDocumentMoniker": "jim.wiki.back.infrastructure\\Repository\\Migrations\\20240706154336_initial.cs",

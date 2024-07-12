@@ -1,4 +1,5 @@
 ﻿using jim.wiki.back.application.Features.Users;
+using jim.wiki.core.Results;
 using MediatR;
 using Microsoft.AspNetCore.Authorization;
 using Microsoft.AspNetCore.Mvc;
@@ -19,14 +20,14 @@ namespace jim.wiki.back.api.Controllers
 
         [HttpPost("Login")]
         [AllowAnonymous]
-        public async Task<LoginResponse> Login(LoginRequest request, CancellationToken cancellationToken)
+        public async Task<Result<LoginResponse>> Login(LoginRequest request, CancellationToken cancellationToken)
         {
             return await sender.Send(request, cancellationToken);
         }
 
         [HttpPost("RefreshToken")]
         [AllowAnonymous]
-        public async Task<RefreshTokenResponse> RefreshToken(RefreshTokenRequest request, CancellationToken cancellationToken)
+        public async Task<Result<RefreshTokenResponse>> RefreshToken(RefreshTokenRequest request, CancellationToken cancellationToken)
         {
             return await sender.Send(request, cancellationToken);
         }

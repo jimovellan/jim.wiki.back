@@ -1,4 +1,5 @@
-﻿using jim.wiki.back.model.Models.Users;
+﻿using jim.wiki.back.application.Features.Autentication.Errors;
+using jim.wiki.back.model.Models.Users;
 using jim.wiki.core.Authentication.Interfaces;
 using jim.wiki.core.Authentication.Models;
 using jim.wiki.core.Errors;
@@ -44,6 +45,12 @@ public class RefreshTokenHandler : IRequestHandler<RefreshTokenRequest, Result<R
                      .ThenAsync(GenerateNewTokenAndRefreshToken);
     }
 
+    /// <summary>
+    /// Comprueba si el usuario existe y valida si tiene el mismo Token y Refresh Token que el enviado
+    /// </summary>
+    /// <param name="request"></param>
+    /// <param name="cancellationToken"></param>
+    /// <returns></returns>
     public async Task<Result<User>> SearchUserAndValidTokenAndRefreshToken(RefreshTokenRequest request, CancellationToken cancellationToken)
     {
         var user = await _userRepository
@@ -53,18 +60,24 @@ public class RefreshTokenHandler : IRequestHandler<RefreshTokenRequest, Result<R
 
         if (user is null)
         {
-            return Result.Fail<User>(new Error[] { new Error("User_NotFound", "The user has not found") },cancellationToken);
+            return Result.Fail<User>(AuthenticationErrors.UserNotFound,cancellationToken);
         }
 
         if (!user.IsRefreshTokenValid(request.Token, request.RefreshToken))
         {
-            return Result.Fail<User>(new Error[] { new Error("RefreshToken_Error", "The operation has failed") }, cancellationToken);
+            return Result.Fail<User>(AuthenticationErrors.RefreshTokenError, cancellationToken);
         }
 
         return user;
 
     }
 
+    /// <summary>
+    /// Genera el nuevo token y RefreshToken y los añade al usuario
+    /// </summary>
+    /// <param name="user"></param>
+    /// <param name="cancellationToken"></param>
+    /// <returns></returns>
     public async Task<Result<RefreshTokenResponse>> GenerateNewTokenAndRefreshToken(User user, CancellationToken cancellationToken)
     {
         var token = userDataService.GetToken(new UserData() { Email = user.Email, Name = user.Email });

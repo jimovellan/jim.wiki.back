@@ -1,6 +1,6 @@
 # Build Folders (binaries)
-bin/
-obj/
+**bin/
+**obj/
 
 # User-specific files
 *.rsuser

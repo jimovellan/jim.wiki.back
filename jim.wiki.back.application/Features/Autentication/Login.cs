@@ -1,4 +1,5 @@
-﻿using jim.wiki.back.model.Models.Users;
+﻿using jim.wiki.back.application.Features.Autentication.Errors;
+using jim.wiki.back.model.Models.Users;
 using jim.wiki.back.model.Services;
 using jim.wiki.core.Authentication.Interfaces;
 using jim.wiki.core.Authentication.Models;
@@ -63,13 +64,13 @@ public class LoginHandler : IRequestHandler<LoginRequest, Result<LoginResponse>>
 
         if (user is null)
         {
-            return Result.Fail<User>(new Error("User_NotFound", "The user  not found"));
+            return Result.Fail<User>(AuthenticationErrors.UserNotFound);
         }
 
         if (!_passwordService.Valid(request.Password, user.Hash))
         {
             
-                return Result.Fail<User>(new Error("Login_Error", "Login not valid, wrong user or password"));
+                return Result.Fail<User>(AuthenticationErrors.LoginError);
             
         }
 

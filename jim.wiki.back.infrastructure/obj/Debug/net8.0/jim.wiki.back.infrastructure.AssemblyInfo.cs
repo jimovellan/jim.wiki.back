@@ -14,7 +14,7 @@ using System.Reflection;
 [assembly: System.Reflection.AssemblyCompanyAttribute("jim.wiki.back.infrastructure")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Debug")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
-[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+d3809780329135806d0a57f548aef2ceb646e410")]
+[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+5dcf8f0b98ae3565f6f9166f0a51e64e31b09e18")]
 [assembly: System.Reflection.AssemblyProductAttribute("jim.wiki.back.infrastructure")]
 [assembly: System.Reflection.AssemblyTitleAttribute("jim.wiki.back.infrastructure")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]

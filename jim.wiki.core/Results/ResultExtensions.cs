@@ -8,7 +8,7 @@ using System.Threading.Tasks;
 namespace jim.wiki.core.Results
 {
     public static class ResultExtensions
-    {    {
+    {    
         
         public static Result Then(this Result result, Func<CancellationToken, Result> func)
         {

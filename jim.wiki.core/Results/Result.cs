@@ -1,6 +1,7 @@
 ﻿using jim.wiki.core.Errors;
 using jim.wiki.core.Extensions;
 using System.Collections.ObjectModel;
+using System.Text.Json.Serialization;
 
 
 namespace jim.wiki.core.Results
@@ -10,6 +11,7 @@ namespace jim.wiki.core.Results
         public bool Success => !Errors.ContainElements(); 
         public bool IsFailed => !Success;
 
+        [JsonIgnore]
         public CancellationToken CancellationToken { get; set; }
 
         private IList<Error> _errors;
