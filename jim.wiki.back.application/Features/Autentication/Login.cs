@@ -1,14 +1,17 @@
 ﻿using jim.wiki.back.model.Models.Users;
 using jim.wiki.back.model.Services;
 using jim.wiki.core.Authentication.Interfaces;
+using jim.wiki.core.Authentication.Models;
+using jim.wiki.core.Errors;
 using jim.wiki.core.Pipelines.Abstrantions;
 using jim.wiki.core.Repository.Interfaces;
-using jim.wiki.core.Authentication.Models;
+using jim.wiki.core.Results;
 using MediatR;
+using Microsoft.EntityFrameworkCore;
 
 namespace jim.wiki.back.application.Features.Users;
 
-public class LoginRequest:IRequest<LoginResponse>,ITransactionalRequest
+public class LoginRequest:IRequest<Result<LoginResponse>>,ITransactionalRequest
 {
     public string Name { get; set; }
    
@@ -19,9 +22,10 @@ public class LoginRequest:IRequest<LoginResponse>,ITransactionalRequest
 public class LoginResponse
 {
     public string Token { get; set; }
+    public string RefreshToken { get; set; }
 }
 
-public class LoginHandler : IRequestHandler<LoginRequest, LoginResponse>
+public class LoginHandler : IRequestHandler<LoginRequest, Result<LoginResponse>>
 {
     private readonly IRepositoryBase<User> _userRepository;
     private readonly IPasswordService _passwordService;
@@ -35,20 +39,63 @@ public class LoginHandler : IRequestHandler<LoginRequest, LoginResponse>
         this._passwordService = passwordService;
         this._dataService = dataService;
     }
-    public async Task<LoginResponse> Handle(LoginRequest request, CancellationToken cancellationToken)
+    public async Task<Result<LoginResponse>> Handle(LoginRequest request, CancellationToken cancellationToken)
     {
-        
 
-        var user = _userRepository.Query().FirstOrDefault(f=>f.Name == request.Name);
 
-        if(user is null) throw new UnauthorizedAccessException();
-        
-        if(!_passwordService.Valid(request.Password, user.Hash)) throw new UnauthorizedAccessException();
+        return await SearchUserAndValidatePassword(request, cancellationToken)
+                     .ThenAsync(GenerateNewTokenAndRefreshTokenAndSave);
 
-       
+    }
 
-        var response = new LoginResponse() { Token = _dataService.GetToken(new UserData() { Email = user.Email, Name = user.Email})};
+    /// <summary>
+    /// Busca el usuario y valida su password
+    /// </summary>
+    /// <param name="request"></param>
+    /// <param name="cancellationToken"></param>
+    /// <returns></returns>
+    public async Task<Result<User>> SearchUserAndValidatePassword(LoginRequest request, CancellationToken cancellationToken)
+    {
+        var user = await _userRepository
+                    .Query()
+                    .Include(x => x.Tokens)
+                    .FirstOrDefaultAsync(f => f.Name == request.Name);
+
+        if (user is null)
+        {
+            return Result.Fail<User>(new Error("User_NotFound", "The user  not found"));
+        }
+
+        if (!_passwordService.Valid(request.Password, user.Hash))
+        {
+            
+                return Result.Fail<User>(new Error("Login_Error", "Login not valid, wrong user or password"));
+            
+        }
+
+        return user;
+
+    }
+
+
+    /// <summary>
+    /// Genera Token y refresh token y lo guarda
+    /// </summary>
+    /// <param name="user"></param>
+    /// <param name="cancellationToken"></param>
+    /// <returns></returns>
+    public async Task<Result<LoginResponse>> GenerateNewTokenAndRefreshTokenAndSave(User user, CancellationToken cancellationToken)
+    {
+        var token = _dataService.GetToken(new UserData() { Email = user.Email, Name = user.Email });
+
+        var refreshToken = user.GenerateNewRefreshToken(token);
+
+        await _userRepository.SaveChangesAsync(cancellationToken);
+
+        var response = new LoginResponse() { Token = token, RefreshToken = refreshToken };
 
         return response;
     }
+
+
 }

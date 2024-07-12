@@ -47,7 +47,7 @@ namespace jim.wiki.core.Repository
         {
             // Obtener todas las entidades que implementan IDeleted
             var entityTypes = modelBuilder.Model.GetEntityTypes()
-                .Where(e => typeof(LogicalEntity).IsAssignableFrom(e.ClrType));
+                .Where(e => typeof(ILogicalEntity).IsAssignableFrom(e.ClrType));
 
             foreach (var entityType in entityTypes)
             {

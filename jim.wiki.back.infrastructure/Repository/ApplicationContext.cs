@@ -42,6 +42,8 @@ namespace jim.wiki.back.infrastructure.Repository
         public DbSet<User>  Users { get; set; }
         public DbSet<Rol> Roles { get; set; }
         public DbSet<UserRole> UserRoles { get; set; }
+
+        public DbSet<UserToken> UserTokens { get; set; }
         #endregion
     }
 }

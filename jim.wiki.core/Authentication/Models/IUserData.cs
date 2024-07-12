@@ -6,4 +6,5 @@ public interface IUserData
     public string? Name { get; set; }
     public string? Email { get; set; }
     public string? IP { get; set; }
+    public List<string> Roles { get; set; }
 }

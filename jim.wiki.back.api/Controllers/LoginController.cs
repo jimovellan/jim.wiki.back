@@ -17,9 +17,16 @@ namespace jim.wiki.back.api.Controllers
             this.sender = sender;
         }
 
-        [HttpPost]
+        [HttpPost("Login")]
         [AllowAnonymous]
         public async Task<LoginResponse> Login(LoginRequest request, CancellationToken cancellationToken)
+        {
+            return await sender.Send(request, cancellationToken);
+        }
+
+        [HttpPost("RefreshToken")]
+        [AllowAnonymous]
+        public async Task<RefreshTokenResponse> RefreshToken(RefreshTokenRequest request, CancellationToken cancellationToken)
         {
             return await sender.Send(request, cancellationToken);
         }

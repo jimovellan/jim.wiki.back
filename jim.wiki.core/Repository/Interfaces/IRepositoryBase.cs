@@ -2,7 +2,7 @@
 
 namespace jim.wiki.core.Repository.Interfaces;
 
-    public interface IRepositoryBase<TEntity> where TEntity : Entity
+    public interface IRepositoryBase<TEntity> where TEntity : Aggregate
     {
 
         public IQueryable<TEntity> Query();

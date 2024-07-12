@@ -6,7 +6,7 @@ using System.Threading.Tasks;
 
 namespace jim.wiki.back.core.Repository.Abstractions;
 
-public class LogicalEntity:AuditEntity
+public interface ILogicalEntity:IAuditEntity
 {
     public bool IsDeleted { get; set; }
 }

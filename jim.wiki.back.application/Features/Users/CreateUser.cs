@@ -40,29 +40,20 @@ public class CreateUserHandler : IRequestHandler<CreateUserRequest, CreateUserRe
     {
         
 
-        var rols = await _rolRepository
-                         .Query()
-                         .Where(r => request.Roles.Any(a => a == r.Guid))
-                         .ToListAsync();
+       
 
 
-        if(await _userRepository.Query().AnyAsync(x => EF.Functions.Like(x.Name,request.Name)))
+        if(await _userRepository.Query().Include(i=>i.Tokens).AnyAsync(x => EF.Functions.Like(x.Name,request.Name)))
         {
             throw new Exception("Usuario existente");
         }
 
+        var hash = _passwordService.GenerateHash(request.Password);
+        
+        var entity = User.Create(request.Name, new model.Models.ObjectsValue.Email(request.Email), hash);
+        
 
-        var entity = new User()
-        {
-            Name = request.Name,
-            Email = request.Email,
-            Hash = _passwordService.GenerateHash(request.Password)
-        };
-
-        foreach (var rol in rols)
-        {
-            entity.RolesUser.Add(new UserRole() { RolGuid = rol.Guid});
-        }
+        
 
         await _userRepository.AddAsync(entity);
 

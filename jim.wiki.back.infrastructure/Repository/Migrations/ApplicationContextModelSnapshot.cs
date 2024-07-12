@@ -30,6 +30,13 @@ namespace jim.wiki.back.infrastructure.Repository.Migrations
 
                     NpgsqlPropertyBuilderExtensions.UseIdentityByDefaultColumn(b.Property<long>("Id"));
 
+                    b.Property<DateTime>("CreateadAt")
+                        .HasColumnType("timestamp with time zone");
+
+                    b.Property<string>("CreatedBy")
+                        .IsRequired()
+                        .HasColumnType("text");
+
                     b.Property<string>("Description")
                         .IsRequired()
                         .HasColumnType("text");
@@ -38,6 +45,20 @@ namespace jim.wiki.back.infrastructure.Repository.Migrations
                         .ValueGeneratedOnAdd()
                         .HasColumnType("uuid")
                         .HasDefaultValueSql("gen_random_uuid()");
+
+                    b.Property<bool>("IsDeleted")
+                        .HasColumnType("boolean");
+
+                    b.Property<string>("LastAction")
+                        .IsRequired()
+                        .HasColumnType("text");
+
+                    b.Property<DateTime>("ModifiedAt")
+                        .HasColumnType("timestamp with time zone");
+
+                    b.Property<string>("ModifiedBy")
+                        .IsRequired()
+                        .HasColumnType("text");
 
                     b.Property<string>("Name")
                         .IsRequired()
@@ -122,6 +143,38 @@ namespace jim.wiki.back.infrastructure.Repository.Migrations
                     b.ToTable("UserRoles");
                 });
 
+            modelBuilder.Entity("jim.wiki.back.model.Models.Users.UserToken", b =>
+                {
+                    b.Property<long>("Id")
+                        .ValueGeneratedOnAdd()
+                        .HasColumnType("bigint");
+
+                    NpgsqlPropertyBuilderExtensions.UseIdentityByDefaultColumn(b.Property<long>("Id"));
+
+                    b.Property<bool>("IsActive")
+                        .HasColumnType("boolean");
+
+                    b.Property<string>("RefreshToken")
+                        .IsRequired()
+                        .HasColumnType("text");
+
+                    b.Property<string>("Token")
+                        .IsRequired()
+                        .HasColumnType("text");
+
+                    b.Property<long>("UserId")
+                        .HasColumnType("bigint");
+
+                    b.Property<DateTime>("ValidAt")
+                        .HasColumnType("timestamp with time zone");
+
+                    b.HasKey("Id");
+
+                    b.HasIndex("UserId");
+
+                    b.ToTable("UserTokens");
+                });
+
             modelBuilder.Entity("jim.wiki.back.model.Models.Users.UserRole", b =>
                 {
                     b.HasOne("jim.wiki.back.model.Models.Users.Rol", "Rol")
@@ -143,6 +196,17 @@ namespace jim.wiki.back.infrastructure.Repository.Migrations
                     b.Navigation("User");
                 });
 
+            modelBuilder.Entity("jim.wiki.back.model.Models.Users.UserToken", b =>
+                {
+                    b.HasOne("jim.wiki.back.model.Models.Users.User", "User")
+                        .WithMany("Tokens")
+                        .HasForeignKey("UserId")
+                        .OnDelete(DeleteBehavior.Cascade)
+                        .IsRequired();
+
+                    b.Navigation("User");
+                });
+
             modelBuilder.Entity("jim.wiki.back.model.Models.Users.Rol", b =>
                 {
                     b.Navigation("UserRoles");
@@ -151,6 +215,8 @@ namespace jim.wiki.back.infrastructure.Repository.Migrations
             modelBuilder.Entity("jim.wiki.back.model.Models.Users.User", b =>
                 {
                     b.Navigation("RolesUser");
+
+                    b.Navigation("Tokens");
                 });
 #pragma warning restore 612, 618
         }

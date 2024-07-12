@@ -3,6 +3,98 @@
   "WorkspaceRootPath": "C:\\Proyectos\\propios\\jim.wiki.back2\\jim.wiki.back\\",
   "Documents": [
     {
+      "AbsoluteMoniker": "D:0:0:{A684BECA-73D2-44A3-A488-9CC5C589CDE8}|jim.wiki.back.application\\jim.wiki.back.application.csproj|c:\\proyectos\\propios\\jim.wiki.back2\\jim.wiki.back\\jim.wiki.back.application\\features\\autentication\\refreshtoken.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{A684BECA-73D2-44A3-A488-9CC5C589CDE8}|jim.wiki.back.application\\jim.wiki.back.application.csproj|solutionrelative:jim.wiki.back.application\\features\\autentication\\refreshtoken.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{B2D18D06-30A9-4540-A694-D24665F89B08}|jim.wiki.core\\jim.wiki.core.csproj|c:\\proyectos\\propios\\jim.wiki.back2\\jim.wiki.back\\jim.wiki.core\\results\\resultextensions.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{B2D18D06-30A9-4540-A694-D24665F89B08}|jim.wiki.core\\jim.wiki.core.csproj|solutionrelative:jim.wiki.core\\results\\resultextensions.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A684BECA-73D2-44A3-A488-9CC5C589CDE8}|jim.wiki.back.application\\jim.wiki.back.application.csproj|c:\\proyectos\\propios\\jim.wiki.back2\\jim.wiki.back\\jim.wiki.back.application\\features\\autentication\\login.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{A684BECA-73D2-44A3-A488-9CC5C589CDE8}|jim.wiki.back.application\\jim.wiki.back.application.csproj|solutionrelative:jim.wiki.back.application\\features\\autentication\\login.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{B2D18D06-30A9-4540-A694-D24665F89B08}|jim.wiki.core\\jim.wiki.core.csproj|c:\\proyectos\\propios\\jim.wiki.back2\\jim.wiki.back\\jim.wiki.core\\results\\result.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{B2D18D06-30A9-4540-A694-D24665F89B08}|jim.wiki.core\\jim.wiki.core.csproj|solutionrelative:jim.wiki.core\\results\\result.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{B2D18D06-30A9-4540-A694-D24665F89B08}|jim.wiki.core\\jim.wiki.core.csproj|c:\\proyectos\\propios\\jim.wiki.back2\\jim.wiki.back\\jim.wiki.core\\errors\\error.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{B2D18D06-30A9-4540-A694-D24665F89B08}|jim.wiki.core\\jim.wiki.core.csproj|solutionrelative:jim.wiki.core\\errors\\error.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{84884F6C-0CF5-4260-971D-A45638B87DFD}|jim.wiki.back.api\\jim.wiki.back.api.csproj|c:\\proyectos\\propios\\jim.wiki.back2\\jim.wiki.back\\jim.wiki.back.api\\controllers\\logincontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{84884F6C-0CF5-4260-971D-A45638B87DFD}|jim.wiki.back.api\\jim.wiki.back.api.csproj|solutionrelative:jim.wiki.back.api\\controllers\\logincontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{ED0FD077-0FE2-45B3-BA32-F7F2BCD19FB5}|jim.wiki.back.model\\jim.wiki.back.model.csproj|c:\\proyectos\\propios\\jim.wiki.back2\\jim.wiki.back\\jim.wiki.back.model\\models\\users\\user.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{ED0FD077-0FE2-45B3-BA32-F7F2BCD19FB5}|jim.wiki.back.model\\jim.wiki.back.model.csproj|solutionrelative:jim.wiki.back.model\\models\\users\\user.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A684BECA-73D2-44A3-A488-9CC5C589CDE8}|jim.wiki.back.application\\jim.wiki.back.application.csproj|c:\\proyectos\\propios\\jim.wiki.back2\\jim.wiki.back\\jim.wiki.back.application\\features\\users\\createuser.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{A684BECA-73D2-44A3-A488-9CC5C589CDE8}|jim.wiki.back.application\\jim.wiki.back.application.csproj|solutionrelative:jim.wiki.back.application\\features\\users\\createuser.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{B960A762-B0D4-4566-ABBE-7A7D09EB7C2C}|jim.wiki.back.infrastructure\\jim.wiki.back.infrastructure.csproj|c:\\proyectos\\propios\\jim.wiki.back2\\jim.wiki.back\\jim.wiki.back.infrastructure\\repository\\applicationcontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{B960A762-B0D4-4566-ABBE-7A7D09EB7C2C}|jim.wiki.back.infrastructure\\jim.wiki.back.infrastructure.csproj|solutionrelative:jim.wiki.back.infrastructure\\repository\\applicationcontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{B960A762-B0D4-4566-ABBE-7A7D09EB7C2C}|jim.wiki.back.infrastructure\\jim.wiki.back.infrastructure.csproj|c:\\proyectos\\propios\\jim.wiki.back2\\jim.wiki.back\\jim.wiki.back.infrastructure\\repository\\repositorygeneric.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{B960A762-B0D4-4566-ABBE-7A7D09EB7C2C}|jim.wiki.back.infrastructure\\jim.wiki.back.infrastructure.csproj|solutionrelative:jim.wiki.back.infrastructure\\repository\\repositorygeneric.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A684BECA-73D2-44A3-A488-9CC5C589CDE8}|jim.wiki.back.application\\jim.wiki.back.application.csproj|c:\\proyectos\\propios\\jim.wiki.back2\\jim.wiki.back\\jim.wiki.back.application\\features\\users\\adduserrol.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{A684BECA-73D2-44A3-A488-9CC5C589CDE8}|jim.wiki.back.application\\jim.wiki.back.application.csproj|solutionrelative:jim.wiki.back.application\\features\\users\\adduserrol.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{ED0FD077-0FE2-45B3-BA32-F7F2BCD19FB5}|jim.wiki.back.model\\jim.wiki.back.model.csproj|c:\\proyectos\\propios\\jim.wiki.back2\\jim.wiki.back\\jim.wiki.back.model\\models\\objectsvalue\\email.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{ED0FD077-0FE2-45B3-BA32-F7F2BCD19FB5}|jim.wiki.back.model\\jim.wiki.back.model.csproj|solutionrelative:jim.wiki.back.model\\models\\objectsvalue\\email.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{ED0FD077-0FE2-45B3-BA32-F7F2BCD19FB5}|jim.wiki.back.model\\jim.wiki.back.model.csproj|c:\\proyectos\\propios\\jim.wiki.back2\\jim.wiki.back\\jim.wiki.back.model\\models\\users\\userrole.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{ED0FD077-0FE2-45B3-BA32-F7F2BCD19FB5}|jim.wiki.back.model\\jim.wiki.back.model.csproj|solutionrelative:jim.wiki.back.model\\models\\users\\userrole.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{ED0FD077-0FE2-45B3-BA32-F7F2BCD19FB5}|jim.wiki.back.model\\jim.wiki.back.model.csproj|c:\\proyectos\\propios\\jim.wiki.back2\\jim.wiki.back\\jim.wiki.back.model\\models\\users\\rol.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{ED0FD077-0FE2-45B3-BA32-F7F2BCD19FB5}|jim.wiki.back.model\\jim.wiki.back.model.csproj|solutionrelative:jim.wiki.back.model\\models\\users\\rol.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A684BECA-73D2-44A3-A488-9CC5C589CDE8}|jim.wiki.back.application\\jim.wiki.back.application.csproj|c:\\proyectos\\propios\\jim.wiki.back2\\jim.wiki.back\\jim.wiki.back.application\\features\\users\\createrol.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{A684BECA-73D2-44A3-A488-9CC5C589CDE8}|jim.wiki.back.application\\jim.wiki.back.application.csproj|solutionrelative:jim.wiki.back.application\\features\\users\\createrol.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{B2D18D06-30A9-4540-A694-D24665F89B08}|jim.wiki.core\\jim.wiki.core.csproj|c:\\proyectos\\propios\\jim.wiki.back2\\jim.wiki.back\\jim.wiki.core\\authentication\\models\\userdata.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{B2D18D06-30A9-4540-A694-D24665F89B08}|jim.wiki.core\\jim.wiki.core.csproj|solutionrelative:jim.wiki.core\\authentication\\models\\userdata.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{B2D18D06-30A9-4540-A694-D24665F89B08}|jim.wiki.core\\jim.wiki.core.csproj|c:\\proyectos\\propios\\jim.wiki.back2\\jim.wiki.back\\jim.wiki.core\\repository\\interfaces\\aggregate.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{B2D18D06-30A9-4540-A694-D24665F89B08}|jim.wiki.core\\jim.wiki.core.csproj|solutionrelative:jim.wiki.core\\repository\\interfaces\\aggregate.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{B2D18D06-30A9-4540-A694-D24665F89B08}|jim.wiki.core\\jim.wiki.core.csproj|c:\\proyectos\\propios\\jim.wiki.back2\\jim.wiki.back\\jim.wiki.core\\repository\\interfaces\\irepositorybase.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{B2D18D06-30A9-4540-A694-D24665F89B08}|jim.wiki.core\\jim.wiki.core.csproj|solutionrelative:jim.wiki.core\\repository\\interfaces\\irepositorybase.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{B2D18D06-30A9-4540-A694-D24665F89B08}|jim.wiki.core\\jim.wiki.core.csproj|c:\\proyectos\\propios\\jim.wiki.back2\\jim.wiki.back\\jim.wiki.core\\repository\\abstractions\\ilogicalentity.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{B2D18D06-30A9-4540-A694-D24665F89B08}|jim.wiki.core\\jim.wiki.core.csproj|solutionrelative:jim.wiki.core\\repository\\abstractions\\ilogicalentity.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{B2D18D06-30A9-4540-A694-D24665F89B08}|jim.wiki.core\\jim.wiki.core.csproj|c:\\proyectos\\propios\\jim.wiki.back2\\jim.wiki.back\\jim.wiki.core\\repository\\abstractions\\iauditentity.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{B2D18D06-30A9-4540-A694-D24665F89B08}|jim.wiki.core\\jim.wiki.core.csproj|solutionrelative:jim.wiki.core\\repository\\abstractions\\iauditentity.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{ED0FD077-0FE2-45B3-BA32-F7F2BCD19FB5}|jim.wiki.back.model\\jim.wiki.back.model.csproj|c:\\proyectos\\propios\\jim.wiki.back2\\jim.wiki.back\\jim.wiki.back.model\\models\\users\\usertoken.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{ED0FD077-0FE2-45B3-BA32-F7F2BCD19FB5}|jim.wiki.back.model\\jim.wiki.back.model.csproj|solutionrelative:jim.wiki.back.model\\models\\users\\usertoken.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{B960A762-B0D4-4566-ABBE-7A7D09EB7C2C}|jim.wiki.back.infrastructure\\jim.wiki.back.infrastructure.csproj|c:\\proyectos\\propios\\jim.wiki.back2\\jim.wiki.back\\jim.wiki.back.infrastructure\\services\\passwordservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{B960A762-B0D4-4566-ABBE-7A7D09EB7C2C}|jim.wiki.back.infrastructure\\jim.wiki.back.infrastructure.csproj|solutionrelative:jim.wiki.back.infrastructure\\services\\passwordservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{B2D18D06-30A9-4540-A694-D24665F89B08}|jim.wiki.core\\jim.wiki.core.csproj|c:\\proyectos\\propios\\jim.wiki.back2\\jim.wiki.back\\jim.wiki.core\\authentication\\models\\iuserdata.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{B2D18D06-30A9-4540-A694-D24665F89B08}|jim.wiki.core\\jim.wiki.core.csproj|solutionrelative:jim.wiki.core\\authentication\\models\\iuserdata.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
       "AbsoluteMoniker": "D:0:0:{B960A762-B0D4-4566-ABBE-7A7D09EB7C2C}|jim.wiki.back.infrastructure\\jim.wiki.back.infrastructure.csproj|c:\\proyectos\\propios\\jim.wiki.back2\\jim.wiki.back\\jim.wiki.back.infrastructure\\autentication\\services\\userdataservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{B960A762-B0D4-4566-ABBE-7A7D09EB7C2C}|jim.wiki.back.infrastructure\\jim.wiki.back.infrastructure.csproj|solutionrelative:jim.wiki.back.infrastructure\\autentication\\services\\userdataservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
@@ -11,28 +103,12 @@
       "RelativeMoniker": "D:0:0:{B2D18D06-30A9-4540-A694-D24665F89B08}|jim.wiki.core\\jim.wiki.core.csproj|solutionrelative:jim.wiki.core\\authentication\\extensions\\authenticationextensions.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{B960A762-B0D4-4566-ABBE-7A7D09EB7C2C}|jim.wiki.back.infrastructure\\jim.wiki.back.infrastructure.csproj|c:\\proyectos\\propios\\jim.wiki.back2\\jim.wiki.back\\jim.wiki.back.infrastructure\\extensions\\servicecollectionextension.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{B960A762-B0D4-4566-ABBE-7A7D09EB7C2C}|jim.wiki.back.infrastructure\\jim.wiki.back.infrastructure.csproj|solutionrelative:jim.wiki.back.infrastructure\\extensions\\servicecollectionextension.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{84884F6C-0CF5-4260-971D-A45638B87DFD}|jim.wiki.back.api\\jim.wiki.back.api.csproj|c:\\proyectos\\propios\\jim.wiki.back2\\jim.wiki.back\\jim.wiki.back.api\\controllers\\logincontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{84884F6C-0CF5-4260-971D-A45638B87DFD}|jim.wiki.back.api\\jim.wiki.back.api.csproj|solutionrelative:jim.wiki.back.api\\controllers\\logincontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{A684BECA-73D2-44A3-A488-9CC5C589CDE8}|jim.wiki.back.application\\jim.wiki.back.application.csproj|c:\\proyectos\\propios\\jim.wiki.back2\\jim.wiki.back\\jim.wiki.back.application\\features\\autentication\\login.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{A684BECA-73D2-44A3-A488-9CC5C589CDE8}|jim.wiki.back.application\\jim.wiki.back.application.csproj|solutionrelative:jim.wiki.back.application\\features\\autentication\\login.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{B2D18D06-30A9-4540-A694-D24665F89B08}|jim.wiki.core\\jim.wiki.core.csproj|c:\\proyectos\\propios\\jim.wiki.back2\\jim.wiki.back\\jim.wiki.core\\authentication\\models\\userdata.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{B2D18D06-30A9-4540-A694-D24665F89B08}|jim.wiki.core\\jim.wiki.core.csproj|solutionrelative:jim.wiki.core\\authentication\\models\\userdata.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{B2D18D06-30A9-4540-A694-D24665F89B08}|jim.wiki.core\\jim.wiki.core.csproj|c:\\proyectos\\propios\\jim.wiki.back2\\jim.wiki.back\\jim.wiki.core\\authentication\\models\\iuserdata.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{B2D18D06-30A9-4540-A694-D24665F89B08}|jim.wiki.core\\jim.wiki.core.csproj|solutionrelative:jim.wiki.core\\authentication\\models\\iuserdata.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
       "AbsoluteMoniker": "D:0:0:{84884F6C-0CF5-4260-971D-A45638B87DFD}|jim.wiki.back.api\\jim.wiki.back.api.csproj|c:\\proyectos\\propios\\jim.wiki.back2\\jim.wiki.back\\jim.wiki.back.api\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{84884F6C-0CF5-4260-971D-A45638B87DFD}|jim.wiki.back.api\\jim.wiki.back.api.csproj|solutionrelative:jim.wiki.back.api\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{B960A762-B0D4-4566-ABBE-7A7D09EB7C2C}|jim.wiki.back.infrastructure\\jim.wiki.back.infrastructure.csproj|c:\\proyectos\\propios\\jim.wiki.back2\\jim.wiki.back\\jim.wiki.back.infrastructure\\extensions\\servicecollectionextension.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{B960A762-B0D4-4566-ABBE-7A7D09EB7C2C}|jim.wiki.back.infrastructure\\jim.wiki.back.infrastructure.csproj|solutionrelative:jim.wiki.back.infrastructure\\extensions\\servicecollectionextension.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{B960A762-B0D4-4566-ABBE-7A7D09EB7C2C}|jim.wiki.back.infrastructure\\jim.wiki.back.infrastructure.csproj|c:\\proyectos\\propios\\jim.wiki.back2\\jim.wiki.back\\jim.wiki.back.infrastructure\\repository\\migrations\\applicationcontextmodelsnapshot.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
@@ -43,20 +119,8 @@
       "RelativeMoniker": "D:0:0:{B960A762-B0D4-4566-ABBE-7A7D09EB7C2C}|jim.wiki.back.infrastructure\\jim.wiki.back.infrastructure.csproj|solutionrelative:jim.wiki.back.infrastructure\\startup.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{A684BECA-73D2-44A3-A488-9CC5C589CDE8}|jim.wiki.back.application\\jim.wiki.back.application.csproj|c:\\proyectos\\propios\\jim.wiki.back2\\jim.wiki.back\\jim.wiki.back.application\\features\\users\\createuser.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{A684BECA-73D2-44A3-A488-9CC5C589CDE8}|jim.wiki.back.application\\jim.wiki.back.application.csproj|solutionrelative:jim.wiki.back.application\\features\\users\\createuser.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
       "AbsoluteMoniker": "D:0:0:{ED0FD077-0FE2-45B3-BA32-F7F2BCD19FB5}|jim.wiki.back.model\\jim.wiki.back.model.csproj|c:\\proyectos\\propios\\jim.wiki.back2\\jim.wiki.back\\jim.wiki.back.model\\services\\ipasswordservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{ED0FD077-0FE2-45B3-BA32-F7F2BCD19FB5}|jim.wiki.back.model\\jim.wiki.back.model.csproj|solutionrelative:jim.wiki.back.model\\services\\ipasswordservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{B960A762-B0D4-4566-ABBE-7A7D09EB7C2C}|jim.wiki.back.infrastructure\\jim.wiki.back.infrastructure.csproj|c:\\proyectos\\propios\\jim.wiki.back2\\jim.wiki.back\\jim.wiki.back.infrastructure\\services\\passwordservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{B960A762-B0D4-4566-ABBE-7A7D09EB7C2C}|jim.wiki.back.infrastructure\\jim.wiki.back.infrastructure.csproj|solutionrelative:jim.wiki.back.infrastructure\\services\\passwordservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{ED0FD077-0FE2-45B3-BA32-F7F2BCD19FB5}|jim.wiki.back.model\\jim.wiki.back.model.csproj|c:\\proyectos\\propios\\jim.wiki.back2\\jim.wiki.back\\jim.wiki.back.model\\models\\users\\user.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{ED0FD077-0FE2-45B3-BA32-F7F2BCD19FB5}|jim.wiki.back.model\\jim.wiki.back.model.csproj|solutionrelative:jim.wiki.back.model\\models\\users\\user.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{84884F6C-0CF5-4260-971D-A45638B87DFD}|jim.wiki.back.api\\jim.wiki.back.api.csproj|c:\\proyectos\\propios\\jim.wiki.back2\\jim.wiki.back\\jim.wiki.back.api\\appsettings.development.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}",
@@ -71,10 +135,6 @@
       "RelativeMoniker": "D:0:0:{B2D18D06-30A9-4540-A694-D24665F89B08}|jim.wiki.core\\jim.wiki.core.csproj|solutionrelative:jim.wiki.core\\pipelines\\behaviors\\auditablepipelinebehavior.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{A684BECA-73D2-44A3-A488-9CC5C589CDE8}|jim.wiki.back.application\\jim.wiki.back.application.csproj|c:\\proyectos\\propios\\jim.wiki.back2\\jim.wiki.back\\jim.wiki.back.application\\features\\users\\createrol.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{A684BECA-73D2-44A3-A488-9CC5C589CDE8}|jim.wiki.back.application\\jim.wiki.back.application.csproj|solutionrelative:jim.wiki.back.application\\features\\users\\createrol.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
       "AbsoluteMoniker": "D:0:0:{A684BECA-73D2-44A3-A488-9CC5C589CDE8}|jim.wiki.back.application\\jim.wiki.back.application.csproj|c:\\proyectos\\propios\\jim.wiki.back2\\jim.wiki.back\\jim.wiki.back.application\\features\\users\\getusersall.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{A684BECA-73D2-44A3-A488-9CC5C589CDE8}|jim.wiki.back.application\\jim.wiki.back.application.csproj|solutionrelative:jim.wiki.back.application\\features\\users\\getusersall.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
@@ -85,10 +145,6 @@
     {
       "AbsoluteMoniker": "D:0:0:{A684BECA-73D2-44A3-A488-9CC5C589CDE8}|jim.wiki.back.application\\jim.wiki.back.application.csproj|c:\\proyectos\\propios\\jim.wiki.back2\\jim.wiki.back\\jim.wiki.back.application\\features\\users\\deleteuser.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{A684BECA-73D2-44A3-A488-9CC5C589CDE8}|jim.wiki.back.application\\jim.wiki.back.application.csproj|solutionrelative:jim.wiki.back.application\\features\\users\\deleteuser.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{A684BECA-73D2-44A3-A488-9CC5C589CDE8}|jim.wiki.back.application\\jim.wiki.back.application.csproj|c:\\proyectos\\propios\\jim.wiki.back2\\jim.wiki.back\\jim.wiki.back.application\\features\\users\\adduserrol.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{A684BECA-73D2-44A3-A488-9CC5C589CDE8}|jim.wiki.back.application\\jim.wiki.back.application.csproj|solutionrelative:jim.wiki.back.application\\features\\users\\adduserrol.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{B2D18D06-30A9-4540-A694-D24665F89B08}|jim.wiki.core\\jim.wiki.core.csproj|c:\\proyectos\\propios\\jim.wiki.back2\\jim.wiki.back\\jim.wiki.core\\pipelines\\abstrantions\\iauditablerequest.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
@@ -139,18 +195,6 @@
       "RelativeMoniker": "D:0:0:{B2D18D06-30A9-4540-A694-D24665F89B08}|jim.wiki.core\\jim.wiki.core.csproj|solutionrelative:jim.wiki.core\\pipelines\\abstrantions\\itransactionalrequest.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{B960A762-B0D4-4566-ABBE-7A7D09EB7C2C}|jim.wiki.back.infrastructure\\jim.wiki.back.infrastructure.csproj|c:\\proyectos\\propios\\jim.wiki.back2\\jim.wiki.back\\jim.wiki.back.infrastructure\\repository\\repositorygeneric.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{B960A762-B0D4-4566-ABBE-7A7D09EB7C2C}|jim.wiki.back.infrastructure\\jim.wiki.back.infrastructure.csproj|solutionrelative:jim.wiki.back.infrastructure\\repository\\repositorygeneric.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{B960A762-B0D4-4566-ABBE-7A7D09EB7C2C}|jim.wiki.back.infrastructure\\jim.wiki.back.infrastructure.csproj|c:\\proyectos\\propios\\jim.wiki.back2\\jim.wiki.back\\jim.wiki.back.infrastructure\\repository\\applicationcontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{B960A762-B0D4-4566-ABBE-7A7D09EB7C2C}|jim.wiki.back.infrastructure\\jim.wiki.back.infrastructure.csproj|solutionrelative:jim.wiki.back.infrastructure\\repository\\applicationcontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{ED0FD077-0FE2-45B3-BA32-F7F2BCD19FB5}|jim.wiki.back.model\\jim.wiki.back.model.csproj|c:\\proyectos\\propios\\jim.wiki.back2\\jim.wiki.back\\jim.wiki.back.model\\models\\users\\rol.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{ED0FD077-0FE2-45B3-BA32-F7F2BCD19FB5}|jim.wiki.back.model\\jim.wiki.back.model.csproj|solutionrelative:jim.wiki.back.model\\models\\users\\rol.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
       "AbsoluteMoniker": "D:0:0:{B960A762-B0D4-4566-ABBE-7A7D09EB7C2C}|jim.wiki.back.infrastructure\\jim.wiki.back.infrastructure.csproj|c:\\proyectos\\propios\\jim.wiki.back2\\jim.wiki.back\\jim.wiki.back.infrastructure\\repository\\configurations\\userroles.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{B960A762-B0D4-4566-ABBE-7A7D09EB7C2C}|jim.wiki.back.infrastructure\\jim.wiki.back.infrastructure.csproj|solutionrelative:jim.wiki.back.infrastructure\\repository\\configurations\\userroles.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
@@ -169,10 +213,6 @@
     {
       "AbsoluteMoniker": "D:0:0:{B960A762-B0D4-4566-ABBE-7A7D09EB7C2C}|jim.wiki.back.infrastructure\\jim.wiki.back.infrastructure.csproj|c:\\proyectos\\propios\\jim.wiki.back2\\jim.wiki.back\\jim.wiki.back.infrastructure\\repository\\configurations\\userentityconfigurator.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{B960A762-B0D4-4566-ABBE-7A7D09EB7C2C}|jim.wiki.back.infrastructure\\jim.wiki.back.infrastructure.csproj|solutionrelative:jim.wiki.back.infrastructure\\repository\\configurations\\userentityconfigurator.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{ED0FD077-0FE2-45B3-BA32-F7F2BCD19FB5}|jim.wiki.back.model\\jim.wiki.back.model.csproj|c:\\proyectos\\propios\\jim.wiki.back2\\jim.wiki.back\\jim.wiki.back.model\\models\\users\\userrole.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{ED0FD077-0FE2-45B3-BA32-F7F2BCD19FB5}|jim.wiki.back.model\\jim.wiki.back.model.csproj|solutionrelative:jim.wiki.back.model\\models\\users\\userrole.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{B960A762-B0D4-4566-ABBE-7A7D09EB7C2C}|jim.wiki.back.infrastructure\\jim.wiki.back.infrastructure.csproj|c:\\proyectos\\propios\\jim.wiki.back2\\jim.wiki.back\\jim.wiki.back.infrastructure\\repository\\migrations\\20240707162711_roles_relation.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
@@ -215,10 +255,6 @@
       "RelativeMoniker": "D:0:0:{B2D18D06-30A9-4540-A694-D24665F89B08}|jim.wiki.core\\jim.wiki.core.csproj|solutionrelative:jim.wiki.core\\enumerations\\databasetypeenum.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{B2D18D06-30A9-4540-A694-D24665F89B08}|jim.wiki.core\\jim.wiki.core.csproj|c:\\proyectos\\propios\\jim.wiki.back2\\jim.wiki.back\\jim.wiki.core\\repository\\interfaces\\irepositorybase.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{B2D18D06-30A9-4540-A694-D24665F89B08}|jim.wiki.core\\jim.wiki.core.csproj|solutionrelative:jim.wiki.core\\repository\\interfaces\\irepositorybase.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
       "AbsoluteMoniker": "D:0:0:{B2D18D06-30A9-4540-A694-D24665F89B08}|jim.wiki.core\\jim.wiki.core.csproj|c:\\proyectos\\propios\\jim.wiki.back2\\jim.wiki.back\\jim.wiki.core\\repository\\interfaces\\iunitofwork.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{B2D18D06-30A9-4540-A694-D24665F89B08}|jim.wiki.core\\jim.wiki.core.csproj|solutionrelative:jim.wiki.core\\repository\\interfaces\\iunitofwork.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
@@ -227,16 +263,8 @@
       "RelativeMoniker": "D:0:0:{B2D18D06-30A9-4540-A694-D24665F89B08}|jim.wiki.core\\jim.wiki.core.csproj|solutionrelative:jim.wiki.core\\extensions\\enumerableextensions.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{B2D18D06-30A9-4540-A694-D24665F89B08}|jim.wiki.core\\jim.wiki.core.csproj|c:\\proyectos\\propios\\jim.wiki.back2\\jim.wiki.back\\jim.wiki.core\\repository\\abstractions\\auditentity.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{B2D18D06-30A9-4540-A694-D24665F89B08}|jim.wiki.core\\jim.wiki.core.csproj|solutionrelative:jim.wiki.core\\repository\\abstractions\\auditentity.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
       "AbsoluteMoniker": "D:0:0:{B2D18D06-30A9-4540-A694-D24665F89B08}|jim.wiki.core\\jim.wiki.core.csproj|c:\\proyectos\\propios\\jim.wiki.back2\\jim.wiki.back\\jim.wiki.core\\repository\\abstractions\\entity.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{B2D18D06-30A9-4540-A694-D24665F89B08}|jim.wiki.core\\jim.wiki.core.csproj|solutionrelative:jim.wiki.core\\repository\\abstractions\\entity.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{B2D18D06-30A9-4540-A694-D24665F89B08}|jim.wiki.core\\jim.wiki.core.csproj|c:\\proyectos\\propios\\jim.wiki.back2\\jim.wiki.back\\jim.wiki.core\\repository\\abstractions\\logicalentity.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{B2D18D06-30A9-4540-A694-D24665F89B08}|jim.wiki.core\\jim.wiki.core.csproj|solutionrelative:jim.wiki.core\\repository\\abstractions\\logicalentity.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{ED0FD077-0FE2-45B3-BA32-F7F2BCD19FB5}|jim.wiki.back.model\\jim.wiki.back.model.csproj|c:\\proyectos\\propios\\jim.wiki.back2\\jim.wiki.back\\jim.wiki.back.model\\dtos\\users\\userinfodto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
@@ -258,110 +286,32 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 5,
+          "SelectedChildIndex": 10,
           "Children": [
             {
               "$type": "Document",
-              "DocumentIndex": 7,
-              "Title": "Program.cs",
-              "DocumentMoniker": "C:\\Proyectos\\propios\\jim.wiki.back2\\jim.wiki.back\\jim.wiki.back.api\\Program.cs",
-              "RelativeDocumentMoniker": "jim.wiki.back.api\\Program.cs",
-              "ToolTip": "C:\\Proyectos\\propios\\jim.wiki.back2\\jim.wiki.back\\jim.wiki.back.api\\Program.cs",
-              "RelativeToolTip": "jim.wiki.back.api\\Program.cs",
-              "ViewState": "AQIAAAoAAAAAAAAAAAAcwBAAAAA2AAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-07-05T21:21:59.168Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 9,
-              "Title": "Startup.cs",
-              "DocumentMoniker": "C:\\Proyectos\\propios\\jim.wiki.back2\\jim.wiki.back\\jim.wiki.back.infrastructure\\Startup.cs",
-              "RelativeDocumentMoniker": "jim.wiki.back.infrastructure\\Startup.cs",
-              "ToolTip": "C:\\Proyectos\\propios\\jim.wiki.back2\\jim.wiki.back\\jim.wiki.back.infrastructure\\Startup.cs",
-              "RelativeToolTip": "jim.wiki.back.infrastructure\\Startup.cs",
-              "ViewState": "AQIAAAYAAAAAAAAAAIAwwBgAAAAwAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-07-05T21:32:04.436Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 6,
-              "Title": "IUserData.cs",
-              "DocumentMoniker": "C:\\Proyectos\\propios\\jim.wiki.back2\\jim.wiki.back\\jim.wiki.core\\Authentication\\Models\\IUserData.cs",
-              "RelativeDocumentMoniker": "jim.wiki.core\\Authentication\\Models\\IUserData.cs",
-              "ToolTip": "C:\\Proyectos\\propios\\jim.wiki.back2\\jim.wiki.back\\jim.wiki.core\\Authentication\\Models\\IUserData.cs",
-              "RelativeToolTip": "jim.wiki.core\\Authentication\\Models\\IUserData.cs",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-07-09T17:58:18.903Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 11,
-              "Title": "IPasswordService.cs",
-              "DocumentMoniker": "C:\\Proyectos\\propios\\jim.wiki.back2\\jim.wiki.back\\jim.wiki.back.model\\Services\\IPasswordService.cs",
-              "RelativeDocumentMoniker": "jim.wiki.back.model\\Services\\IPasswordService.cs",
-              "ToolTip": "C:\\Proyectos\\propios\\jim.wiki.back2\\jim.wiki.back\\jim.wiki.back.model\\Services\\IPasswordService.cs",
-              "RelativeToolTip": "jim.wiki.back.model\\Services\\IPasswordService.cs",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAsAAAAtAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-07-10T21:14:41.306Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 3,
-              "Title": "LoginController.cs",
-              "DocumentMoniker": "C:\\Proyectos\\propios\\jim.wiki.back2\\jim.wiki.back\\jim.wiki.back.api\\Controllers\\LoginController.cs",
-              "RelativeDocumentMoniker": "jim.wiki.back.api\\Controllers\\LoginController.cs",
-              "ToolTip": "C:\\Proyectos\\propios\\jim.wiki.back2\\jim.wiki.back\\jim.wiki.back.api\\Controllers\\LoginController.cs",
-              "RelativeToolTip": "jim.wiki.back.api\\Controllers\\LoginController.cs",
-              "ViewState": "AQIAAAsAAAAAAAAAAAAQwBcAAABBAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-07-10T18:54:02.623Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 0,
-              "Title": "UserDataService.cs",
-              "DocumentMoniker": "C:\\Proyectos\\propios\\jim.wiki.back2\\jim.wiki.back\\jim.wiki.back.infrastructure\\Autentication\\Services\\UserDataService.cs",
-              "RelativeDocumentMoniker": "jim.wiki.back.infrastructure\\Autentication\\Services\\UserDataService.cs",
-              "ToolTip": "C:\\Proyectos\\propios\\jim.wiki.back2\\jim.wiki.back\\jim.wiki.back.infrastructure\\Autentication\\Services\\UserDataService.cs*",
-              "RelativeToolTip": "jim.wiki.back.infrastructure\\Autentication\\Services\\UserDataService.cs*",
-              "ViewState": "AQIAABAAAAAAAAAAAIA8wB8AAAAOAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-07-10T17:38:20.255Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 2,
-              "Title": "ServiceCollectionExtension.cs",
-              "DocumentMoniker": "C:\\Proyectos\\propios\\jim.wiki.back2\\jim.wiki.back\\jim.wiki.back.infrastructure\\Extensions\\ServiceCollectionExtension.cs",
-              "RelativeDocumentMoniker": "jim.wiki.back.infrastructure\\Extensions\\ServiceCollectionExtension.cs",
-              "ToolTip": "C:\\Proyectos\\propios\\jim.wiki.back2\\jim.wiki.back\\jim.wiki.back.infrastructure\\Extensions\\ServiceCollectionExtension.cs",
-              "RelativeToolTip": "jim.wiki.back.infrastructure\\Extensions\\ServiceCollectionExtension.cs",
-              "ViewState": "AQIAAFwAAAAAAAAAAAAcwIMAAAAQAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-07-05T21:13:37.136Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
               "DocumentIndex": 1,
-              "Title": "AuthenticationExtensions.cs",
-              "DocumentMoniker": "C:\\Proyectos\\propios\\jim.wiki.back2\\jim.wiki.back\\jim.wiki.core\\Authentication\\Extensions\\AuthenticationExtensions.cs",
-              "RelativeDocumentMoniker": "jim.wiki.core\\Authentication\\Extensions\\AuthenticationExtensions.cs",
-              "ToolTip": "C:\\Proyectos\\propios\\jim.wiki.back2\\jim.wiki.back\\jim.wiki.core\\Authentication\\Extensions\\AuthenticationExtensions.cs",
-              "RelativeToolTip": "jim.wiki.core\\Authentication\\Extensions\\AuthenticationExtensions.cs",
-              "ViewState": "AQIAAB4AAAAAAAAAAAAqwCwAAAAvAAAA",
+              "Title": "ResultExtensions.cs",
+              "DocumentMoniker": "C:\\Proyectos\\propios\\jim.wiki.back2\\jim.wiki.back\\jim.wiki.core\\Results\\ResultExtensions.cs",
+              "RelativeDocumentMoniker": "jim.wiki.core\\Results\\ResultExtensions.cs",
+              "ToolTip": "C:\\Proyectos\\propios\\jim.wiki.back2\\jim.wiki.back\\jim.wiki.core\\Results\\ResultExtensions.cs",
+              "RelativeToolTip": "jim.wiki.core\\Results\\ResultExtensions.cs",
+              "ViewState": "AQIAAFMAAAAAAAAAAAAuwGQAAAAgAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-07-09T18:05:36.497Z",
+              "WhenOpened": "2024-07-12T21:01:02.571Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "Error.cs",
+              "DocumentMoniker": "C:\\Proyectos\\propios\\jim.wiki.back2\\jim.wiki.back\\jim.wiki.core\\Errors\\Error.cs",
+              "RelativeDocumentMoniker": "jim.wiki.core\\Errors\\Error.cs",
+              "ToolTip": "C:\\Proyectos\\propios\\jim.wiki.back2\\jim.wiki.back\\jim.wiki.core\\Errors\\Error.cs",
+              "RelativeToolTip": "jim.wiki.core\\Errors\\Error.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAgAAAALAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-07-12T20:43:57.546Z",
               "EditorCaption": ""
             },
             {
@@ -370,306 +320,155 @@
             },
             {
               "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "Result.cs",
+              "DocumentMoniker": "C:\\Proyectos\\propios\\jim.wiki.back2\\jim.wiki.back\\jim.wiki.core\\Results\\Result.cs",
+              "RelativeDocumentMoniker": "jim.wiki.core\\Results\\Result.cs",
+              "ToolTip": "C:\\Proyectos\\propios\\jim.wiki.back2\\jim.wiki.back\\jim.wiki.core\\Results\\Result.cs",
+              "RelativeToolTip": "jim.wiki.core\\Results\\Result.cs",
+              "ViewState": "AQIAABkAAAAAAAAAAADgvyYAAAAoAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-07-11T17:45:34.228Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 6,
+              "Title": "User.cs",
+              "DocumentMoniker": "C:\\Proyectos\\propios\\jim.wiki.back2\\jim.wiki.back\\jim.wiki.back.model\\Models\\Users\\User.cs",
+              "RelativeDocumentMoniker": "jim.wiki.back.model\\Models\\Users\\User.cs",
+              "ToolTip": "C:\\Proyectos\\propios\\jim.wiki.back2\\jim.wiki.back\\jim.wiki.back.model\\Models\\Users\\User.cs",
+              "RelativeToolTip": "jim.wiki.back.model\\Models\\Users\\User.cs",
+              "ViewState": "AQIAACgAAAAAAAAAAAApwDkAAABRAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-07-05T20:53:20.825Z"
+            },
+            {
+              "$type": "Document",
               "DocumentIndex": 10,
+              "Title": "AddUserRol.cs",
+              "DocumentMoniker": "C:\\Proyectos\\propios\\jim.wiki.back2\\jim.wiki.back\\jim.wiki.back.application\\Features\\Users\\AddUserRol.cs",
+              "RelativeDocumentMoniker": "jim.wiki.back.application\\Features\\Users\\AddUserRol.cs",
+              "ToolTip": "C:\\Proyectos\\propios\\jim.wiki.back2\\jim.wiki.back\\jim.wiki.back.application\\Features\\Users\\AddUserRol.cs",
+              "RelativeToolTip": "jim.wiki.back.application\\Features\\Users\\AddUserRol.cs",
+              "ViewState": "AQIAABQAAAAAAAAAAAAgwCgAAAA4AAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-07-07T16:05:15.736Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 7,
               "Title": "CreateUser.cs",
               "DocumentMoniker": "C:\\Proyectos\\propios\\jim.wiki.back2\\jim.wiki.back\\jim.wiki.back.application\\Features\\Users\\CreateUser.cs",
               "RelativeDocumentMoniker": "jim.wiki.back.application\\Features\\Users\\CreateUser.cs",
               "ToolTip": "C:\\Proyectos\\propios\\jim.wiki.back2\\jim.wiki.back\\jim.wiki.back.application\\Features\\Users\\CreateUser.cs",
               "RelativeToolTip": "jim.wiki.back.application\\Features\\Users\\CreateUser.cs",
-              "ViewState": "AQIAACgAAAAAAAAAAAAkwDsAAAAKAAAA",
+              "ViewState": "AQIAACMAAAAAAAAAAAAowC0AAAA8AAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-07-06T15:55:11.657Z",
-              "EditorCaption": ""
+              "WhenOpened": "2024-07-06T15:55:11.657Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 4,
+              "DocumentIndex": 14,
+              "Title": "CreateRol.cs",
+              "DocumentMoniker": "C:\\Proyectos\\propios\\jim.wiki.back2\\jim.wiki.back\\jim.wiki.back.application\\Features\\Users\\CreateRol.cs",
+              "RelativeDocumentMoniker": "jim.wiki.back.application\\Features\\Users\\CreateRol.cs",
+              "ToolTip": "C:\\Proyectos\\propios\\jim.wiki.back2\\jim.wiki.back\\jim.wiki.back.application\\Features\\Users\\CreateRol.cs",
+              "RelativeToolTip": "jim.wiki.back.application\\Features\\Users\\CreateRol.cs",
+              "ViewState": "AQIAAA8AAAAAAAAAAAA9wB0AAAAvAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-07-07T15:30:18.587Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 13,
+              "Title": "Rol.cs",
+              "DocumentMoniker": "C:\\Proyectos\\propios\\jim.wiki.back2\\jim.wiki.back\\jim.wiki.back.model\\Models\\Users\\Rol.cs",
+              "RelativeDocumentMoniker": "jim.wiki.back.model\\Models\\Users\\Rol.cs",
+              "ToolTip": "C:\\Proyectos\\propios\\jim.wiki.back2\\jim.wiki.back\\jim.wiki.back.model\\Models\\Users\\Rol.cs",
+              "RelativeToolTip": "jim.wiki.back.model\\Models\\Users\\Rol.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAoAAAAhAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-07-07T15:05:17.63Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
               "Title": "Login.cs",
               "DocumentMoniker": "C:\\Proyectos\\propios\\jim.wiki.back2\\jim.wiki.back\\jim.wiki.back.application\\Features\\Autentication\\Login.cs",
               "RelativeDocumentMoniker": "jim.wiki.back.application\\Features\\Autentication\\Login.cs",
               "ToolTip": "C:\\Proyectos\\propios\\jim.wiki.back2\\jim.wiki.back\\jim.wiki.back.application\\Features\\Autentication\\Login.cs",
               "RelativeToolTip": "jim.wiki.back.application\\Features\\Autentication\\Login.cs",
-              "ViewState": "AQIAAB4AAAAAAAAAAAAmwDEAAACDAAAA",
+              "ViewState": "AQIAACAAAAAAAAAAAAAgwFIAAAAwAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2024-07-10T21:54:11.07Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 5,
-              "Title": "UserData.cs",
-              "DocumentMoniker": "C:\\Proyectos\\propios\\jim.wiki.back2\\jim.wiki.back\\jim.wiki.core\\Authentication\\Models\\UserData.cs",
-              "RelativeDocumentMoniker": "jim.wiki.core\\Authentication\\Models\\UserData.cs",
-              "ToolTip": "C:\\Proyectos\\propios\\jim.wiki.back2\\jim.wiki.back\\jim.wiki.core\\Authentication\\Models\\UserData.cs",
-              "RelativeToolTip": "jim.wiki.core\\Authentication\\Models\\UserData.cs",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAkAAAAAAAAA",
+              "DocumentIndex": 0,
+              "Title": "RefreshToken.cs",
+              "DocumentMoniker": "C:\\Proyectos\\propios\\jim.wiki.back2\\jim.wiki.back\\jim.wiki.back.application\\Features\\Autentication\\RefreshToken.cs",
+              "RelativeDocumentMoniker": "jim.wiki.back.application\\Features\\Autentication\\RefreshToken.cs",
+              "ToolTip": "C:\\Proyectos\\propios\\jim.wiki.back2\\jim.wiki.back\\jim.wiki.back.application\\Features\\Autentication\\RefreshToken.cs",
+              "RelativeToolTip": "jim.wiki.back.application\\Features\\Autentication\\RefreshToken.cs",
+              "ViewState": "AQIAABQAAAAAAAAAAAAwwCsAAABBAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-07-10T22:00:01.234Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 8,
-              "Title": "ApplicationContextModelSnapshot.cs",
-              "DocumentMoniker": "C:\\Proyectos\\propios\\jim.wiki.back2\\jim.wiki.back\\jim.wiki.back.infrastructure\\Repository\\Migrations\\ApplicationContextModelSnapshot.cs",
-              "RelativeDocumentMoniker": "jim.wiki.back.infrastructure\\Repository\\Migrations\\ApplicationContextModelSnapshot.cs",
-              "ToolTip": "C:\\Proyectos\\propios\\jim.wiki.back2\\jim.wiki.back\\jim.wiki.back.infrastructure\\Repository\\Migrations\\ApplicationContextModelSnapshot.cs",
-              "RelativeToolTip": "jim.wiki.back.infrastructure\\Repository\\Migrations\\ApplicationContextModelSnapshot.cs",
-              "ViewState": "AQIAAD8AAAAAAAAAAAAgwEgAAAA+AAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-07-06T15:46:06.697Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 12,
-              "Title": "PasswordService.cs",
-              "DocumentMoniker": "C:\\Proyectos\\propios\\jim.wiki.back2\\jim.wiki.back\\jim.wiki.back.infrastructure\\Services\\PasswordService.cs",
-              "RelativeDocumentMoniker": "jim.wiki.back.infrastructure\\Services\\PasswordService.cs",
-              "ToolTip": "C:\\Proyectos\\propios\\jim.wiki.back2\\jim.wiki.back\\jim.wiki.back.infrastructure\\Services\\PasswordService.cs",
-              "RelativeToolTip": "jim.wiki.back.infrastructure\\Services\\PasswordService.cs",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAABMAAAArAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-07-10T21:16:38.95Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 20,
-              "Title": "DeleteUser.cs",
-              "DocumentMoniker": "C:\\Proyectos\\propios\\jim.wiki.back2\\jim.wiki.back\\jim.wiki.back.application\\Features\\Users\\DeleteUser.cs",
-              "RelativeDocumentMoniker": "jim.wiki.back.application\\Features\\Users\\DeleteUser.cs",
-              "ToolTip": "C:\\Proyectos\\propios\\jim.wiki.back2\\jim.wiki.back\\jim.wiki.back.application\\Features\\Users\\DeleteUser.cs",
-              "RelativeToolTip": "jim.wiki.back.application\\Features\\Users\\DeleteUser.cs",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAcAAABNAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-07-06T16:38:49.41Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 21,
-              "Title": "AddUserRol.cs",
-              "DocumentMoniker": "C:\\Proyectos\\propios\\jim.wiki.back2\\jim.wiki.back\\jim.wiki.back.application\\Features\\Users\\AddUserRol.cs",
-              "RelativeDocumentMoniker": "jim.wiki.back.application\\Features\\Users\\AddUserRol.cs",
-              "ToolTip": "C:\\Proyectos\\propios\\jim.wiki.back2\\jim.wiki.back\\jim.wiki.back.application\\Features\\Users\\AddUserRol.cs",
-              "RelativeToolTip": "jim.wiki.back.application\\Features\\Users\\AddUserRol.cs",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAACIAAAAIAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-07-07T16:05:15.736Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 13,
-              "Title": "User.cs",
-              "DocumentMoniker": "C:\\Proyectos\\propios\\jim.wiki.back2\\jim.wiki.back\\jim.wiki.back.model\\Models\\Users\\User.cs",
-              "RelativeDocumentMoniker": "jim.wiki.back.model\\Models\\Users\\User.cs",
-              "ToolTip": "C:\\Proyectos\\propios\\jim.wiki.back2\\jim.wiki.back\\jim.wiki.back.model\\Models\\Users\\User.cs",
-              "RelativeToolTip": "jim.wiki.back.model\\Models\\Users\\User.cs",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAABEAAAAaAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-07-05T20:53:20.825Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 17,
-              "Title": "CreateRol.cs",
-              "DocumentMoniker": "C:\\Proyectos\\propios\\jim.wiki.back2\\jim.wiki.back\\jim.wiki.back.application\\Features\\Users\\CreateRol.cs",
-              "RelativeDocumentMoniker": "jim.wiki.back.application\\Features\\Users\\CreateRol.cs",
-              "ToolTip": "C:\\Proyectos\\propios\\jim.wiki.back2\\jim.wiki.back\\jim.wiki.back.application\\Features\\Users\\CreateRol.cs",
-              "RelativeToolTip": "jim.wiki.back.application\\Features\\Users\\CreateRol.cs",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAwAAAA7AAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-07-07T15:30:18.587Z",
+              "WhenOpened": "2024-07-11T17:17:13.543Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
               "DocumentIndex": 15,
-              "Title": "appsettings.json",
-              "DocumentMoniker": "C:\\Proyectos\\propios\\jim.wiki.back2\\jim.wiki.back\\jim.wiki.back.api\\appsettings.json",
-              "RelativeDocumentMoniker": "jim.wiki.back.api\\appsettings.json",
-              "ToolTip": "C:\\Proyectos\\propios\\jim.wiki.back2\\jim.wiki.back\\jim.wiki.back.api\\appsettings.json",
-              "RelativeToolTip": "jim.wiki.back.api\\appsettings.json",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001642|",
-              "WhenOpened": "2024-07-10T17:09:28.982Z",
-              "EditorCaption": ""
+              "Title": "UserData.cs",
+              "DocumentMoniker": "C:\\Proyectos\\propios\\jim.wiki.back2\\jim.wiki.back\\jim.wiki.core\\Authentication\\Models\\UserData.cs",
+              "RelativeDocumentMoniker": "jim.wiki.core\\Authentication\\Models\\UserData.cs",
+              "ToolTip": "C:\\Proyectos\\propios\\jim.wiki.back2\\jim.wiki.back\\jim.wiki.core\\Authentication\\Models\\UserData.cs",
+              "RelativeToolTip": "jim.wiki.core\\Authentication\\Models\\UserData.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAkAAAAkAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-07-10T22:00:01.234Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 14,
-              "Title": "appsettings.Development.json",
-              "DocumentMoniker": "C:\\Proyectos\\propios\\jim.wiki.back2\\jim.wiki.back\\jim.wiki.back.api\\appsettings.Development.json",
-              "RelativeDocumentMoniker": "jim.wiki.back.api\\appsettings.Development.json",
-              "ToolTip": "C:\\Proyectos\\propios\\jim.wiki.back2\\jim.wiki.back\\jim.wiki.back.api\\appsettings.Development.json",
-              "RelativeToolTip": "jim.wiki.back.api\\appsettings.Development.json",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAABEAAAATAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001642|",
-              "WhenOpened": "2024-07-05T21:08:55.743Z",
+              "DocumentIndex": 5,
+              "Title": "LoginController.cs",
+              "DocumentMoniker": "C:\\Proyectos\\propios\\jim.wiki.back2\\jim.wiki.back\\jim.wiki.back.api\\Controllers\\LoginController.cs",
+              "RelativeDocumentMoniker": "jim.wiki.back.api\\Controllers\\LoginController.cs",
+              "ToolTip": "C:\\Proyectos\\propios\\jim.wiki.back2\\jim.wiki.back\\jim.wiki.back.api\\Controllers\\LoginController.cs",
+              "RelativeToolTip": "jim.wiki.back.api\\Controllers\\LoginController.cs",
+              "ViewState": "AQIAAAYAAAAAAAAAAAAAABMAAAAYAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-07-10T18:54:02.623Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
               "DocumentIndex": 16,
-              "Title": "AuditablePipelineBehavior.cs",
-              "DocumentMoniker": "C:\\Proyectos\\propios\\jim.wiki.back2\\jim.wiki.back\\jim.wiki.core\\Pipelines\\Behaviors\\AuditablePipelineBehavior.cs",
-              "RelativeDocumentMoniker": "jim.wiki.core\\Pipelines\\Behaviors\\AuditablePipelineBehavior.cs",
-              "ToolTip": "C:\\Proyectos\\propios\\jim.wiki.back2\\jim.wiki.back\\jim.wiki.core\\Pipelines\\Behaviors\\AuditablePipelineBehavior.cs",
-              "RelativeToolTip": "jim.wiki.core\\Pipelines\\Behaviors\\AuditablePipelineBehavior.cs",
-              "ViewState": "AQIAABsAAAAAAAAAAAAowCwAAAA8AAAA",
+              "Title": "Aggregate.cs",
+              "DocumentMoniker": "C:\\Proyectos\\propios\\jim.wiki.back2\\jim.wiki.back\\jim.wiki.core\\Repository\\Interfaces\\Aggregate.cs",
+              "RelativeDocumentMoniker": "jim.wiki.core\\Repository\\Interfaces\\Aggregate.cs",
+              "ToolTip": "C:\\Proyectos\\propios\\jim.wiki.back2\\jim.wiki.back\\jim.wiki.core\\Repository\\Interfaces\\Aggregate.cs",
+              "RelativeToolTip": "jim.wiki.core\\Repository\\Interfaces\\Aggregate.cs",
+              "ViewState": "AQIAAAYAAAAAAAAAAAAAAA8AAAAFAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-07-06T22:16:00.674Z",
-              "EditorCaption": ""
+              "WhenOpened": "2024-07-11T16:21:26.837Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 19,
-              "Title": "AuditoriaExtensions.cs",
-              "DocumentMoniker": "C:\\Proyectos\\propios\\jim.wiki.back2\\jim.wiki.back\\jim.wiki.core\\Auditory\\Repository\\Extensions\\AuditoriaExtensions.cs",
-              "RelativeDocumentMoniker": "jim.wiki.core\\Auditory\\Repository\\Extensions\\AuditoriaExtensions.cs",
-              "ToolTip": "C:\\Proyectos\\propios\\jim.wiki.back2\\jim.wiki.back\\jim.wiki.core\\Auditory\\Repository\\Extensions\\AuditoriaExtensions.cs",
-              "RelativeToolTip": "jim.wiki.core\\Auditory\\Repository\\Extensions\\AuditoriaExtensions.cs",
-              "ViewState": "AQIAADoAAAAAAAAAAAAewEcAAABmAAAA",
+              "DocumentIndex": 9,
+              "Title": "RepositoryGeneric.cs",
+              "DocumentMoniker": "C:\\Proyectos\\propios\\jim.wiki.back2\\jim.wiki.back\\jim.wiki.back.infrastructure\\Repository\\RepositoryGeneric.cs",
+              "RelativeDocumentMoniker": "jim.wiki.back.infrastructure\\Repository\\RepositoryGeneric.cs",
+              "ToolTip": "C:\\Proyectos\\propios\\jim.wiki.back2\\jim.wiki.back\\jim.wiki.back.infrastructure\\Repository\\RepositoryGeneric.cs",
+              "RelativeToolTip": "jim.wiki.back.infrastructure\\Repository\\RepositoryGeneric.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAYAAABgAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-07-10T17:14:50.539Z",
-              "EditorCaption": ""
+              "WhenOpened": "2024-07-05T22:40:01.679Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 18,
-              "Title": "GetUsersAll.cs",
-              "DocumentMoniker": "C:\\Proyectos\\propios\\jim.wiki.back2\\jim.wiki.back\\jim.wiki.back.application\\Features\\Users\\GetUsersAll.cs",
-              "RelativeDocumentMoniker": "jim.wiki.back.application\\Features\\Users\\GetUsersAll.cs",
-              "ToolTip": "C:\\Proyectos\\propios\\jim.wiki.back2\\jim.wiki.back\\jim.wiki.back.application\\Features\\Users\\GetUsersAll.cs",
-              "RelativeToolTip": "jim.wiki.back.application\\Features\\Users\\GetUsersAll.cs",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAAB8AAAAAAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-07-07T15:46:19.574Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 22,
-              "Title": "IAuditableRequest.cs",
-              "DocumentMoniker": "C:\\Proyectos\\propios\\jim.wiki.back2\\jim.wiki.back\\jim.wiki.core\\Pipelines\\Abstrantions\\IAuditableRequest.cs",
-              "RelativeDocumentMoniker": "jim.wiki.core\\Pipelines\\Abstrantions\\IAuditableRequest.cs",
-              "ToolTip": "C:\\Proyectos\\propios\\jim.wiki.back2\\jim.wiki.back\\jim.wiki.core\\Pipelines\\Abstrantions\\IAuditableRequest.cs",
-              "RelativeToolTip": "jim.wiki.core\\Pipelines\\Abstrantions\\IAuditableRequest.cs",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAgAAAAmAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-07-06T22:18:17.772Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 23,
-              "Title": "JWTConfiguration.cs",
-              "DocumentMoniker": "C:\\Proyectos\\propios\\jim.wiki.back2\\jim.wiki.back\\jim.wiki.core\\Authentication\\Models\\JWTConfiguration.cs",
-              "RelativeDocumentMoniker": "jim.wiki.core\\Authentication\\Models\\JWTConfiguration.cs",
-              "ToolTip": "C:\\Proyectos\\propios\\jim.wiki.back2\\jim.wiki.back\\jim.wiki.core\\Authentication\\Models\\JWTConfiguration.cs",
-              "RelativeToolTip": "jim.wiki.core\\Authentication\\Models\\JWTConfiguration.cs",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAqwAoAAAApAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-07-09T18:07:17.887Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 28,
-              "Title": "AuditContextPostgresModelSnapshot.cs",
-              "DocumentMoniker": "C:\\Proyectos\\propios\\jim.wiki.back2\\jim.wiki.back\\jim.wiki.core\\Auditory\\Repository\\Migrations\\Postgres\\AuditContextPostgresModelSnapshot.cs",
-              "RelativeDocumentMoniker": "jim.wiki.core\\Auditory\\Repository\\Migrations\\Postgres\\AuditContextPostgresModelSnapshot.cs",
-              "ToolTip": "C:\\Proyectos\\propios\\jim.wiki.back2\\jim.wiki.back\\jim.wiki.core\\Auditory\\Repository\\Migrations\\Postgres\\AuditContextPostgresModelSnapshot.cs",
-              "RelativeToolTip": "jim.wiki.core\\Auditory\\Repository\\Migrations\\Postgres\\AuditContextPostgresModelSnapshot.cs",
-              "ViewState": "AQIAAAYAAAAAAAAAAIBJwCwAAAAUAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-07-09T17:44:22.599Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 30,
-              "Title": "AuditContextPostgres.cs",
-              "DocumentMoniker": "C:\\Proyectos\\propios\\jim.wiki.back2\\jim.wiki.back\\jim.wiki.core\\Auditory\\Repository\\Context\\Postgress\\AuditContextPostgres.cs",
-              "RelativeDocumentMoniker": "jim.wiki.core\\Auditory\\Repository\\Context\\Postgress\\AuditContextPostgres.cs",
-              "ToolTip": "C:\\Proyectos\\propios\\jim.wiki.back2\\jim.wiki.back\\jim.wiki.core\\Auditory\\Repository\\Context\\Postgress\\AuditContextPostgres.cs",
-              "RelativeToolTip": "jim.wiki.core\\Auditory\\Repository\\Context\\Postgress\\AuditContextPostgres.cs",
-              "ViewState": "AQIAABEAAAAAAAAAAAAwwB4AAABHAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-07-07T07:35:39.339Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 31,
-              "Title": "AuditRepository.cs",
-              "DocumentMoniker": "C:\\Proyectos\\propios\\jim.wiki.back2\\jim.wiki.back\\jim.wiki.core\\Auditory\\Repository\\AuditRepository.cs",
-              "RelativeDocumentMoniker": "jim.wiki.core\\Auditory\\Repository\\AuditRepository.cs",
-              "ToolTip": "C:\\Proyectos\\propios\\jim.wiki.back2\\jim.wiki.back\\jim.wiki.core\\Auditory\\Repository\\AuditRepository.cs",
-              "RelativeToolTip": "jim.wiki.core\\Auditory\\Repository\\AuditRepository.cs",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAqwBoAAAAMAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-07-07T08:18:06.845Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 26,
-              "Title": "AuditContextSqlServer.cs",
-              "DocumentMoniker": "C:\\Proyectos\\propios\\jim.wiki.back2\\jim.wiki.back\\jim.wiki.core\\Auditory\\Repository\\Context\\SqlServer\\AuditContextSqlServer.cs",
-              "RelativeDocumentMoniker": "jim.wiki.core\\Auditory\\Repository\\Context\\SqlServer\\AuditContextSqlServer.cs",
-              "ToolTip": "C:\\Proyectos\\propios\\jim.wiki.back2\\jim.wiki.back\\jim.wiki.core\\Auditory\\Repository\\Context\\SqlServer\\AuditContextSqlServer.cs",
-              "RelativeToolTip": "jim.wiki.core\\Auditory\\Repository\\Context\\SqlServer\\AuditContextSqlServer.cs",
-              "ViewState": "AQIAAAgAAAAAAAAAAAAxwBgAAAAAAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-07-07T07:50:52.749Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 25,
-              "Title": "Constantes.cs",
-              "DocumentMoniker": "C:\\Proyectos\\propios\\jim.wiki.back2\\jim.wiki.back\\jim.wiki.core\\Auditory\\Repository\\Common\\Constantes.cs",
-              "RelativeDocumentMoniker": "jim.wiki.core\\Auditory\\Repository\\Common\\Constantes.cs",
-              "ToolTip": "C:\\Proyectos\\propios\\jim.wiki.back2\\jim.wiki.back\\jim.wiki.core\\Auditory\\Repository\\Common\\Constantes.cs",
-              "RelativeToolTip": "jim.wiki.core\\Auditory\\Repository\\Common\\Constantes.cs",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAoAAAAvAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-07-09T17:36:20.766Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 24,
-              "Title": "Audit.cs",
-              "DocumentMoniker": "C:\\Proyectos\\propios\\jim.wiki.back2\\jim.wiki.back\\jim.wiki.core\\Auditory\\Models\\Audit.cs",
-              "RelativeDocumentMoniker": "jim.wiki.core\\Auditory\\Models\\Audit.cs",
-              "ToolTip": "C:\\Proyectos\\propios\\jim.wiki.back2\\jim.wiki.back\\jim.wiki.core\\Auditory\\Models\\Audit.cs",
-              "RelativeToolTip": "jim.wiki.core\\Auditory\\Models\\Audit.cs",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAgAAAAxAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-07-06T22:13:37.099Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 27,
-              "Title": "AuditContextSqlSeverModelSnapshot.cs",
-              "DocumentMoniker": "C:\\Proyectos\\propios\\jim.wiki.back2\\jim.wiki.back\\jim.wiki.core\\Auditory\\Repository\\Migrations\\SqlServer\\AuditContextSqlSeverModelSnapshot.cs",
-              "RelativeDocumentMoniker": "jim.wiki.core\\Auditory\\Repository\\Migrations\\SqlServer\\AuditContextSqlSeverModelSnapshot.cs",
-              "ToolTip": "C:\\Proyectos\\propios\\jim.wiki.back2\\jim.wiki.back\\jim.wiki.core\\Auditory\\Repository\\Migrations\\SqlServer\\AuditContextSqlSeverModelSnapshot.cs",
-              "RelativeToolTip": "jim.wiki.core\\Auditory\\Repository\\Migrations\\SqlServer\\AuditContextSqlSeverModelSnapshot.cs",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-07-09T17:46:52.957Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 35,
+              "DocumentIndex": 8,
               "Title": "ApplicationContext.cs",
               "DocumentMoniker": "C:\\Proyectos\\propios\\jim.wiki.back2\\jim.wiki.back\\jim.wiki.back.infrastructure\\Repository\\ApplicationContext.cs",
               "RelativeDocumentMoniker": "jim.wiki.back.infrastructure\\Repository\\ApplicationContext.cs",
@@ -677,25 +476,371 @@
               "RelativeToolTip": "jim.wiki.back.infrastructure\\Repository\\ApplicationContext.cs",
               "ViewState": "AQIAAAAAAAAAAAAAAAAAABIAAAAIAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-07-05T21:16:45.952Z",
-              "EditorCaption": ""
+              "WhenOpened": "2024-07-05T21:16:45.952Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 36,
-              "Title": "Rol.cs",
-              "DocumentMoniker": "C:\\Proyectos\\propios\\jim.wiki.back2\\jim.wiki.back\\jim.wiki.back.model\\Models\\Users\\Rol.cs",
-              "RelativeDocumentMoniker": "jim.wiki.back.model\\Models\\Users\\Rol.cs",
-              "ToolTip": "C:\\Proyectos\\propios\\jim.wiki.back2\\jim.wiki.back\\jim.wiki.back.model\\Models\\Users\\Rol.cs",
-              "RelativeToolTip": "jim.wiki.back.model\\Models\\Users\\Rol.cs",
-              "ViewState": "AQIAAAUAAAAAAAAAAAAEwBAAAAAyAAAA",
+              "DocumentIndex": 11,
+              "Title": "Email.cs",
+              "DocumentMoniker": "C:\\Proyectos\\propios\\jim.wiki.back2\\jim.wiki.back\\jim.wiki.back.model\\Models\\ObjectsValue\\Email.cs",
+              "RelativeDocumentMoniker": "jim.wiki.back.model\\Models\\ObjectsValue\\Email.cs",
+              "ToolTip": "C:\\Proyectos\\propios\\jim.wiki.back2\\jim.wiki.back\\jim.wiki.back.model\\Models\\ObjectsValue\\Email.cs",
+              "RelativeToolTip": "jim.wiki.back.model\\Models\\ObjectsValue\\Email.cs",
+              "ViewState": "AQIAAAMAAAAAAAAAAAAAABAAAAAWAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-07-07T15:05:17.63Z",
-              "EditorCaption": ""
+              "WhenOpened": "2024-07-11T16:36:17.03Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 17,
+              "Title": "IRepositoryBase.cs",
+              "DocumentMoniker": "C:\\Proyectos\\propios\\jim.wiki.back2\\jim.wiki.back\\jim.wiki.core\\Repository\\Interfaces\\IRepositoryBase.cs",
+              "RelativeDocumentMoniker": "jim.wiki.core\\Repository\\Interfaces\\IRepositoryBase.cs",
+              "ToolTip": "C:\\Proyectos\\propios\\jim.wiki.back2\\jim.wiki.back\\jim.wiki.core\\Repository\\Interfaces\\IRepositoryBase.cs",
+              "RelativeToolTip": "jim.wiki.core\\Repository\\Interfaces\\IRepositoryBase.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAQAAABHAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-07-06T22:19:41.109Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 18,
+              "Title": "ILogicalEntity.cs",
+              "DocumentMoniker": "C:\\Proyectos\\propios\\jim.wiki.back2\\jim.wiki.back\\jim.wiki.core\\Repository\\Abstractions\\ILogicalEntity.cs",
+              "RelativeDocumentMoniker": "jim.wiki.core\\Repository\\Abstractions\\ILogicalEntity.cs",
+              "ToolTip": "C:\\Proyectos\\propios\\jim.wiki.back2\\jim.wiki.back\\jim.wiki.core\\Repository\\Abstractions\\ILogicalEntity.cs",
+              "RelativeToolTip": "jim.wiki.core\\Repository\\Abstractions\\ILogicalEntity.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAgAAAAsAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-07-06T21:35:48.016Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 12,
+              "Title": "UserRole.cs",
+              "DocumentMoniker": "C:\\Proyectos\\propios\\jim.wiki.back2\\jim.wiki.back\\jim.wiki.back.model\\Models\\Users\\UserRole.cs",
+              "RelativeDocumentMoniker": "jim.wiki.back.model\\Models\\Users\\UserRole.cs",
+              "ToolTip": "C:\\Proyectos\\propios\\jim.wiki.back2\\jim.wiki.back\\jim.wiki.back.model\\Models\\Users\\UserRole.cs",
+              "RelativeToolTip": "jim.wiki.back.model\\Models\\Users\\UserRole.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAoAAAARAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-07-07T15:06:34.422Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 19,
+              "Title": "IAuditEntity.cs",
+              "DocumentMoniker": "C:\\Proyectos\\propios\\jim.wiki.back2\\jim.wiki.back\\jim.wiki.core\\Repository\\Abstractions\\IAuditEntity.cs",
+              "RelativeDocumentMoniker": "jim.wiki.core\\Repository\\Abstractions\\IAuditEntity.cs",
+              "ToolTip": "C:\\Proyectos\\propios\\jim.wiki.back2\\jim.wiki.back\\jim.wiki.core\\Repository\\Abstractions\\IAuditEntity.cs",
+              "RelativeToolTip": "jim.wiki.core\\Repository\\Abstractions\\IAuditEntity.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAoAAAArAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-07-06T21:35:30.186Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 20,
+              "Title": "UserToken.cs",
+              "DocumentMoniker": "C:\\Proyectos\\propios\\jim.wiki.back2\\jim.wiki.back\\jim.wiki.back.model\\Models\\Users\\UserToken.cs",
+              "RelativeDocumentMoniker": "jim.wiki.back.model\\Models\\Users\\UserToken.cs",
+              "ToolTip": "C:\\Proyectos\\propios\\jim.wiki.back2\\jim.wiki.back\\jim.wiki.back.model\\Models\\Users\\UserToken.cs",
+              "RelativeToolTip": "jim.wiki.back.model\\Models\\Users\\UserToken.cs",
+              "ViewState": "AQIAAAkAAAAAAAAAAAAAAAsAAAAWAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-07-11T16:16:00.759Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 22,
+              "Title": "IUserData.cs",
+              "DocumentMoniker": "C:\\Proyectos\\propios\\jim.wiki.back2\\jim.wiki.back\\jim.wiki.core\\Authentication\\Models\\IUserData.cs",
+              "RelativeDocumentMoniker": "jim.wiki.core\\Authentication\\Models\\IUserData.cs",
+              "ToolTip": "C:\\Proyectos\\propios\\jim.wiki.back2\\jim.wiki.back\\jim.wiki.core\\Authentication\\Models\\IUserData.cs",
+              "RelativeToolTip": "jim.wiki.core\\Authentication\\Models\\IUserData.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAgAAAAdAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-07-09T17:58:18.903Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 23,
+              "Title": "UserDataService.cs",
+              "DocumentMoniker": "C:\\Proyectos\\propios\\jim.wiki.back2\\jim.wiki.back\\jim.wiki.back.infrastructure\\Autentication\\Services\\UserDataService.cs",
+              "RelativeDocumentMoniker": "jim.wiki.back.infrastructure\\Autentication\\Services\\UserDataService.cs",
+              "ToolTip": "C:\\Proyectos\\propios\\jim.wiki.back2\\jim.wiki.back\\jim.wiki.back.infrastructure\\Autentication\\Services\\UserDataService.cs",
+              "RelativeToolTip": "jim.wiki.back.infrastructure\\Autentication\\Services\\UserDataService.cs",
+              "ViewState": "AQIAAAYAAAAAAAAAAAAAABUAAAAYAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-07-10T17:38:20.255Z"
             },
             {
               "$type": "Document",
               "DocumentIndex": 29,
+              "Title": "IPasswordService.cs",
+              "DocumentMoniker": "C:\\Proyectos\\propios\\jim.wiki.back2\\jim.wiki.back\\jim.wiki.back.model\\Services\\IPasswordService.cs",
+              "RelativeDocumentMoniker": "jim.wiki.back.model\\Services\\IPasswordService.cs",
+              "ToolTip": "C:\\Proyectos\\propios\\jim.wiki.back2\\jim.wiki.back\\jim.wiki.back.model\\Services\\IPasswordService.cs",
+              "RelativeToolTip": "jim.wiki.back.model\\Services\\IPasswordService.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAsAAAAtAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-07-10T21:14:41.306Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 28,
+              "Title": "Startup.cs",
+              "DocumentMoniker": "C:\\Proyectos\\propios\\jim.wiki.back2\\jim.wiki.back\\jim.wiki.back.infrastructure\\Startup.cs",
+              "RelativeDocumentMoniker": "jim.wiki.back.infrastructure\\Startup.cs",
+              "ToolTip": "C:\\Proyectos\\propios\\jim.wiki.back2\\jim.wiki.back\\jim.wiki.back.infrastructure\\Startup.cs",
+              "RelativeToolTip": "jim.wiki.back.infrastructure\\Startup.cs",
+              "ViewState": "AQIAAAYAAAAAAAAAAIAwwBgAAAAwAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-07-05T21:32:04.436Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 25,
+              "Title": "Program.cs",
+              "DocumentMoniker": "C:\\Proyectos\\propios\\jim.wiki.back2\\jim.wiki.back\\jim.wiki.back.api\\Program.cs",
+              "RelativeDocumentMoniker": "jim.wiki.back.api\\Program.cs",
+              "ToolTip": "C:\\Proyectos\\propios\\jim.wiki.back2\\jim.wiki.back\\jim.wiki.back.api\\Program.cs",
+              "RelativeToolTip": "jim.wiki.back.api\\Program.cs",
+              "ViewState": "AQIAAC8AAAAAAAAAAAAuwEMAAAAjAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-07-05T21:21:59.168Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 26,
+              "Title": "ServiceCollectionExtension.cs",
+              "DocumentMoniker": "C:\\Proyectos\\propios\\jim.wiki.back2\\jim.wiki.back\\jim.wiki.back.infrastructure\\Extensions\\ServiceCollectionExtension.cs",
+              "RelativeDocumentMoniker": "jim.wiki.back.infrastructure\\Extensions\\ServiceCollectionExtension.cs",
+              "ToolTip": "C:\\Proyectos\\propios\\jim.wiki.back2\\jim.wiki.back\\jim.wiki.back.infrastructure\\Extensions\\ServiceCollectionExtension.cs",
+              "RelativeToolTip": "jim.wiki.back.infrastructure\\Extensions\\ServiceCollectionExtension.cs",
+              "ViewState": "AQIAAFwAAAAAAAAAAAAcwIMAAAAQAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-07-05T21:13:37.136Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 21,
+              "Title": "PasswordService.cs",
+              "DocumentMoniker": "C:\\Proyectos\\propios\\jim.wiki.back2\\jim.wiki.back\\jim.wiki.back.infrastructure\\Services\\PasswordService.cs",
+              "RelativeDocumentMoniker": "jim.wiki.back.infrastructure\\Services\\PasswordService.cs",
+              "ToolTip": "C:\\Proyectos\\propios\\jim.wiki.back2\\jim.wiki.back\\jim.wiki.back.infrastructure\\Services\\PasswordService.cs",
+              "RelativeToolTip": "jim.wiki.back.infrastructure\\Services\\PasswordService.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAABMAAAA0AAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-07-10T21:16:38.95Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 24,
+              "Title": "AuthenticationExtensions.cs",
+              "DocumentMoniker": "C:\\Proyectos\\propios\\jim.wiki.back2\\jim.wiki.back\\jim.wiki.core\\Authentication\\Extensions\\AuthenticationExtensions.cs",
+              "RelativeDocumentMoniker": "jim.wiki.core\\Authentication\\Extensions\\AuthenticationExtensions.cs",
+              "ToolTip": "C:\\Proyectos\\propios\\jim.wiki.back2\\jim.wiki.back\\jim.wiki.core\\Authentication\\Extensions\\AuthenticationExtensions.cs",
+              "RelativeToolTip": "jim.wiki.core\\Authentication\\Extensions\\AuthenticationExtensions.cs",
+              "ViewState": "AQIAABEAAAAAAAAAAAAywDgAAAAqAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-07-09T18:05:36.497Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 27,
+              "Title": "ApplicationContextModelSnapshot.cs",
+              "DocumentMoniker": "C:\\Proyectos\\propios\\jim.wiki.back2\\jim.wiki.back\\jim.wiki.back.infrastructure\\Repository\\Migrations\\ApplicationContextModelSnapshot.cs",
+              "RelativeDocumentMoniker": "jim.wiki.back.infrastructure\\Repository\\Migrations\\ApplicationContextModelSnapshot.cs",
+              "ToolTip": "C:\\Proyectos\\propios\\jim.wiki.back2\\jim.wiki.back\\jim.wiki.back.infrastructure\\Repository\\Migrations\\ApplicationContextModelSnapshot.cs",
+              "RelativeToolTip": "jim.wiki.back.infrastructure\\Repository\\Migrations\\ApplicationContextModelSnapshot.cs",
+              "ViewState": "AQIAAD8AAAAAAAAAAAAgwEgAAAA+AAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-07-06T15:46:06.697Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 35,
+              "Title": "DeleteUser.cs",
+              "DocumentMoniker": "C:\\Proyectos\\propios\\jim.wiki.back2\\jim.wiki.back\\jim.wiki.back.application\\Features\\Users\\DeleteUser.cs",
+              "RelativeDocumentMoniker": "jim.wiki.back.application\\Features\\Users\\DeleteUser.cs",
+              "ToolTip": "C:\\Proyectos\\propios\\jim.wiki.back2\\jim.wiki.back\\jim.wiki.back.application\\Features\\Users\\DeleteUser.cs",
+              "RelativeToolTip": "jim.wiki.back.application\\Features\\Users\\DeleteUser.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAcAAABNAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-07-06T16:38:49.41Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 31,
+              "Title": "appsettings.json",
+              "DocumentMoniker": "C:\\Proyectos\\propios\\jim.wiki.back2\\jim.wiki.back\\jim.wiki.back.api\\appsettings.json",
+              "RelativeDocumentMoniker": "jim.wiki.back.api\\appsettings.json",
+              "ToolTip": "C:\\Proyectos\\propios\\jim.wiki.back2\\jim.wiki.back\\jim.wiki.back.api\\appsettings.json",
+              "RelativeToolTip": "jim.wiki.back.api\\appsettings.json",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001642|",
+              "WhenOpened": "2024-07-10T17:09:28.982Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 30,
+              "Title": "appsettings.Development.json",
+              "DocumentMoniker": "C:\\Proyectos\\propios\\jim.wiki.back2\\jim.wiki.back\\jim.wiki.back.api\\appsettings.Development.json",
+              "RelativeDocumentMoniker": "jim.wiki.back.api\\appsettings.Development.json",
+              "ToolTip": "C:\\Proyectos\\propios\\jim.wiki.back2\\jim.wiki.back\\jim.wiki.back.api\\appsettings.Development.json",
+              "RelativeToolTip": "jim.wiki.back.api\\appsettings.Development.json",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAABEAAAATAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001642|",
+              "WhenOpened": "2024-07-05T21:08:55.743Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 32,
+              "Title": "AuditablePipelineBehavior.cs",
+              "DocumentMoniker": "C:\\Proyectos\\propios\\jim.wiki.back2\\jim.wiki.back\\jim.wiki.core\\Pipelines\\Behaviors\\AuditablePipelineBehavior.cs",
+              "RelativeDocumentMoniker": "jim.wiki.core\\Pipelines\\Behaviors\\AuditablePipelineBehavior.cs",
+              "ToolTip": "C:\\Proyectos\\propios\\jim.wiki.back2\\jim.wiki.back\\jim.wiki.core\\Pipelines\\Behaviors\\AuditablePipelineBehavior.cs",
+              "RelativeToolTip": "jim.wiki.core\\Pipelines\\Behaviors\\AuditablePipelineBehavior.cs",
+              "ViewState": "AQIAABsAAAAAAAAAAAAowCwAAAA8AAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-07-06T22:16:00.674Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 34,
+              "Title": "AuditoriaExtensions.cs",
+              "DocumentMoniker": "C:\\Proyectos\\propios\\jim.wiki.back2\\jim.wiki.back\\jim.wiki.core\\Auditory\\Repository\\Extensions\\AuditoriaExtensions.cs",
+              "RelativeDocumentMoniker": "jim.wiki.core\\Auditory\\Repository\\Extensions\\AuditoriaExtensions.cs",
+              "ToolTip": "C:\\Proyectos\\propios\\jim.wiki.back2\\jim.wiki.back\\jim.wiki.core\\Auditory\\Repository\\Extensions\\AuditoriaExtensions.cs",
+              "RelativeToolTip": "jim.wiki.core\\Auditory\\Repository\\Extensions\\AuditoriaExtensions.cs",
+              "ViewState": "AQIAADoAAAAAAAAAAAAewEcAAABmAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-07-10T17:14:50.539Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 33,
+              "Title": "GetUsersAll.cs",
+              "DocumentMoniker": "C:\\Proyectos\\propios\\jim.wiki.back2\\jim.wiki.back\\jim.wiki.back.application\\Features\\Users\\GetUsersAll.cs",
+              "RelativeDocumentMoniker": "jim.wiki.back.application\\Features\\Users\\GetUsersAll.cs",
+              "ToolTip": "C:\\Proyectos\\propios\\jim.wiki.back2\\jim.wiki.back\\jim.wiki.back.application\\Features\\Users\\GetUsersAll.cs",
+              "RelativeToolTip": "jim.wiki.back.application\\Features\\Users\\GetUsersAll.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAB8AAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-07-07T15:46:19.574Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 36,
+              "Title": "IAuditableRequest.cs",
+              "DocumentMoniker": "C:\\Proyectos\\propios\\jim.wiki.back2\\jim.wiki.back\\jim.wiki.core\\Pipelines\\Abstrantions\\IAuditableRequest.cs",
+              "RelativeDocumentMoniker": "jim.wiki.core\\Pipelines\\Abstrantions\\IAuditableRequest.cs",
+              "ToolTip": "C:\\Proyectos\\propios\\jim.wiki.back2\\jim.wiki.back\\jim.wiki.core\\Pipelines\\Abstrantions\\IAuditableRequest.cs",
+              "RelativeToolTip": "jim.wiki.core\\Pipelines\\Abstrantions\\IAuditableRequest.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAgAAAAmAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-07-06T22:18:17.772Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 37,
+              "Title": "JWTConfiguration.cs",
+              "DocumentMoniker": "C:\\Proyectos\\propios\\jim.wiki.back2\\jim.wiki.back\\jim.wiki.core\\Authentication\\Models\\JWTConfiguration.cs",
+              "RelativeDocumentMoniker": "jim.wiki.core\\Authentication\\Models\\JWTConfiguration.cs",
+              "ToolTip": "C:\\Proyectos\\propios\\jim.wiki.back2\\jim.wiki.back\\jim.wiki.core\\Authentication\\Models\\JWTConfiguration.cs",
+              "RelativeToolTip": "jim.wiki.core\\Authentication\\Models\\JWTConfiguration.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAqwAoAAAApAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-07-09T18:07:17.887Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 42,
+              "Title": "AuditContextPostgresModelSnapshot.cs",
+              "DocumentMoniker": "C:\\Proyectos\\propios\\jim.wiki.back2\\jim.wiki.back\\jim.wiki.core\\Auditory\\Repository\\Migrations\\Postgres\\AuditContextPostgresModelSnapshot.cs",
+              "RelativeDocumentMoniker": "jim.wiki.core\\Auditory\\Repository\\Migrations\\Postgres\\AuditContextPostgresModelSnapshot.cs",
+              "ToolTip": "C:\\Proyectos\\propios\\jim.wiki.back2\\jim.wiki.back\\jim.wiki.core\\Auditory\\Repository\\Migrations\\Postgres\\AuditContextPostgresModelSnapshot.cs",
+              "RelativeToolTip": "jim.wiki.core\\Auditory\\Repository\\Migrations\\Postgres\\AuditContextPostgresModelSnapshot.cs",
+              "ViewState": "AQIAAAYAAAAAAAAAAIBJwCwAAAAUAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-07-09T17:44:22.599Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 44,
+              "Title": "AuditContextPostgres.cs",
+              "DocumentMoniker": "C:\\Proyectos\\propios\\jim.wiki.back2\\jim.wiki.back\\jim.wiki.core\\Auditory\\Repository\\Context\\Postgress\\AuditContextPostgres.cs",
+              "RelativeDocumentMoniker": "jim.wiki.core\\Auditory\\Repository\\Context\\Postgress\\AuditContextPostgres.cs",
+              "ToolTip": "C:\\Proyectos\\propios\\jim.wiki.back2\\jim.wiki.back\\jim.wiki.core\\Auditory\\Repository\\Context\\Postgress\\AuditContextPostgres.cs",
+              "RelativeToolTip": "jim.wiki.core\\Auditory\\Repository\\Context\\Postgress\\AuditContextPostgres.cs",
+              "ViewState": "AQIAABEAAAAAAAAAAAAwwB4AAABHAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-07-07T07:35:39.339Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 45,
+              "Title": "AuditRepository.cs",
+              "DocumentMoniker": "C:\\Proyectos\\propios\\jim.wiki.back2\\jim.wiki.back\\jim.wiki.core\\Auditory\\Repository\\AuditRepository.cs",
+              "RelativeDocumentMoniker": "jim.wiki.core\\Auditory\\Repository\\AuditRepository.cs",
+              "ToolTip": "C:\\Proyectos\\propios\\jim.wiki.back2\\jim.wiki.back\\jim.wiki.core\\Auditory\\Repository\\AuditRepository.cs",
+              "RelativeToolTip": "jim.wiki.core\\Auditory\\Repository\\AuditRepository.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAqwBoAAAAMAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-07-07T08:18:06.845Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 40,
+              "Title": "AuditContextSqlServer.cs",
+              "DocumentMoniker": "C:\\Proyectos\\propios\\jim.wiki.back2\\jim.wiki.back\\jim.wiki.core\\Auditory\\Repository\\Context\\SqlServer\\AuditContextSqlServer.cs",
+              "RelativeDocumentMoniker": "jim.wiki.core\\Auditory\\Repository\\Context\\SqlServer\\AuditContextSqlServer.cs",
+              "ToolTip": "C:\\Proyectos\\propios\\jim.wiki.back2\\jim.wiki.back\\jim.wiki.core\\Auditory\\Repository\\Context\\SqlServer\\AuditContextSqlServer.cs",
+              "RelativeToolTip": "jim.wiki.core\\Auditory\\Repository\\Context\\SqlServer\\AuditContextSqlServer.cs",
+              "ViewState": "AQIAAAgAAAAAAAAAAAAxwBgAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-07-07T07:50:52.749Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 39,
+              "Title": "Constantes.cs",
+              "DocumentMoniker": "C:\\Proyectos\\propios\\jim.wiki.back2\\jim.wiki.back\\jim.wiki.core\\Auditory\\Repository\\Common\\Constantes.cs",
+              "RelativeDocumentMoniker": "jim.wiki.core\\Auditory\\Repository\\Common\\Constantes.cs",
+              "ToolTip": "C:\\Proyectos\\propios\\jim.wiki.back2\\jim.wiki.back\\jim.wiki.core\\Auditory\\Repository\\Common\\Constantes.cs",
+              "RelativeToolTip": "jim.wiki.core\\Auditory\\Repository\\Common\\Constantes.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAoAAAAvAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-07-09T17:36:20.766Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 38,
+              "Title": "Audit.cs",
+              "DocumentMoniker": "C:\\Proyectos\\propios\\jim.wiki.back2\\jim.wiki.back\\jim.wiki.core\\Auditory\\Models\\Audit.cs",
+              "RelativeDocumentMoniker": "jim.wiki.core\\Auditory\\Models\\Audit.cs",
+              "ToolTip": "C:\\Proyectos\\propios\\jim.wiki.back2\\jim.wiki.back\\jim.wiki.core\\Auditory\\Models\\Audit.cs",
+              "RelativeToolTip": "jim.wiki.core\\Auditory\\Models\\Audit.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAgAAAAxAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-07-06T22:13:37.099Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 41,
+              "Title": "AuditContextSqlSeverModelSnapshot.cs",
+              "DocumentMoniker": "C:\\Proyectos\\propios\\jim.wiki.back2\\jim.wiki.back\\jim.wiki.core\\Auditory\\Repository\\Migrations\\SqlServer\\AuditContextSqlSeverModelSnapshot.cs",
+              "RelativeDocumentMoniker": "jim.wiki.core\\Auditory\\Repository\\Migrations\\SqlServer\\AuditContextSqlSeverModelSnapshot.cs",
+              "ToolTip": "C:\\Proyectos\\propios\\jim.wiki.back2\\jim.wiki.back\\jim.wiki.core\\Auditory\\Repository\\Migrations\\SqlServer\\AuditContextSqlSeverModelSnapshot.cs",
+              "RelativeToolTip": "jim.wiki.core\\Auditory\\Repository\\Migrations\\SqlServer\\AuditContextSqlSeverModelSnapshot.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-07-09T17:46:52.957Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 43,
               "Title": "20240707083158_audit.cs",
               "DocumentMoniker": "C:\\Proyectos\\propios\\jim.wiki.back2\\jim.wiki.back\\jim.wiki.core\\Auditory\\Repository\\Migrations\\Postgres\\20240707083158_audit.cs",
               "RelativeDocumentMoniker": "jim.wiki.core\\Auditory\\Repository\\Migrations\\Postgres\\20240707083158_audit.cs",
@@ -703,25 +848,11 @@
               "RelativeToolTip": "jim.wiki.core\\Auditory\\Repository\\Migrations\\Postgres\\20240707083158_audit.cs",
               "ViewState": "AQIAABYAAAAAAAAAAAAgwCoAAAAdAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-07-07T15:25:42.479Z",
-              "EditorCaption": ""
+              "WhenOpened": "2024-07-07T15:25:42.479Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 34,
-              "Title": "RepositoryGeneric.cs",
-              "DocumentMoniker": "C:\\Proyectos\\propios\\jim.wiki.back2\\jim.wiki.back\\jim.wiki.back.infrastructure\\Repository\\RepositoryGeneric.cs",
-              "RelativeDocumentMoniker": "jim.wiki.back.infrastructure\\Repository\\RepositoryGeneric.cs",
-              "ToolTip": "C:\\Proyectos\\propios\\jim.wiki.back2\\jim.wiki.back\\jim.wiki.back.infrastructure\\Repository\\RepositoryGeneric.cs",
-              "RelativeToolTip": "jim.wiki.back.infrastructure\\Repository\\RepositoryGeneric.cs",
-              "ViewState": "AQIAACcAAAAAAAAAAAAowD4AAAAeAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-07-05T22:40:01.679Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 32,
+              "DocumentIndex": 46,
               "Title": "TransactionalPipelineBehavior.cs",
               "DocumentMoniker": "C:\\Proyectos\\propios\\jim.wiki.back2\\jim.wiki.back\\jim.wiki.core\\Pipelines\\Behaviors\\TransactionalPipelineBehavior.cs",
               "RelativeDocumentMoniker": "jim.wiki.core\\Pipelines\\Behaviors\\TransactionalPipelineBehavior.cs",
@@ -729,12 +860,11 @@
               "RelativeToolTip": "jim.wiki.core\\Pipelines\\Behaviors\\TransactionalPipelineBehavior.cs",
               "ViewState": "AQIAAAAAAAAAAAAAAAAAABsAAABgAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-07-06T22:03:01.048Z",
-              "EditorCaption": ""
+              "WhenOpened": "2024-07-06T22:03:01.048Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 33,
+              "DocumentIndex": 47,
               "Title": "ITransactionalRequest.cs",
               "DocumentMoniker": "C:\\Proyectos\\propios\\jim.wiki.back2\\jim.wiki.back\\jim.wiki.core\\Pipelines\\Abstrantions\\ITransactionalRequest.cs",
               "RelativeDocumentMoniker": "jim.wiki.core\\Pipelines\\Abstrantions\\ITransactionalRequest.cs",
@@ -742,12 +872,11 @@
               "RelativeToolTip": "jim.wiki.core\\Pipelines\\Abstrantions\\ITransactionalRequest.cs",
               "ViewState": "AQIAAAAAAAAAAAAAAAAqwAgAAAAVAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-07-06T21:53:02.135Z",
-              "EditorCaption": ""
+              "WhenOpened": "2024-07-06T21:53:02.135Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 41,
+              "DocumentIndex": 52,
               "Title": "UserEntityConfigurator.cs",
               "DocumentMoniker": "C:\\Proyectos\\propios\\jim.wiki.back2\\jim.wiki.back\\jim.wiki.back.infrastructure\\Repository\\Configurations\\UserEntityConfigurator.cs",
               "RelativeDocumentMoniker": "jim.wiki.back.infrastructure\\Repository\\Configurations\\UserEntityConfigurator.cs",
@@ -755,12 +884,11 @@
               "RelativeToolTip": "jim.wiki.back.infrastructure\\Repository\\Configurations\\UserEntityConfigurator.cs",
               "ViewState": "AQIAAAAAAAAAAAAAAAAAAA8AAAAxAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-07-05T23:32:37.64Z",
-              "EditorCaption": ""
+              "WhenOpened": "2024-07-05T23:32:37.64Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 37,
+              "DocumentIndex": 48,
               "Title": "UserRoles.cs",
               "DocumentMoniker": "C:\\Proyectos\\propios\\jim.wiki.back2\\jim.wiki.back\\jim.wiki.back.infrastructure\\Repository\\Configurations\\UserRoles.cs",
               "RelativeDocumentMoniker": "jim.wiki.back.infrastructure\\Repository\\Configurations\\UserRoles.cs",
@@ -768,12 +896,11 @@
               "RelativeToolTip": "jim.wiki.back.infrastructure\\Repository\\Configurations\\UserRoles.cs",
               "ViewState": "AQIAAAAAAAAAAAAAAAAqwBIAAAB5AAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-07-07T15:11:12.914Z",
-              "EditorCaption": ""
+              "WhenOpened": "2024-07-07T15:11:12.914Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 38,
+              "DocumentIndex": 49,
               "Title": "RolEntityConfigurator.cs",
               "DocumentMoniker": "C:\\Proyectos\\propios\\jim.wiki.back2\\jim.wiki.back\\jim.wiki.back.infrastructure\\Repository\\Configurations\\RolEntityConfigurator.cs",
               "RelativeDocumentMoniker": "jim.wiki.back.infrastructure\\Repository\\Configurations\\RolEntityConfigurator.cs",
@@ -781,12 +908,11 @@
               "RelativeToolTip": "jim.wiki.back.infrastructure\\Repository\\Configurations\\RolEntityConfigurator.cs",
               "ViewState": "AQIAAAAAAAAAAAAAAAAAABAAAABPAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-07-07T15:10:03.954Z",
-              "EditorCaption": ""
+              "WhenOpened": "2024-07-07T15:10:03.954Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 39,
+              "DocumentIndex": 50,
               "Title": "DatabaseConfiguration.cs",
               "DocumentMoniker": "C:\\Proyectos\\propios\\jim.wiki.back2\\jim.wiki.back\\jim.wiki.back.infrastructure\\Repository\\Configurations\\DatabaseConfiguration.cs",
               "RelativeDocumentMoniker": "jim.wiki.back.infrastructure\\Repository\\Configurations\\DatabaseConfiguration.cs",
@@ -794,12 +920,11 @@
               "RelativeToolTip": "jim.wiki.back.infrastructure\\Repository\\Configurations\\DatabaseConfiguration.cs",
               "ViewState": "AQIAAAAAAAAAAAAAAAAAAAwAAAAsAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-07-05T21:25:11.881Z",
-              "EditorCaption": ""
+              "WhenOpened": "2024-07-05T21:25:11.881Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 40,
+              "DocumentIndex": 51,
               "Title": "20240707151751_roles.cs",
               "DocumentMoniker": "C:\\Proyectos\\propios\\jim.wiki.back2\\jim.wiki.back\\jim.wiki.back.infrastructure\\Repository\\Migrations\\20240707151751_roles.cs",
               "RelativeDocumentMoniker": "jim.wiki.back.infrastructure\\Repository\\Migrations\\20240707151751_roles.cs",
@@ -807,25 +932,11 @@
               "RelativeToolTip": "jim.wiki.back.infrastructure\\Repository\\Migrations\\20240707151751_roles.cs",
               "ViewState": "AQIAAAMAAAAAAAAAAIBZwB0AAAAqAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-07-07T15:18:39.786Z",
-              "EditorCaption": ""
+              "WhenOpened": "2024-07-07T15:18:39.786Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 42,
-              "Title": "UserRole.cs",
-              "DocumentMoniker": "C:\\Proyectos\\propios\\jim.wiki.back2\\jim.wiki.back\\jim.wiki.back.model\\Models\\Users\\UserRole.cs",
-              "RelativeDocumentMoniker": "jim.wiki.back.model\\Models\\Users\\UserRole.cs",
-              "ToolTip": "C:\\Proyectos\\propios\\jim.wiki.back2\\jim.wiki.back\\jim.wiki.back.model\\Models\\Users\\UserRole.cs",
-              "RelativeToolTip": "jim.wiki.back.model\\Models\\Users\\UserRole.cs",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAqwBEAAAAdAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-07-07T15:06:34.422Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 43,
+              "DocumentIndex": 53,
               "Title": "20240707162711_roles_relation.cs",
               "DocumentMoniker": "C:\\Proyectos\\propios\\jim.wiki.back2\\jim.wiki.back\\jim.wiki.back.infrastructure\\Repository\\Migrations\\20240707162711_roles_relation.cs",
               "RelativeDocumentMoniker": "jim.wiki.back.infrastructure\\Repository\\Migrations\\20240707162711_roles_relation.cs",
@@ -833,12 +944,11 @@
               "RelativeToolTip": "jim.wiki.back.infrastructure\\Repository\\Migrations\\20240707162711_roles_relation.cs",
               "ViewState": "AQIAABAAAAAAAAAAAAAgwAAAAAAAAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-07-07T16:27:21.978Z",
-              "EditorCaption": ""
+              "WhenOpened": "2024-07-07T16:27:21.978Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 44,
+              "DocumentIndex": 54,
               "Title": "UserController.cs",
               "DocumentMoniker": "C:\\Proyectos\\propios\\jim.wiki.back2\\jim.wiki.back\\jim.wiki.back.api\\Controllers\\UserController.cs",
               "RelativeDocumentMoniker": "jim.wiki.back.api\\Controllers\\UserController.cs",
@@ -846,12 +956,11 @@
               "RelativeToolTip": "jim.wiki.back.api\\Controllers\\UserController.cs",
               "ViewState": "AQIAAAkAAAAAAAAAAAAawCEAAABLAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-07-06T16:21:52.581Z",
-              "EditorCaption": ""
+              "WhenOpened": "2024-07-06T16:21:52.581Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 45,
+              "DocumentIndex": 55,
               "Title": "RolController.cs",
               "DocumentMoniker": "C:\\Proyectos\\propios\\jim.wiki.back2\\jim.wiki.back\\jim.wiki.back.api\\Controllers\\RolController.cs",
               "RelativeDocumentMoniker": "jim.wiki.back.api\\Controllers\\RolController.cs",
@@ -859,12 +968,11 @@
               "RelativeToolTip": "jim.wiki.back.api\\Controllers\\RolController.cs",
               "ViewState": "AQIAAAMAAAAAAAAAAIBZwBoAAAA8AAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-07-07T15:38:39.406Z",
-              "EditorCaption": ""
+              "WhenOpened": "2024-07-07T15:38:39.406Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 47,
+              "DocumentIndex": 57,
               "Title": "RolDto.cs",
               "DocumentMoniker": "C:\\Proyectos\\propios\\jim.wiki.back2\\jim.wiki.back\\jim.wiki.back.application\\Features\\Users\\Dto\\RolDto.cs",
               "RelativeDocumentMoniker": "jim.wiki.back.application\\Features\\Users\\Dto\\RolDto.cs",
@@ -872,12 +980,11 @@
               "RelativeToolTip": "jim.wiki.back.application\\Features\\Users\\Dto\\RolDto.cs",
               "ViewState": "AQIAAAAAAAAAAAAAAAAAAAwAAAAgAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-07-07T15:52:51.808Z",
-              "EditorCaption": ""
+              "WhenOpened": "2024-07-07T15:52:51.808Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 46,
+              "DocumentIndex": 56,
               "Title": "UserDto.cs",
               "DocumentMoniker": "C:\\Proyectos\\propios\\jim.wiki.back2\\jim.wiki.back\\jim.wiki.back.application\\Features\\Users\\Dto\\UserDto.cs",
               "RelativeDocumentMoniker": "jim.wiki.back.application\\Features\\Users\\Dto\\UserDto.cs",
@@ -885,12 +992,11 @@
               "RelativeToolTip": "jim.wiki.back.application\\Features\\Users\\Dto\\UserDto.cs",
               "ViewState": "AQIAAAAAAAAAAAAAAAAAAA4AAAAoAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-07-07T15:52:36.324Z",
-              "EditorCaption": ""
+              "WhenOpened": "2024-07-07T15:52:36.324Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 48,
+              "DocumentIndex": 58,
               "Title": "GetUserById.cs",
               "DocumentMoniker": "C:\\Proyectos\\propios\\jim.wiki.back2\\jim.wiki.back\\jim.wiki.back.application\\Features\\Users\\GetUserById.cs",
               "RelativeDocumentMoniker": "jim.wiki.back.application\\Features\\Users\\GetUserById.cs",
@@ -898,12 +1004,11 @@
               "RelativeToolTip": "jim.wiki.back.application\\Features\\Users\\GetUserById.cs",
               "ViewState": "AQIAAAQAAAAAAAAAAAAiwAsAAAABAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-07-06T23:10:43.216Z",
-              "EditorCaption": ""
+              "WhenOpened": "2024-07-06T23:10:43.216Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 50,
+              "DocumentIndex": 60,
               "Title": "IAuditContext.cs",
               "DocumentMoniker": "C:\\Proyectos\\propios\\jim.wiki.back2\\jim.wiki.back\\jim.wiki.core\\Auditory\\Repository\\Interfaces\\IAuditContext.cs",
               "RelativeDocumentMoniker": "jim.wiki.core\\Auditory\\Repository\\Interfaces\\IAuditContext.cs",
@@ -911,12 +1016,11 @@
               "RelativeToolTip": "jim.wiki.core\\Auditory\\Repository\\Interfaces\\IAuditContext.cs",
               "ViewState": "AQIAAAAAAAAAAAAAAAAqwAwAAAASAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-07-07T10:29:40.556Z",
-              "EditorCaption": ""
+              "WhenOpened": "2024-07-07T10:29:40.556Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 49,
+              "DocumentIndex": 59,
               "Title": "IAuditRepository.cs",
               "DocumentMoniker": "C:\\Proyectos\\propios\\jim.wiki.back2\\jim.wiki.back\\jim.wiki.core\\Auditory\\Repository\\Interfaces\\IAuditRepository.cs",
               "RelativeDocumentMoniker": "jim.wiki.core\\Auditory\\Repository\\Interfaces\\IAuditRepository.cs",
@@ -924,12 +1028,11 @@
               "RelativeToolTip": "jim.wiki.core\\Auditory\\Repository\\Interfaces\\IAuditRepository.cs",
               "ViewState": "AQIAAAAAAAAAAAAAAAAqwAsAAAAYAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-07-07T08:16:56.368Z",
-              "EditorCaption": ""
+              "WhenOpened": "2024-07-07T08:16:56.368Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 51,
+              "DocumentIndex": 61,
               "Title": "ContextBase.cs",
               "DocumentMoniker": "C:\\Proyectos\\propios\\jim.wiki.back2\\jim.wiki.back\\jim.wiki.core\\Repository\\ContextBase.cs",
               "RelativeDocumentMoniker": "jim.wiki.core\\Repository\\ContextBase.cs",
@@ -937,12 +1040,11 @@
               "RelativeToolTip": "jim.wiki.core\\Repository\\ContextBase.cs",
               "ViewState": "AQIAAAQAAAAAAAAAAABhwBYAAAA1AAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-07-06T21:28:30.63Z",
-              "EditorCaption": ""
+              "WhenOpened": "2024-07-06T21:28:30.63Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 52,
+              "DocumentIndex": 62,
               "Title": "DatabaseTypeEnum.cs",
               "DocumentMoniker": "C:\\Proyectos\\propios\\jim.wiki.back2\\jim.wiki.back\\jim.wiki.core\\Enumerations\\DatabaseTypeEnum.cs",
               "RelativeDocumentMoniker": "jim.wiki.core\\Enumerations\\DatabaseTypeEnum.cs",
@@ -950,25 +1052,11 @@
               "RelativeToolTip": "jim.wiki.core\\Enumerations\\DatabaseTypeEnum.cs",
               "ViewState": "AQIAAAAAAAAAAAAAAAAAAA8AAAAAAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-07-07T07:38:18.903Z",
-              "EditorCaption": ""
+              "WhenOpened": "2024-07-07T07:38:18.903Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 53,
-              "Title": "IRepositoryBase.cs",
-              "DocumentMoniker": "C:\\Proyectos\\propios\\jim.wiki.back2\\jim.wiki.back\\jim.wiki.core\\Repository\\Interfaces\\IRepositoryBase.cs",
-              "RelativeDocumentMoniker": "jim.wiki.core\\Repository\\Interfaces\\IRepositoryBase.cs",
-              "ToolTip": "C:\\Proyectos\\propios\\jim.wiki.back2\\jim.wiki.back\\jim.wiki.core\\Repository\\Interfaces\\IRepositoryBase.cs",
-              "RelativeToolTip": "jim.wiki.core\\Repository\\Interfaces\\IRepositoryBase.cs",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAABYAAAAAAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-07-06T22:19:41.109Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 54,
+              "DocumentIndex": 63,
               "Title": "IUnitOfWork.cs",
               "DocumentMoniker": "C:\\Proyectos\\propios\\jim.wiki.back2\\jim.wiki.back\\jim.wiki.core\\Repository\\Interfaces\\IUnitOfWork.cs",
               "RelativeDocumentMoniker": "jim.wiki.core\\Repository\\Interfaces\\IUnitOfWork.cs",
@@ -976,12 +1064,11 @@
               "RelativeToolTip": "jim.wiki.core\\Repository\\Interfaces\\IUnitOfWork.cs",
               "ViewState": "AQIAAAAAAAAAAAAAAAAqwAYAAAAAAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-07-06T21:53:53.198Z",
-              "EditorCaption": ""
+              "WhenOpened": "2024-07-06T21:53:53.198Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 55,
+              "DocumentIndex": 64,
               "Title": "EnumerableExtensions.cs",
               "DocumentMoniker": "C:\\Proyectos\\propios\\jim.wiki.back2\\jim.wiki.back\\jim.wiki.core\\Extensions\\EnumerableExtensions.cs",
               "RelativeDocumentMoniker": "jim.wiki.core\\Extensions\\EnumerableExtensions.cs",
@@ -989,25 +1076,11 @@
               "RelativeToolTip": "jim.wiki.core\\Extensions\\EnumerableExtensions.cs",
               "ViewState": "AQIAAAAAAAAAAAAAAAAAABEAAAAxAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-07-06T21:49:11.456Z",
-              "EditorCaption": ""
+              "WhenOpened": "2024-07-06T21:49:11.456Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 56,
-              "Title": "AuditEntity.cs",
-              "DocumentMoniker": "C:\\Proyectos\\propios\\jim.wiki.back2\\jim.wiki.back\\jim.wiki.core\\Repository\\Abstractions\\AuditEntity.cs",
-              "RelativeDocumentMoniker": "jim.wiki.core\\Repository\\Abstractions\\AuditEntity.cs",
-              "ToolTip": "C:\\Proyectos\\propios\\jim.wiki.back2\\jim.wiki.back\\jim.wiki.core\\Repository\\Abstractions\\AuditEntity.cs",
-              "RelativeToolTip": "jim.wiki.core\\Repository\\Abstractions\\AuditEntity.cs",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAwAAAAsAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-07-06T21:35:30.186Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 57,
+              "DocumentIndex": 65,
               "Title": "Entity.cs",
               "DocumentMoniker": "C:\\Proyectos\\propios\\jim.wiki.back2\\jim.wiki.back\\jim.wiki.core\\Repository\\Abstractions\\Entity.cs",
               "RelativeDocumentMoniker": "jim.wiki.core\\Repository\\Abstractions\\Entity.cs",
@@ -1015,25 +1088,11 @@
               "RelativeToolTip": "jim.wiki.core\\Repository\\Abstractions\\Entity.cs",
               "ViewState": "AQIAAAAAAAAAAAAAAAAAAAYAAAAKAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-07-06T21:35:40.982Z",
-              "EditorCaption": ""
+              "WhenOpened": "2024-07-06T21:35:40.982Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 58,
-              "Title": "LogicalEntity.cs",
-              "DocumentMoniker": "C:\\Proyectos\\propios\\jim.wiki.back2\\jim.wiki.back\\jim.wiki.core\\Repository\\Abstractions\\LogicalEntity.cs",
-              "RelativeDocumentMoniker": "jim.wiki.core\\Repository\\Abstractions\\LogicalEntity.cs",
-              "ToolTip": "C:\\Proyectos\\propios\\jim.wiki.back2\\jim.wiki.back\\jim.wiki.core\\Repository\\Abstractions\\LogicalEntity.cs",
-              "RelativeToolTip": "jim.wiki.core\\Repository\\Abstractions\\LogicalEntity.cs",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAYAAAA1AAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-07-06T21:35:48.016Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 59,
+              "DocumentIndex": 66,
               "Title": "UserInfoDto.cs",
               "DocumentMoniker": "C:\\Proyectos\\propios\\jim.wiki.back2\\jim.wiki.back\\jim.wiki.back.model\\Dtos\\Users\\UserInfoDto.cs",
               "RelativeDocumentMoniker": "jim.wiki.back.model\\Dtos\\Users\\UserInfoDto.cs",
@@ -1041,12 +1100,11 @@
               "RelativeToolTip": "jim.wiki.back.model\\Dtos\\Users\\UserInfoDto.cs",
               "ViewState": "AQIAAAAAAAAAAAAAAAAAAAkAAAAFAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-07-06T17:00:58.068Z",
-              "EditorCaption": ""
+              "WhenOpened": "2024-07-06T17:00:58.068Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 60,
+              "DocumentIndex": 67,
               "Title": "IUserInfo.cs",
               "DocumentMoniker": "C:\\Proyectos\\propios\\jim.wiki.back2\\jim.wiki.back\\jim.wiki.back.model\\Services\\IUserInfo.cs",
               "RelativeDocumentMoniker": "jim.wiki.back.model\\Services\\IUserInfo.cs",
@@ -1054,12 +1112,11 @@
               "RelativeToolTip": "jim.wiki.back.model\\Services\\IUserInfo.cs",
               "ViewState": "AQIAAAAAAAAAAAAAAAAAAAwAAAAIAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-07-06T16:56:19.13Z",
-              "EditorCaption": ""
+              "WhenOpened": "2024-07-06T16:56:19.13Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 61,
+              "DocumentIndex": 68,
               "Title": "20240706154336_initial.cs",
               "DocumentMoniker": "C:\\Proyectos\\propios\\jim.wiki.back2\\jim.wiki.back\\jim.wiki.back.infrastructure\\Repository\\Migrations\\20240706154336_initial.cs",
               "RelativeDocumentMoniker": "jim.wiki.back.infrastructure\\Repository\\Migrations\\20240706154336_initial.cs",
@@ -1067,8 +1124,7 @@
               "RelativeToolTip": "jim.wiki.back.infrastructure\\Repository\\Migrations\\20240706154336_initial.cs",
               "ViewState": "AQIAAAAAAAAAAAAAAAAAABQAAABwAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-07-06T15:46:05.345Z",
-              "EditorCaption": ""
+              "WhenOpened": "2024-07-06T15:46:05.345Z"
             }
           ]
         }

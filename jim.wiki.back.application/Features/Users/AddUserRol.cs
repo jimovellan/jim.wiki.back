@@ -19,13 +19,13 @@ public class AddUserRolResponse
 public class AddUserRolHandler : IRequestHandler<AddUserRolRequest, AddUserRolResponse>
 {
     
-    private readonly IRepositoryBase<UserRole> userRoleRepository;
+    
     private readonly IRepositoryBase<User> userRepository;
     private readonly IRepositoryBase<Rol> rolRepository;
 
-    public AddUserRolHandler(IRepositoryBase<UserRole> userRoleRepository, IRepositoryBase<User> userRepository, IRepositoryBase<Rol> rolRepository )
+    public AddUserRolHandler( IRepositoryBase<User> userRepository, IRepositoryBase<Rol> rolRepository )
     {
-        this.userRoleRepository = userRoleRepository;
+        
         this.userRepository = userRepository;
         this.rolRepository = rolRepository;
     }
@@ -36,9 +36,9 @@ public class AddUserRolHandler : IRequestHandler<AddUserRolRequest, AddUserRolRe
 
         var userRol = new UserRole() { RolGuid = request.RolId, UserGuid = request.UserId };
 
-        var result = await this.userRoleRepository.AddAndSaveAsync( userRol );
+        
 
-        return new AddUserRolResponse() { Success = result >  0 };
+        return new AddUserRolResponse() { Success = true };
 
     }
 }

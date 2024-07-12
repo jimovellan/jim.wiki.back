@@ -4,7 +4,7 @@ using Microsoft.EntityFrameworkCore;
 
 namespace jim.wiki.back.infrastructure.Repository
 {
-    public class RepositoryGeneric<TEntity> : IRepositoryBase<TEntity> where TEntity : Entity
+    public class RepositoryGeneric<TEntity> : IRepositoryBase<TEntity> where TEntity : Aggregate
     {
         private readonly ApplicationContext _ctx;
         private readonly DbSet<TEntity> _dbSet;
@@ -66,7 +66,7 @@ namespace jim.wiki.back.infrastructure.Repository
 
         public Task<TEntity> UpdateAsync(TEntity entity)
         {
-            if (entity is AuditEntity logicalEntity)
+            if (entity is IAuditEntity logicalEntity)
             {
 
                 logicalEntity.ModifiedAt = DateTime.UtcNow;
@@ -86,14 +86,14 @@ namespace jim.wiki.back.infrastructure.Repository
             var logicalEntities = _ctx.ChangeTracker
                                       .Entries()
                                       .Where(wh => wh.State == EntityState.Deleted
-                                            && wh.Entity.GetType().IsSubclassOf(typeof(LogicalEntity)));
+                                            && wh.Entity.GetType().IsSubclassOf(typeof(ILogicalEntity)));
 
             if (logicalEntities != null)
             {
                 foreach (var entity in logicalEntities)
                 {
                     entity.State = EntityState.Modified;
-                    ((LogicalEntity)entity.Entity).IsDeleted = true;
+                    ((ILogicalEntity)entity.Entity).IsDeleted = true;
                 }
             }
         }
@@ -105,7 +105,7 @@ namespace jim.wiki.back.infrastructure.Repository
 
                 foreach (var entity in modifiedEntities)
                 {
-                    if (entity.Entity is AuditEntity audit)
+                    if (entity.Entity is IAuditEntity audit)
                     {
                         audit.ModifiedAt = DateTime.UtcNow;
                         audit.ModifiedBy = "System";
@@ -118,7 +118,7 @@ namespace jim.wiki.back.infrastructure.Repository
                         else
                         {
                            
-                            audit.LastAction = ((entity.Entity as LogicalEntity)?.IsDeleted ?? false) ? "Deleted" : "Modified";
+                            audit.LastAction = ((entity.Entity as ILogicalEntity)?.IsDeleted ?? false) ? "Deleted" : "Modified";
 
                         }
 

@@ -6,7 +6,7 @@ using System.Threading.Tasks;
 
 namespace jim.wiki.back.core.Repository.Abstractions;
 
-public abstract class AuditEntity:Entity
+public interface IAuditEntity
 {
     public string  LastAction { get; set; }
     public DateTime CreateadAt { get; set; }
