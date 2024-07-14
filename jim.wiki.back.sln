@@ -11,17 +11,17 @@ Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "02. Application", "02. Appl
 EndProject
 Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "03. Infrastructure", "03. Infrastructure", "{EAB8F823-255C-41CC-B863-7B3DDE78D282}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "jim.wiki.back.infrastructure", "jim.wiki.back.infrastructure\jim.wiki.back.infrastructure.csproj", "{B960A762-B0D4-4566-ABBE-7A7D09EB7C2C}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "jim.wiki.back.infrastructure", "jim.wiki.back.infrastructure\jim.wiki.back.infrastructure.csproj", "{B960A762-B0D4-4566-ABBE-7A7D09EB7C2C}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "jim.wiki.back.application", "jim.wiki.back.application\jim.wiki.back.application.csproj", "{A684BECA-73D2-44A3-A488-9CC5C589CDE8}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "jim.wiki.back.application", "jim.wiki.back.application\jim.wiki.back.application.csproj", "{A684BECA-73D2-44A3-A488-9CC5C589CDE8}"
 EndProject
 Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "04. External", "04. External", "{D8C9E07A-197C-4F1F-8D29-F06225701721}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "jim.wiki.back.api", "jim.wiki.back.api\jim.wiki.back.api.csproj", "{84884F6C-0CF5-4260-971D-A45638B87DFD}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "jim.wiki.back.api", "jim.wiki.back.api\jim.wiki.back.api.csproj", "{84884F6C-0CF5-4260-971D-A45638B87DFD}"
 EndProject
 Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "00. Core", "00. Core", "{D78B2B3D-CE26-4D6C-8590-F56808151986}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "jim.wiki.core", "jim.wiki.core\jim.wiki.core.csproj", "{B2D18D06-30A9-4540-A694-D24665F89B08}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "jim.wiki.core", "jim.wiki.core\jim.wiki.core.csproj", "{B2D18D06-30A9-4540-A694-D24665F89B08}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution

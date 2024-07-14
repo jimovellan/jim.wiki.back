@@ -1,4 +1,6 @@
 ﻿using jim.wiki.back.core.Repository.Abstractions;
+using jim.wiki.core.Repository.Models.Search;
+using jim.wiki.core.Results;
 
 namespace jim.wiki.core.Repository.Interfaces;
 
@@ -18,6 +20,8 @@ namespace jim.wiki.core.Repository.Interfaces;
         public Task<TEntity> GetById(long id);
 
         public Task<int> SaveChangesAsync(CancellationToken cancellationToken = default);
+
+        public Task<ResultSearch<TEntity>> ApplyFilterToSearch(FilterSearch filter);
 
     }
 

@@ -34,6 +34,7 @@ namespace jim.wiki.back.model.Models.Users
             user.Guid = Guid.NewGuid();
             user.Email = email.Value;
             user.Hash = hash;
+            user.Name = name;
 
             return user; 
 

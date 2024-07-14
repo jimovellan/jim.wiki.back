@@ -63,4 +63,17 @@ namespace jim.wiki.core.Results
         }
 
     }
+
+    public class ResultSearch<T>: Result<IEnumerable<T>>
+    {
+        public int Total { get; set; }
+        public int? Page { get; set; }
+        public int? SizePage { get; set; }
+        public ResultSearch(IEnumerable<T> value, int total, int? page, int? sizePage):base(value)
+        {
+            Total = total;
+            Page = page;
+            SizePage = sizePage;
+        }
+    }
 }

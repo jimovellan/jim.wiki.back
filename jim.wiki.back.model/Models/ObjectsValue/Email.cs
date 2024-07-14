@@ -13,7 +13,7 @@ namespace jim.wiki.back.model.Models.ObjectsValue;
     public string Value { get; set; }
     public Email(string email)
     {
-        if (!IsValidEmail(email)) throw new ArgumentException(email);
+        if (!IsValidEmail(email)) throw new ArgumentException("The email not is valid");
         Value = email;
     }
     public static bool IsValidEmail(string email)

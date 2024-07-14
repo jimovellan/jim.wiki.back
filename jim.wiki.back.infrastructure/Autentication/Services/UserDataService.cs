@@ -23,6 +23,7 @@ namespace jim.wiki.back.infrastructure.Autentication.Services
         {
             var claims = httpContext.HttpContext.User.Claims.Select(S => new { Tipo = S.Type, Value = S.Value });
 
+            
             return new UserData()
             {
                 Name = claims.FirstOrDefault(f => f.Tipo == ClaimTypes.Name).Value ?? "Annonimous",

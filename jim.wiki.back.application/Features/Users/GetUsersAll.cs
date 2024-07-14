@@ -2,14 +2,17 @@
 using jim.wiki.back.model.Models.Users;
 using jim.wiki.core.Pipelines.Abstrantions;
 using jim.wiki.core.Repository.Interfaces;
+using jim.wiki.core.Repository.Models.Search;
+using jim.wiki.core.Results;
 using MediatR;
 using Microsoft.EntityFrameworkCore;
 using System.Data;
 
 namespace jim.wiki.back.application.Features.Users;
 
-public class GetUserAllRequest : IRequest<GetUserAllResponse>, IAuditableRequest
+public class GetUserAllRequest : IRequest<ResultSearch<User>>
 {
+    public FilterSearch Filter { get; set; }
 }
 
 public class GetUserAllResponse
@@ -17,7 +20,7 @@ public class GetUserAllResponse
     public List<UserDto> Users { get; set; } = new List<UserDto>();
 }
 
-public class GetUserAllHandler : IRequestHandler<GetUserAllRequest, GetUserAllResponse>
+public class GetUserAllHandler : IRequestHandler<GetUserAllRequest, ResultSearch<User>>
 {
     private readonly IRepositoryBase<User> _userRepository;
 
@@ -25,18 +28,8 @@ public class GetUserAllHandler : IRequestHandler<GetUserAllRequest, GetUserAllRe
     {
         this._userRepository = userRepository;
     }
-    public async Task<GetUserAllResponse> Handle(GetUserAllRequest request, CancellationToken cancellationToken)
+    public async Task<ResultSearch<User>> Handle(GetUserAllRequest request, CancellationToken cancellationToken)
     {
-        var user = await _userRepository.Query().Include(i => i.RolesUser).ThenInclude(i=>i.Rol)
-            .ToListAsync();
-
-        var usersDto = user.Select(s => new UserDto()
-        {
-            Name = s.Name,
-            Guid = s.Guid,
-            Roles = s.RolesUser.Select(s => new RolDto() { Guid = s.Rol.Guid, Name = s.Rol.Name, Descrition = s.Rol.Description }).ToList()
-        }).ToList();
-
-        return new GetUserAllResponse() { Users = usersDto };
+        return  await _userRepository.ApplyFilterToSearch(request.Filter);
     }
 }
