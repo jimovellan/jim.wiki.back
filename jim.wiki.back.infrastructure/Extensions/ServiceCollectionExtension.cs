@@ -8,9 +8,11 @@ using jim.wiki.back.model.Services;
 using jim.wiki.core.Auditory.Repository.Extensions;
 using jim.wiki.core.Authentication.Interfaces;
 using jim.wiki.core.Extensions;
+using jim.wiki.core.Json;
 using jim.wiki.core.Pipelines.Abstrantions;
 using jim.wiki.core.Pipelines.Behaviors;
 using jim.wiki.core.Repository.Interfaces;
+using jim.wiki.core.Repository.Models.Search;
 using MediatR;
 using Microsoft.EntityFrameworkCore;
 using Microsoft.Extensions.Configuration;
@@ -54,6 +56,13 @@ internal static class ServiceCollectionExtension
         serviceCollection.AddScoped<IUserDataService, UserDataService>();
 
         serviceCollection.AddTransient<IPasswordService, PasswordService>();
+
+
+        serviceCollection.AddControllers().AddJsonOptions(options =>
+        {
+            options.JsonSerializerOptions.Converters.Add(new FlexibleStatusJsonConverter<LogicalOperation>(true));
+            options.JsonSerializerOptions.Converters.Add(new FlexibleStatusJsonConverter<OperatorEnum>(true));
+        });
 
         return serviceCollection;
     }

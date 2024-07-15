@@ -8,6 +8,7 @@ using System.Collections.Generic;
 using System.Globalization;
 using System.Linq;
 using System.Linq.Expressions;
+using System.Runtime.InteropServices;
 using System.Text;
 using System.Threading.Tasks;
 using System.Transactions;
@@ -16,13 +17,20 @@ namespace jim.wiki.core.Repository.Extensions;
 
 public static class IQueryableExtensions
 {
-
+    /// <summary>
+    /// Ordena usando el nombre del campo y si es ascendente o descendente
+    /// </summary>
+    /// <typeparam name="T"></typeparam>
+    /// <param name="query"></param>
+    /// <param name="field"></param>
+    /// <param name="ascencing"></param>
+    /// <returns></returns>
     public static IOrderedQueryable<T> OrderBy<T>(this IQueryable<T> query, string field, bool ascencing)
     {
 
         var entityType = typeof(T);
 
-        var lambda = GenerateExpresion(entityType, field);
+        var lambda = GenerateExpresionWithProperty(entityType, field);
 
         var property = entityType.GetProperties().FirstOrDefault(f => f.Name.Trim().ToLowerInvariant() == field.Trim().ToLowerInvariant());       
                 
@@ -45,12 +53,20 @@ public static class IQueryableExtensions
        return (IOrderedQueryable<T>)genericMethod.Invoke(null, new object[] { query, lambda });
     }
 
+    /// <summary>
+    /// Da otro indice de ordenación una vez ordenado anteriormente por otro campo
+    /// </summary>
+    /// <typeparam name="T"></typeparam>
+    /// <param name="query"></param>
+    /// <param name="field"></param>
+    /// <param name="ascencing"></param>
+    /// <returns></returns>
     public static IOrderedQueryable<T> ThenOrderBy<T>(this IOrderedQueryable<T> query, string field, bool ascencing = false) 
     {
 
         var type = typeof(T);
 
-        var lambda = GenerateExpresion(type, field);
+        var lambda = GenerateExpresionWithProperty(type, field);
 
         var property = type.GetProperties().FirstOrDefault(f => f.Name.Trim().ToLowerInvariant() == field.Trim().ToLowerInvariant());
 
@@ -71,8 +87,13 @@ public static class IQueryableExtensions
         return (IOrderedQueryable<T>)genericMethod.Invoke(null, new object[] { query, lambda });
     }
 
-
-    private static Expression  GenerateExpresion(Type type, string field)
+    /// <summary>
+    /// Genera una expresión del tipo x=>x.Property
+    /// </summary>
+    /// <param name="type"></param>
+    /// <param name="field"></param>
+    /// <returns></returns>
+    private static Expression  GenerateExpresionWithProperty(Type type, string field)
     {
         var property = type.GetProperties().FirstOrDefault(x=>x.Name.Trim().ToLowerInvariant() == field.Trim().ToLowerInvariant());
 
@@ -81,8 +102,118 @@ public static class IQueryableExtensions
         return Expression.Lambda(prop, new ParameterExpression[] { parameter });
     }
 
+    /// <summary>
+    /// Crea el filtro Where en base a una lista de FieldSearch
+    /// </summary>
+    /// <typeparam name="T"></typeparam>
+    /// <param name="query"></param>
+    /// <param name="fieldSearches"></param>
+    /// <returns></returns>
+    /// <exception cref="NotSupportedException"></exception>
+    public static IQueryable<T> Filter<T>(this IQueryable<T> query, IEnumerable<FieldSearch> fieldSearches)
+    {
+        if (fieldSearches.NoContainElements()) return query;
 
-    public static object ParseValue(string value, Type targetType)
+
+        ParameterExpression parameter = Expression.Parameter(typeof(T), "x");
+
+        Expression combinedExpression = null;
+        
+        foreach (var field in fieldSearches)
+        {
+            var property = typeof(T).GetProperties()
+                                    .FirstOrDefault(f => f.Name.Trim().ToLowerInvariant() == field.Name.Trim().ToLowerInvariant());
+
+            if(property == null) continue;
+
+            var member = Expression.Property(parameter, property!);
+            
+            var expression = field.Operation switch
+            {
+
+                OperatorEnum.In => GenerateExpressionContainedInList(property.PropertyType,member,field.Values),
+                OperatorEnum.Like => GenerateLikeExpression(member,property.PropertyType,field),
+                _ => GenerateExpression(member,property.PropertyType, field)
+                    
+            };
+
+            if(combinedExpression == null)
+            {
+                combinedExpression = expression!;
+            }
+            else
+            {
+                combinedExpression = field.LogicalOperation switch
+                {
+                    LogicalOperation.Or => Expression.Or(combinedExpression, expression!),
+                    LogicalOperation.And => Expression.And(combinedExpression, expression!),
+                    _ => throw new NotSupportedException("Logical operator not supported")
+                };
+            }
+        }
+
+        var lambda = Expression.Lambda<Func<T, bool>>(combinedExpression, parameter);
+
+        return query.Where(lambda);
+    }
+
+    private static BinaryExpression GenerateExpression(MemberExpression member, Type propertyType, FieldSearch fieldSearch)
+    {
+
+        var parsedValue = ParseValue(fieldSearch?.Value?.ToString() ?? "", propertyType);
+        var constant = Expression.Constant(parsedValue, propertyType);
+
+        return fieldSearch.Operation switch
+        {
+
+            OperatorEnum.Equal => Expression.Equal(member, constant),
+            OperatorEnum.NotEqual => Expression.NotEqual(member, constant),
+            OperatorEnum.GreaterThan => Expression.GreaterThan(member, constant),
+            OperatorEnum.GreaterThanOrEqual => Expression.GreaterThanOrEqual(member, constant),
+            OperatorEnum.LessThan => Expression.LessThan(member, constant),
+            OperatorEnum.LessThanOrEqual => Expression.LessThanOrEqual(member, constant),
+            _ => throw new NotImplementedException()
+        };
+    }
+
+    /// <summary>
+    /// Genera la expresion para un valor que este contenido en uno de los valroes
+    /// </summary>
+    /// <param name="PropertyType"></param>
+    /// <param name="member"></param>
+    /// <param name="values"></param>
+    /// <returns></returns>
+    private static Expression GenerateExpressionContainedInList(Type PropertyType,MemberExpression member, IEnumerable<object?> values)
+    {
+        Expression Combinedexpression = null;
+        foreach (var value in values)
+        {
+            var parsedValue = ParseValue(value?.ToString()??"", PropertyType);
+            var constant = Expression.Constant(parsedValue);
+            var expression = Expression.Equal(member, constant);
+
+            if(Combinedexpression == null)
+            {
+                Combinedexpression= expression;
+            }
+            else
+            {
+                Combinedexpression =  Expression.OrElse(Combinedexpression, expression);
+            }
+        }
+
+        return Combinedexpression;
+    }
+
+    /// <summary>
+    /// Parseo de valores para uso en Constant para generar expressions
+    /// 
+    /// </summary>
+    /// <param name="value"></param>
+    /// <param name="targetType"></param>
+    /// <returns></returns>
+    /// <exception cref="Exception"></exception>
+    private static object ParseValue(string value, Type targetType)
     {
         object parsedValue = null;
 
@@ -146,7 +277,7 @@ public static class IQueryableExtensions
             case TypeCode.DateTime:
                 if (DateTime.TryParse(value, out DateTime dateTimeVal))
                 {
-                    parsedValue = dateTimeVal;
+                    parsedValue = dateTimeVal.ToUniversalTime();
                 }
                 else
                 {
@@ -257,95 +388,15 @@ public static class IQueryableExtensions
         return parsedValue;
     }
 
-    public static IQueryable<T> Filter<T>(this IQueryable<T> query, IEnumerable<FieldSearch> fieldSearches)
+    private static Expression GenerateLikeExpression(MemberExpression member, Type proppertyType, FieldSearch field)
     {
-        if (fieldSearches.NoContainElements()) return query;
+        if (proppertyType != typeof(String)) throw new ArgumentException($"the property {field.Name} cant be use Like expressions");
 
+        var method = typeof(string).GetMethod("Contains", new[] { typeof(string) });
 
-        ParameterExpression parameter = Expression.Parameter(typeof(T), "x");
-        Expression combinedExpression = null;
-        bool isFirstCondition = true;
+        var constant = Expression.Constant(field.Value?.ToString() ?? "", proppertyType);
 
-        foreach (var field in fieldSearches)
-        {
-            var property = typeof(T).GetProperties().FirstOrDefault(f => f.Name.Trim().ToLowerInvariant() == field.Name.Trim().ToLowerInvariant());
-            var member = Expression.Property(parameter, property);
+        return Expression.Call(member, method, constant);
 
-            
-            var value = field.Value.ToString();
-
-            var type = Nullable.GetUnderlyingType(property.PropertyType);
-
-            var parsedValue = ParseValue(value, property.PropertyType);
-            
-
-            var constant = Expression.Constant(parsedValue,property.PropertyType);
-
-            var expression = field.Operation switch
-            {
-
-                OperatorEnum.In => GenerateInValues(member,field.Values),
-                OperatorEnum.Like => null,
-                _ => GetComparisonExpression(member, constant, field.Operation)
-                    
-            };
-
-            if(combinedExpression == null)
-            {
-                combinedExpression = expression;
-            }
-            else
-            {
-                combinedExpression = field.LogicalOperation switch
-                {
-                    LogicalOperation.Or => Expression.Or(combinedExpression, expression),
-                    LogicalOperation.And => Expression.And(combinedExpression, expression),
-                    _ => throw new NotSupportedException("Logical operator not supported")
-                };
-            }
-        }
-
-        var lambda = Expression.Lambda<Func<T, bool>>(combinedExpression, parameter);
-
-        return query.Where(lambda);
     }
-
-    private static BinaryExpression GetComparisonExpression(MemberExpression member, ConstantExpression constant, OperatorEnum @operator)
-    {
-
-        return @operator switch
-        {
-
-            OperatorEnum.Equal => Expression.Equal(member, constant),
-            OperatorEnum.NotEqual => Expression.NotEqual(member, constant),
-            OperatorEnum.GreaterThan => Expression.GreaterThan(member, constant),
-            OperatorEnum.GreaterThanOrEqual => Expression.GreaterThanOrEqual(member, constant),
-            OperatorEnum.LessThan => Expression.LessThan(member, constant),
-            OperatorEnum.LessThanOrEqual => Expression.LessThanOrEqual(member, constant),
-            _ => throw new NotImplementedException()
-        };
-    }
-
-    private static Expression GenerateInValues(MemberExpression member, IEnumerable<object?> values)
-    {
-        Expression Combinedexpression = null;
-        foreach (var value in values)
-        {
-            var constant = Expression.Constant(value);
-            var expression = Expression.Equal(member, constant);
-
-            if(Combinedexpression == null)
-            {
-                Combinedexpression= expression;
-            }
-            else
-            {
-                Combinedexpression =  Expression.OrElse(Combinedexpression, expression);
-            }
-        }
-
-        return Combinedexpression;
-    }
-
-
 }

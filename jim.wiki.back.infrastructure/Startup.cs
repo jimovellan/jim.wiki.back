@@ -23,6 +23,7 @@ namespace jim.wiki.back.infrastructure
                 .AddDDBBConection(configuration)
                 .RegisterAplicationServices(configuration)
                 .GenerateAdminUser(configuration);
+
                 
                 
         }
