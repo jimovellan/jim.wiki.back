@@ -1,4 +1,5 @@
-﻿using jim.wiki.back.application.Features.Autentication.Errors;
+﻿using FluentValidation;
+using jim.wiki.back.application.Features.Autentication.Errors;
 using jim.wiki.back.model.Models.Users;
 using jim.wiki.back.model.Services;
 using jim.wiki.core.Authentication.Interfaces;
@@ -24,6 +25,15 @@ public class LoginResponse
 {
     public string Token { get; set; }
     public string RefreshToken { get; set; }
+}
+
+public class LoginRequestValidation: AbstractValidator<LoginRequest>
+{
+    public LoginRequestValidation()
+    {
+        RuleFor(x=>x.Name).NotNull().NotEmpty();
+        RuleFor(x=>x.Password).NotNull().NotEmpty();
+    }
 }
 
 public class LoginHandler : IRequestHandler<LoginRequest, Result<LoginResponse>>

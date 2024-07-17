@@ -1,4 +1,6 @@
-﻿using jim.wiki.back.application.Features.Users;
+﻿using FluentValidation;
+using jim.wiki.back.application;
+using jim.wiki.back.application.Features.Users;
 using jim.wiki.back.infrastructure.Autentication.Services;
 using jim.wiki.back.infrastructure.Repository;
 using jim.wiki.back.infrastructure.Repository.Models;
@@ -47,17 +49,20 @@ internal static class ServiceCollectionExtension
     {
         serviceCollection.AddScoped(typeof(IRepositoryBase<>), typeof(RepositoryGeneric<>));
 
-        serviceCollection.AddMediatR(Assembly.GetAssembly(typeof(CreateUserRequest)));
+        serviceCollection.AddMediatR(Assembly.GetAssembly(typeof(jim.wiki.back.application.Startup)));
 
         serviceCollection.AddAudit(GenerateConnectionString(serviceCollection, configuration), databaseType: wiki.core.Enumerations.DatabaseTypeEnum.Postgress);
 
         serviceCollection.AddTransient(typeof(IPipelineBehavior<,>), typeof(TransactionalPipelineBehavior<,>));
 
+        serviceCollection.AddValidatorsFromAssemblies(new Assembly[] { typeof(jim.wiki.back.application.Startup).Assembly });
+        
+
         serviceCollection.AddScoped<IUserDataService, UserDataService>();
 
         serviceCollection.AddTransient<IPasswordService, PasswordService>();
 
-
+        //Configuramos comporatmineto de json para que use Strings en vez de los int de los enumerados
         serviceCollection.AddControllers().AddJsonOptions(options =>
         {
             options.JsonSerializerOptions.Converters.Add(new FlexibleStatusJsonConverter<LogicalOperation>(true));

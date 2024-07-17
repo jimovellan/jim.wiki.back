@@ -10,6 +10,7 @@ namespace jim.wiki.core.Results
     {
         public bool Success => !Errors.ContainElements(); 
         public bool IsFailed => !Success;
+        public bool HasValidationError => Validations.ContainElements();
 
         [JsonIgnore]
         public CancellationToken CancellationToken { get; set; }
@@ -17,9 +18,13 @@ namespace jim.wiki.core.Results
         private IList<Error> _errors;
         public ReadOnlyCollection<Error> Errors  => _errors.AsReadOnly();
 
+        private IList<Error> _validations;
+        public ReadOnlyCollection<Error> Validations => _validations.AsReadOnly();
+
         internal Result(CancellationToken cancellationToken = default)
         {
             _errors = new List<Error>();
+            _validations = new List<Error>();
             CancellationToken = cancellationToken;
         }
 
@@ -32,6 +37,11 @@ namespace jim.wiki.core.Results
         public void AddError(params Error[] errors)
         {
             _errors = _errors.Concat(errors).ToList();
+        }
+
+        public void AddValidations(params Error[] validations)
+        {
+            _validations = _validations.Concat(validations).ToList();
         }
 
         public static Result Ok(CancellationToken cancellationToken = default) => new Result(cancellationToken);

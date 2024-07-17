@@ -17,6 +17,10 @@ namespace jim.wiki.core.Repository.Extensions;
 
 public static class IQueryableExtensions
 {
+
+    private const string ORDER_BY_METHOD_NAME = "OrderBy";
+    private const string ORDER_BY_DESCENCING_METHOD_NAME = "OrderByDescending";
+    private const string CONSTAINS_METHOD_NAME = "Constains";
     /// <summary>
     /// Ordena usando el nombre del campo y si es ascendente o descendente
     /// </summary>
@@ -34,22 +38,20 @@ public static class IQueryableExtensions
 
         var property = entityType.GetProperties().FirstOrDefault(f => f.Name.Trim().ToLowerInvariant() == field.Trim().ToLowerInvariant());       
                 
-        var orderMethodName = ascencing  ?   "OrderBy" : "OrderByDescending";
+        var orderMethodName = ascencing  ?   ORDER_BY_METHOD_NAME : ORDER_BY_DESCENCING_METHOD_NAME;
 
-        
         var typeQuery = typeof(System.Linq.Queryable);
 
-        
-
+        //Obtenemos del typo Queryable el metodo generico publico que tiene dos parametros
         var method = typeQuery.GetMethods()
                          .Where(type => type.Name == orderMethodName
                                  && type.IsGenericMethod && type.IsPublic
                                  && type.GetParameters().Count() == 2
                                     ).FirstOrDefault();
-
+        //Creamos el metodo generico pasandole los dos tipos que necesita
        var genericMethod = method.MakeGenericMethod(entityType, property.PropertyType);
 
-
+        //Invocamos el metodo para ordenar
        return (IOrderedQueryable<T>)genericMethod.Invoke(null, new object[] { query, lambda });
     }
 
@@ -75,13 +77,13 @@ public static class IQueryableExtensions
 
         var typeQuery = typeof(System.Linq.Queryable);
         
-
+        //Obtenemos el método público y generico de dos parametros con el nombre de método obtenido anteriormente
         var method = typeQuery.GetMethods()
                          .Where(type => type.Name == orderMethodName
                                  && type.IsGenericMethod && type.IsPublic
                                  && type.GetParameters().Count() == 2
                                     ).FirstOrDefault();
-
+        //Creamos el metodo generico pasandole los dos tipos necesarios
         var genericMethod = method.MakeGenericMethod(type, property.PropertyType);
 
         return (IOrderedQueryable<T>)genericMethod.Invoke(null, new object[] { query, lambda });
@@ -98,7 +100,9 @@ public static class IQueryableExtensions
         var property = type.GetProperties().FirstOrDefault(x=>x.Name.Trim().ToLowerInvariant() == field.Trim().ToLowerInvariant());
 
         var parameter = Expression.Parameter(type, "x");
+
         var prop = Expression.Property(parameter, property);
+
         return Expression.Lambda(prop, new ParameterExpression[] { parameter });
     }
 
@@ -113,7 +117,6 @@ public static class IQueryableExtensions
     public static IQueryable<T> Filter<T>(this IQueryable<T> query, IEnumerable<FieldSearch> fieldSearches)
     {
         if (fieldSearches.NoContainElements()) return query;
-
 
         ParameterExpression parameter = Expression.Parameter(typeof(T), "x");
 
@@ -392,7 +395,7 @@ public static class IQueryableExtensions
     {
         if (proppertyType != typeof(String)) throw new ArgumentException($"the property {field.Name} cant be use Like expressions");
 
-        var method = typeof(string).GetMethod("Contains", new[] { typeof(string) });
+        var method = typeof(string).GetMethod(CONSTAINS_METHOD_NAME, new[] { typeof(string) });
 
         var constant = Expression.Constant(field.Value?.ToString() ?? "", proppertyType);
 

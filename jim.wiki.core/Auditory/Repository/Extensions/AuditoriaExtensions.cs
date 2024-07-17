@@ -68,7 +68,7 @@ namespace jim.wiki.core.Auditory.Repository.Extensions
 
                 ctx.ApplyMigrations();
             }
-
+            serviceCollection.AddScoped(typeof(IPipelineBehavior<,>), typeof(ValidationPipelineBehavior<,>));
             serviceCollection.AddScoped(typeof(IPipelineBehavior<,>), typeof(AuditablePipelineBehavior<,>));
 
             return serviceCollection;

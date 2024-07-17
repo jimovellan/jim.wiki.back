@@ -23,6 +23,8 @@ Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "00. Core", "00. Core", "{D7
 EndProject
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "jim.wiki.core", "jim.wiki.core\jim.wiki.core.csproj", "{B2D18D06-30A9-4540-A694-D24665F89B08}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "jim.wiki.back.infrastructure.test", "jim.wiki.back.infrastructure.test\jim.wiki.back.infrastructure.test.csproj", "{CB9D8610-F120-4C4F-85D1-D7586399771F}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -49,6 +51,10 @@ Global
 		{B2D18D06-30A9-4540-A694-D24665F89B08}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{B2D18D06-30A9-4540-A694-D24665F89B08}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{B2D18D06-30A9-4540-A694-D24665F89B08}.Release|Any CPU.Build.0 = Release|Any CPU
+		{CB9D8610-F120-4C4F-85D1-D7586399771F}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{CB9D8610-F120-4C4F-85D1-D7586399771F}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{CB9D8610-F120-4C4F-85D1-D7586399771F}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{CB9D8610-F120-4C4F-85D1-D7586399771F}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
@@ -59,6 +65,7 @@ Global
 		{A684BECA-73D2-44A3-A488-9CC5C589CDE8} = {13CDFA66-2ADC-4685-9E1A-0B0D3CDC7727}
 		{84884F6C-0CF5-4260-971D-A45638B87DFD} = {D8C9E07A-197C-4F1F-8D29-F06225701721}
 		{B2D18D06-30A9-4540-A694-D24665F89B08} = {D78B2B3D-CE26-4D6C-8590-F56808151986}
+		{CB9D8610-F120-4C4F-85D1-D7586399771F} = {EAB8F823-255C-41CC-B863-7B3DDE78D282}
 	EndGlobalSection
 	GlobalSection(ExtensibilityGlobals) = postSolution
 		SolutionGuid = {7E16E1AC-3B0D-4D17-AE55-F969DBF2648C}

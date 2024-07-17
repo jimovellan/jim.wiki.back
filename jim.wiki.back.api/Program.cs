@@ -1,4 +1,6 @@
 
+using FluentValidation.AspNetCore;
+using jim.wiki.back.api.Middlewares;
 using jim.wiki.back.infrastructure;
 using jim.wiki.back.infrastructure.Repository;
 using jim.wiki.core.Authentication.Extensions;
@@ -19,6 +21,7 @@ namespace jim.wiki.back.api
             builder.Services.ApplyAppConfiguration(builder.Configuration);
 
             builder.Services.AddControllers();
+
             // Learn more about configuring Swagger/OpenAPI at https://aka.ms/aspnetcore/swashbuckle
             builder.Services.AddEndpointsApiExplorer();
             builder.Services.AddSwaggerGen();
@@ -94,9 +97,9 @@ namespace jim.wiki.back.api
                 app.UseSwaggerUI();
             }
 
-           
 
 
+            app.UseMiddleware<HandlingExceptionMidleware>();
             app.UseAuthentication();
             app.UseAuthorization();
             app.UseHttpsRedirection();
