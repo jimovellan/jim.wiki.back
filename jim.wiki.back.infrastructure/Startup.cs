@@ -19,7 +19,10 @@ namespace jim.wiki.back.infrastructure
         public static void ApplyAppConfiguration(this IServiceCollection serviceCollection, IConfigurationManager configuration)
         {
             serviceCollection
+
                 .AddApplicationOptions(configuration)
+                .ConfigureCors(configuration)
+                .ConfigureLenguages(configuration)
                 .AddDDBBConection(configuration)
                 .RegisterAplicationServices(configuration)
                 .GenerateAdminUser(configuration);

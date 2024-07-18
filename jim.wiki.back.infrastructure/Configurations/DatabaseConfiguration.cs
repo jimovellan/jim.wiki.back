@@ -4,7 +4,7 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 
-namespace jim.wiki.back.infrastructure.Repository.Models
+namespace jim.wiki.back.infrastructure.Configurations
 {
     public class DatabaseConfiguration
     {

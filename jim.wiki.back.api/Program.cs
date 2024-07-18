@@ -7,6 +7,7 @@ using jim.wiki.core.Authentication.Extensions;
 using Microsoft.AspNetCore.Authentication.JwtBearer;
 using Microsoft.AspNetCore.Authorization;
 using Microsoft.EntityFrameworkCore;
+using Microsoft.Extensions.Options;
 using Microsoft.OpenApi.Models;
 
 namespace jim.wiki.back.api
@@ -98,6 +99,8 @@ namespace jim.wiki.back.api
             }
 
 
+            var localizationOptions = app.Services.GetService<IOptions<RequestLocalizationOptions>>()?.Value;
+            app.UseRequestLocalization(localizationOptions);
 
             app.UseMiddleware<HandlingExceptionMidleware>();
             app.UseAuthentication();

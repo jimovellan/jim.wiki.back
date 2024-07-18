@@ -2,8 +2,8 @@
 using jim.wiki.back.application;
 using jim.wiki.back.application.Features.Users;
 using jim.wiki.back.infrastructure.Autentication.Services;
+using jim.wiki.back.infrastructure.Configurations;
 using jim.wiki.back.infrastructure.Repository;
-using jim.wiki.back.infrastructure.Repository.Models;
 using jim.wiki.back.infrastructure.Services;
 using jim.wiki.back.model.Models.Users;
 using jim.wiki.back.model.Services;
@@ -16,10 +16,13 @@ using jim.wiki.core.Pipelines.Behaviors;
 using jim.wiki.core.Repository.Interfaces;
 using jim.wiki.core.Repository.Models.Search;
 using MediatR;
+using Microsoft.AspNetCore.Builder;
+using Microsoft.AspNetCore.Localization;
 using Microsoft.EntityFrameworkCore;
 using Microsoft.Extensions.Configuration;
 using Microsoft.Extensions.DependencyInjection;
 using Microsoft.Extensions.Options;
+using System.Globalization;
 using System.Reflection;
 
 namespace jim.wiki.back.infrastructure.Extensions;
@@ -27,6 +30,10 @@ namespace jim.wiki.back.infrastructure.Extensions;
 internal static class ServiceCollectionExtension
 {
     internal const string DATA_BASE_SETTINGS_KEY = "DataBase";
+    internal const string LANGUAGES_SETTINS_KEY = "Languages";
+    internal const string CORS_SETTINGS_KEY = "Cors";
+
+
 
     /// <summary>
     /// Registro de todos los IConfiguration
@@ -35,9 +42,119 @@ internal static class ServiceCollectionExtension
     /// <returns></returns>
     internal static IServiceCollection AddApplicationOptions(this IServiceCollection serviceCollection, IConfigurationManager configuration)
     {
+        Console.WriteLine("- Cargando parametros de configuracion de settings");
         serviceCollection.AddOptions<DatabaseConfiguration>().Bind(configuration.GetSection(DATA_BASE_SETTINGS_KEY));
+        serviceCollection.AddOptions<LanguagesConfiguration>().Bind(configuration.GetSection(LANGUAGES_SETTINS_KEY));
+        serviceCollection.AddOptions<CorsConfigurations>().Bind(configuration.GetSection(CORS_SETTINGS_KEY));
 
         return serviceCollection;
+    }
+
+
+    public static IServiceCollection ConfigureCors(this IServiceCollection services, IConfiguration configuration)
+    {
+        using (var scoped = services.BuildServiceProvider().CreateScope())
+        {
+            var corsConfig = scoped.ServiceProvider.GetService<IOptions<CorsConfigurations>>();
+
+            if (corsConfig?.Value?.Enabled ?? false)
+            {
+                Console.WriteLine("- Configurando Cors");
+                Console.WriteLine($"- urls permitidas {string.Join(",",corsConfig.Value.OriginsAllowed)}");
+                services.AddCors(opt =>
+                {
+                    opt.AddPolicy("AllowedSpecificOrigins", bulder =>
+                    {
+                        bulder.WithOrigins(corsConfig.Value.OriginsAllowed)
+                              .AllowAnyHeader()
+                              .AllowAnyMethod();
+                    });
+                });
+            }
+        }
+
+        return services;
+    }
+
+    /// <summary>
+    /// Configuación de los lenguages de la aplicación
+    /// </summary>
+    /// <param name="services"></param>
+    /// <param name="configuration"></param>
+    /// <returns></returns>
+    /// <exception cref="CultureNotFoundException"></exception>
+    public static IServiceCollection ConfigureLenguages(this IServiceCollection services, IConfiguration configuration)
+    {
+
+        using (var scoped = services.BuildServiceProvider().CreateScope())
+        {
+            var langConfig = scoped.ServiceProvider.GetService<IOptions<LanguagesConfiguration>>();
+
+            if(langConfig?.Value?.Enabled ?? false)
+            {
+                Console.WriteLine("Activada configuración de lenguajes");
+
+                services.AddLocalization(conf =>
+                {
+                    conf.ResourcesPath = "Resources";
+                });
+
+                services.Configure<RequestLocalizationOptions>(opt =>
+                {
+                    if (!String.IsNullOrWhiteSpace(langConfig.Value.Default))
+                    {
+                        Console.WriteLine($"    - Cultura por defecto : {langConfig.Value.Default}");
+                        opt.DefaultRequestCulture = new RequestCulture(langConfig.Value.Default);
+                    }
+
+                    if (langConfig!.Value!.Accepted!.ContainElements())
+                    {
+                        Console.WriteLine($"    - Idiomas aceptados : {String.Join(",", langConfig!.Value!.Accepted!)}");
+                        var supportedCultures = new List<CultureInfo>();
+                        foreach (var lang in langConfig.Value.Accepted)
+                        {
+                            supportedCultures.Add(new CultureInfo(lang));
+                        }
+
+                        opt.SupportedCultures = supportedCultures;
+                        opt.SupportedUICultures = supportedCultures;
+
+                        //Configuración lanzar excepción si se solicita un lenguaje no permitido
+                        if (langConfig!.Value!.ThrowExceptionIFNotAllowed)
+                        {
+                            opt.RequestCultureProviders = new List<IRequestCultureProvider>
+                        {
+                            new CustomRequestCultureProvider(context =>
+                            {
+                                // Obtén la cultura de los encabezados de la solicitud
+                                var userLanguages = context.Request.Headers["Accept-Language"].ToString();
+                                if (string.IsNullOrWhiteSpace(userLanguages))
+                                {
+                                    return Task.FromResult(new ProviderCultureResult(opt.DefaultRequestCulture.Culture.Name, opt.DefaultRequestCulture.Culture.Name));
+                                }
+                                var firstLang = userLanguages?.Split(',').FirstOrDefault();
+                                var culture = new CultureInfo(firstLang ?? opt.DefaultRequestCulture.Culture.Name);
+
+                                // Si la cultura no está soportada, lanza una excepción
+                                if (!supportedCultures.Contains(culture))
+                                {
+                                    throw new CultureNotFoundException($"Culture {culture} is not supported.");
+                                }
+
+                                return Task.FromResult(new ProviderCultureResult(culture.Name, culture.Name));
+                            })
+                        };
+
+                        }
+
+
+                    }
+                });
+            }
+        }
+
+        return services;
+
     }
 
     /// <summary>
@@ -47,6 +164,8 @@ internal static class ServiceCollectionExtension
     /// <returns></returns>
     internal static IServiceCollection RegisterAplicationServices(this IServiceCollection serviceCollection, IConfiguration configuration)
     {
+        Console.WriteLine("- Registrando servicios en inyección de dependencias"); 
+
         serviceCollection.AddScoped(typeof(IRepositoryBase<>), typeof(RepositoryGeneric<>));
 
         serviceCollection.AddMediatR(Assembly.GetAssembly(typeof(jim.wiki.back.application.Startup)));
@@ -74,6 +193,7 @@ internal static class ServiceCollectionExtension
 
     internal static IServiceCollection AddDDBBConection(this IServiceCollection serviceCollection, IConfigurationManager configuration)
     {
+        Console.WriteLine("- Cargando configuración de BBDD");
 
         var connectiontring = serviceCollection.GenerateConnectionString(configuration);
 
