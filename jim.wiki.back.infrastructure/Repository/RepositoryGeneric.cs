@@ -5,6 +5,9 @@ using jim.wiki.core.Repository.Models.Search;
 using Microsoft.EntityFrameworkCore;
 using jim.wiki.core.Repository.Extensions;
 using jim.wiki.core.Results;
+using System.Linq.Expressions;
+using static Microsoft.EntityFrameworkCore.DbLoggerCategory;
+using System.Collections.Generic;
 
 namespace jim.wiki.back.infrastructure.Repository
 {
@@ -42,21 +45,43 @@ namespace jim.wiki.back.infrastructure.Repository
             return entryEntity.State == EntityState.Added;
         }
 
-        public async Task<ResultSearch<TEntity>> ApplyFilterToSearch(FilterSearch filter)
+        
+
+        public async Task<ResultSearch<T>> ApplyFilterToSearch<T>(IQueryable<T> query, FilterSearch filter = null)
+        {
+            var result = await AplyFilterToSearchInternal(query, filter);
+
+          
+            return new ResultSearch<T>(result.lista, result.total, filter.Pagination.Page, filter.Pagination.Take);
+
+        }
+
+        public async Task<ResultSearch<TOut>> ApplyFilterToSearch<T, TOut>(IQueryable<T> customQuery, FilterSearch filter, Func<T, TOut> converterFunction)
+        {
+
+            var result = await AplyFilterToSearchInternal(customQuery, filter);
+
+            var lista = result.lista.Select(converterFunction);
+
+            return new ResultSearch<TOut>(lista, result.total, filter.Pagination.Page, filter.Pagination.Take);
+        }
+
+        public async Task<(int total, IEnumerable<T> lista)> AplyFilterToSearchInternal<T>(IQueryable<T> query, FilterSearch filter)
         {
             //validate filter
             filter.Validate();
 
             //validate if exists the fields into the entity
             if (filter.Filter.ContainElements())
-            {    Type type = typeof(TEntity);
+            {
+                Type type = typeof(T);
                 foreach (var field in filter.Filter)
                 {
                     if (!type.ContainsProperty(field.Name)) throw new Exception($"the field {field.Name} no exist in entity {type.Name}");
                 }
             }
 
-            var query = _dbSet.AsQueryable();
+
 
             //filter result
 
@@ -75,23 +100,24 @@ namespace jim.wiki.back.infrastructure.Repository
                 }
                 else
                 {
-                    query = ((IOrderedQueryable<TEntity>)query).ThenOrderBy(order.Field, isAscending);
+                    query = ((IOrderedQueryable<T>)query).ThenOrderBy(order.Field, isAscending);
                 }
             }
 
             var total = await query.CountAsync();
-           
+
             //Pagination
-            if(filter.Pagination != null && (filter.Pagination.Take ?? 0) > 0 && (filter.Pagination.Page ?? 0) > 0)
+            if (filter.Pagination != null && (filter.Pagination.Take ?? 0) > 0 && (filter.Pagination.Page ?? 0) > 0)
             {
                 query = query.Skip(((filter.Pagination?.Page ?? 0) - 1) * (filter?.Pagination?.Page ?? 0))
-                            .Take((filter.Pagination?.Take ?? 0));
-                            
+                .Take((filter.Pagination?.Take ?? 0));
+
             }
 
-            var list = await query.ToListAsync();
-            return new ResultSearch<TEntity>(list,total,filter.Pagination.Page, filter.Pagination.Take);
-            
+            var lista = await query.ToListAsync();
+
+            return  ( total, lista);
+           
         }
 
         public Task DeleteAsync(TEntity entity)
@@ -182,6 +208,8 @@ namespace jim.wiki.back.infrastructure.Repository
                 }
             }
         }
+
+        
     }
 }
 

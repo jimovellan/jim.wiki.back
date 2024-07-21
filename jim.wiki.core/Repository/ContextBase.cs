@@ -13,16 +13,16 @@ namespace jim.wiki.core.Repository
 {
     public abstract class ContextBase:DbContext,IUnitOfWork
     {
-        
+        private readonly IDataBaseSeeder<ModelBuilder> seeder;
 
         protected ContextBase()
         {
             
         }
 
-        public ContextBase(DbContextOptions options):base(options)
+        public ContextBase(DbContextOptions options, IDataBaseSeeder<ModelBuilder> seeder):base(options)
         {
-            
+            this.seeder = seeder;
         }
 
         protected override void OnModelCreating(ModelBuilder modelBuilder)
@@ -30,12 +30,15 @@ namespace jim.wiki.core.Repository
 
             OnModelCreatingCustom(modelBuilder);
             base.OnModelCreating(modelBuilder);
+          
+            
         }
 
-        protected virtual void OnModelCreatingCustom(ModelBuilder modelBuilder)
+        public virtual void OnModelCreatingCustom(ModelBuilder modelBuilder)
         {
 
             RegisterFilters(modelBuilder);
+            seeder.SeedData(modelBuilder);
         }
 
         private void RegisterFilters(ModelBuilder modelBuilder)

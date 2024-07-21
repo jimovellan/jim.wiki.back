@@ -2,6 +2,7 @@
 using System;
 using Microsoft.EntityFrameworkCore;
 using Microsoft.EntityFrameworkCore.Infrastructure;
+using Microsoft.EntityFrameworkCore.Metadata;
 using Microsoft.EntityFrameworkCore.Migrations;
 using Microsoft.EntityFrameworkCore.Storage.ValueConversion;
 using Npgsql.EntityFrameworkCore.PostgreSQL.Metadata;
@@ -12,8 +13,8 @@ using jim.wiki.back.infrastructure.Repository;
 namespace jim.wiki.back.infrastructure.Repository.Migrations
 {
     [DbContext(typeof(ApplicationContext))]
-    [Migration("20240711170716_user-modified2")]
-    partial class usermodified2
+    [Migration("20240721085739_initial")]
+    partial class initial
     {
         /// <inheritdoc />
         protected override void BuildTargetModel(ModelBuilder modelBuilder)
@@ -28,10 +29,7 @@ namespace jim.wiki.back.infrastructure.Repository.Migrations
             modelBuilder.Entity("jim.wiki.back.model.Models.Users.Rol", b =>
                 {
                     b.Property<long>("Id")
-                        .ValueGeneratedOnAdd()
                         .HasColumnType("bigint");
-
-                    NpgsqlPropertyBuilderExtensions.UseIdentityByDefaultColumn(b.Property<long>("Id"));
 
                     b.Property<DateTime>("CreateadAt")
                         .HasColumnType("timestamp with time zone");
@@ -69,16 +67,59 @@ namespace jim.wiki.back.infrastructure.Repository.Migrations
 
                     b.HasKey("Id");
 
+                    b.HasAlternateKey("Guid");
+
                     b.ToTable("Roles");
+
+                    b.HasData(
+                        new
+                        {
+                            Id = 1L,
+                            CreateadAt = new DateTime(2024, 7, 21, 8, 57, 38, 908, DateTimeKind.Utc).AddTicks(4428),
+                            CreatedBy = "_System",
+                            Description = "Admin",
+                            Guid = new Guid("abc10fde-95db-4731-9e14-ee2e0fa7d1aa"),
+                            IsDeleted = false,
+                            LastAction = "Admin",
+                            ModifiedAt = new DateTime(2024, 7, 21, 8, 57, 38, 908, DateTimeKind.Utc).AddTicks(4457),
+                            ModifiedBy = "_System",
+                            Name = "Admin"
+                        },
+                        new
+                        {
+                            Id = 2L,
+                            CreateadAt = new DateTime(2024, 7, 21, 8, 57, 38, 908, DateTimeKind.Utc).AddTicks(4509),
+                            CreatedBy = "_System",
+                            Description = "User",
+                            Guid = new Guid("a94d144e-297e-45ff-bd4b-1e81c7470a0b"),
+                            IsDeleted = false,
+                            LastAction = "User",
+                            ModifiedAt = new DateTime(2024, 7, 21, 8, 57, 38, 908, DateTimeKind.Utc).AddTicks(4510),
+                            ModifiedBy = "_System",
+                            Name = "User"
+                        },
+                        new
+                        {
+                            Id = 3L,
+                            CreateadAt = new DateTime(2024, 7, 21, 8, 57, 38, 908, DateTimeKind.Utc).AddTicks(4513),
+                            CreatedBy = "_System",
+                            Description = "Guest",
+                            Guid = new Guid("3623ea86-3b21-4527-949b-8b59bb7f93fe"),
+                            IsDeleted = false,
+                            LastAction = "Guest",
+                            ModifiedAt = new DateTime(2024, 7, 21, 8, 57, 38, 908, DateTimeKind.Utc).AddTicks(4514),
+                            ModifiedBy = "_System",
+                            Name = "Guest"
+                        });
                 });
 
             modelBuilder.Entity("jim.wiki.back.model.Models.Users.User", b =>
                 {
                     b.Property<long>("Id")
-                        .ValueGeneratedOnAdd()
-                        .HasColumnType("bigint");
-
-                    NpgsqlPropertyBuilderExtensions.UseIdentityByDefaultColumn(b.Property<long>("Id"));
+                        .HasColumnType("bigint")
+                        .HasAnnotation("SqlServer:IdentityIncrement", 1)
+                        .HasAnnotation("SqlServer:IdentitySeed", 2L)
+                        .HasAnnotation("SqlServer:ValueGenerationStrategy", SqlServerValueGenerationStrategy.IdentityColumn);
 
                     b.Property<DateTime>("CreateadAt")
                         .HasColumnType("timestamp with time zone");
@@ -118,32 +159,31 @@ namespace jim.wiki.back.infrastructure.Repository.Migrations
                         .IsRequired()
                         .HasColumnType("text");
 
-                    b.HasKey("Id");
-
-                    b.ToTable("Users");
-                });
-
-            modelBuilder.Entity("jim.wiki.back.model.Models.Users.UserRole", b =>
-                {
-                    b.Property<long>("Id")
-                        .ValueGeneratedOnAdd()
+                    b.Property<long>("RolId")
                         .HasColumnType("bigint");
 
-                    NpgsqlPropertyBuilderExtensions.UseIdentityByDefaultColumn(b.Property<long>("Id"));
-
-                    b.Property<Guid>("RolGuid")
-                        .HasColumnType("uuid");
-
-                    b.Property<Guid>("UserGuid")
-                        .HasColumnType("uuid");
-
                     b.HasKey("Id");
 
-                    b.HasAlternateKey("UserGuid", "RolGuid");
+                    b.HasAlternateKey("Guid");
 
-                    b.HasIndex("RolGuid");
+                    b.ToTable("Users");
 
-                    b.ToTable("UserRoles");
+                    b.HasData(
+                        new
+                        {
+                            Id = 1L,
+                            CreateadAt = new DateTime(2024, 7, 21, 8, 57, 39, 29, DateTimeKind.Utc).AddTicks(1082),
+                            CreatedBy = "_Systenm",
+                            Email = "email@mail.com",
+                            Guid = new Guid("00000000-0000-0000-0000-000000000000"),
+                            Hash = "$2a$11$jkBKuOyTqRNTIrFuUw2Cm.8vBcgTk4QvQi7TiFMHTkz39uBvZ530S",
+                            IsDeleted = false,
+                            LastAction = "Added",
+                            ModifiedAt = new DateTime(2024, 7, 21, 8, 57, 39, 29, DateTimeKind.Utc).AddTicks(1086),
+                            ModifiedBy = "_System",
+                            Name = "Admin",
+                            RolId = 1L
+                        });
                 });
 
             modelBuilder.Entity("jim.wiki.back.model.Models.Users.UserToken", b =>
@@ -178,25 +218,15 @@ namespace jim.wiki.back.infrastructure.Repository.Migrations
                     b.ToTable("UserTokens");
                 });
 
-            modelBuilder.Entity("jim.wiki.back.model.Models.Users.UserRole", b =>
+            modelBuilder.Entity("jim.wiki.back.model.Models.Users.User", b =>
                 {
                     b.HasOne("jim.wiki.back.model.Models.Users.Rol", "Rol")
-                        .WithMany("UserRoles")
-                        .HasForeignKey("RolGuid")
-                        .HasPrincipalKey("Guid")
-                        .OnDelete(DeleteBehavior.Cascade)
-                        .IsRequired();
-
-                    b.HasOne("jim.wiki.back.model.Models.Users.User", "User")
-                        .WithMany("RolesUser")
-                        .HasForeignKey("UserGuid")
-                        .HasPrincipalKey("Guid")
+                        .WithMany("Users")
+                        .HasForeignKey("Id")
                         .OnDelete(DeleteBehavior.Cascade)
                         .IsRequired();
 
                     b.Navigation("Rol");
-
-                    b.Navigation("User");
                 });
 
             modelBuilder.Entity("jim.wiki.back.model.Models.Users.UserToken", b =>
@@ -212,13 +242,11 @@ namespace jim.wiki.back.infrastructure.Repository.Migrations
 
             modelBuilder.Entity("jim.wiki.back.model.Models.Users.Rol", b =>
                 {
-                    b.Navigation("UserRoles");
+                    b.Navigation("Users");
                 });
 
             modelBuilder.Entity("jim.wiki.back.model.Models.Users.User", b =>
                 {
-                    b.Navigation("RolesUser");
-
                     b.Navigation("Tokens");
                 });
 #pragma warning restore 612, 618

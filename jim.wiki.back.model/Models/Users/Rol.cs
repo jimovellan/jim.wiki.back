@@ -15,7 +15,7 @@ public class Rol:AggregateLogical
 
     public string Description { get; set; }
 
-    public virtual ICollection<UserRole> UserRoles { get; set; }
+    public virtual ICollection<User> Users { get; set; }
 
     
 }

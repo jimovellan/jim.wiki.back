@@ -23,7 +23,7 @@ Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "00. Core", "00. Core", "{D7
 EndProject
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "jim.wiki.core", "jim.wiki.core\jim.wiki.core.csproj", "{B2D18D06-30A9-4540-A694-D24665F89B08}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "jim.wiki.back.infrastructure.test", "jim.wiki.back.infrastructure.test\jim.wiki.back.infrastructure.test.csproj", "{CB9D8610-F120-4C4F-85D1-D7586399771F}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "jim.wiki.back.infrastructure.test", "jim.wiki.back.infrastructure.test\jim.wiki.back.infrastructure.test.csproj", "{CB9D8610-F120-4C4F-85D1-D7586399771F}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution

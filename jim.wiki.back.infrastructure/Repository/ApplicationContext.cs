@@ -1,5 +1,6 @@
 ﻿using jim.wiki.back.model.Models.Users;
 using jim.wiki.core.Repository;
+using jim.wiki.core.Repository.Interfaces;
 using Microsoft.EntityFrameworkCore;
 using System.Reflection;
 
@@ -7,14 +8,16 @@ namespace jim.wiki.back.infrastructure.Repository
 {
     public class ApplicationContext: ContextBase
     {
-
+        
 
         public ApplicationContext():base() { }
 
-        public ApplicationContext(DbContextOptions options):base(options)
+        public ApplicationContext(DbContextOptions options, IDataBaseSeeder<ModelBuilder> dataBaseSeeder):base(options, dataBaseSeeder)
         {
            
         }
+
+        
 
         #region Dbsets
         protected override void OnConfiguring(DbContextOptionsBuilder optionsBuilder)
@@ -27,7 +30,7 @@ namespace jim.wiki.back.infrastructure.Repository
             base.OnConfiguring(optionsBuilder);
         }
 
-        protected override void OnModelCreatingCustom(ModelBuilder modelBuilder)
+        public override void OnModelCreatingCustom(ModelBuilder modelBuilder)
         {
             modelBuilder.ApplyConfigurationsFromAssembly(Assembly.GetExecutingAssembly());
 
@@ -41,7 +44,7 @@ namespace jim.wiki.back.infrastructure.Repository
 
         public DbSet<User>  Users { get; set; }
         public DbSet<Rol> Roles { get; set; }
-        public DbSet<UserRole> UserRoles { get; set; }
+   
 
         public DbSet<UserToken> UserTokens { get; set; }
         #endregion

@@ -7,8 +7,8 @@ namespace jim.wiki.back.application.Features.Users;
 
 public class AddUserRolRequest:IRequest<AddUserRolResponse>
 {
-    public Guid UserId { get; set; }
-    public Guid RolId { get; set; }
+    public int UserId { get; set; }
+    public int RolId { get; set; }
 }
 
 public class AddUserRolResponse
@@ -33,8 +33,8 @@ public class AddUserRolHandler : IRequestHandler<AddUserRolRequest, AddUserRolRe
     {
 
         
-
-        var userRol = new UserRole() { RolGuid = request.RolId, UserGuid = request.UserId };
+        
+       
 
         
 

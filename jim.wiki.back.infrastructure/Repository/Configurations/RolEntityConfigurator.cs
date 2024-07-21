@@ -1,4 +1,6 @@
-﻿using jim.wiki.back.model.Models.Users;
+﻿using jim.wiki.back.infrastructure.Repository.Seeds;
+using jim.wiki.back.model.Models.Users;
+using jim.wiki.back.model.Models.Users.Enums;
 using Microsoft.EntityFrameworkCore;
 using Microsoft.EntityFrameworkCore.Metadata.Builders;
 using System;
@@ -13,8 +15,11 @@ namespace jim.wiki.back.infrastructure.Repository.Configurations
     {
         public void Configure(EntityTypeBuilder<Rol> builder)
         {
+            builder.Property(p => p.Id).ValueGeneratedNever();
             builder.HasAlternateKey(p => p.Guid);
             builder.Property(p => p.Guid).HasDefaultValueSql("gen_random_uuid()");
+           
+            
         }
     }
 }

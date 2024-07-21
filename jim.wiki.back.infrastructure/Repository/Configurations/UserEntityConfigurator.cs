@@ -13,8 +13,12 @@ namespace jim.wiki.back.infrastructure.Repository.Configurations
     {
         public void Configure(EntityTypeBuilder<User> builder)
         {
+            builder.HasKey(k => k.Id);
+
+            builder.Property(k => k.Id).UseIdentityColumn(2, 1);
             builder.HasAlternateKey(x => x.Guid);
             builder.Property(p=>p.Guid).HasDefaultValueSql("gen_random_uuid()");
+            builder.HasOne(x=>x.Rol).WithMany(x=>x.Users).HasForeignKey(x=>x.Id);
         }
     }
 }

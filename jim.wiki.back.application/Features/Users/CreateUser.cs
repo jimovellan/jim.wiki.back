@@ -12,6 +12,7 @@ public class CreateUserRequest:IRequest<CreateUserResponse>,ITransactionalReques
     public string Name { get; set; }
     public string Email { get; set; }
     public string Password { get; set; }
+    public int RolId { get; set; }
 
     public IList<Guid> Roles { get; set; }
 }
@@ -50,11 +51,8 @@ public class CreateUserHandler : IRequestHandler<CreateUserRequest, CreateUserRe
 
         var hash = _passwordService.GenerateHash(request.Password);
         
-        var entity = User.Create(request.Name, new model.Models.ObjectsValue.Email(request.Email), hash);
+        var entity = User.Create(request.Name, new model.Models.ObjectsValue.Email(request.Email), hash,request.RolId);
         
-
-        
-
         await _userRepository.AddAsync(entity);
 
         await _userRepository.SaveChangesAsync();

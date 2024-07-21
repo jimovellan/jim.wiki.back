@@ -1,6 +1,7 @@
 ﻿using FluentValidation;
 using jim.wiki.back.application;
 using jim.wiki.back.application.Features.Users;
+using jim.wiki.back.application.Services;
 using jim.wiki.back.infrastructure.Autentication.Services;
 using jim.wiki.back.infrastructure.Configurations;
 using jim.wiki.back.infrastructure.Repository;
@@ -175,7 +176,8 @@ internal static class ServiceCollectionExtension
         serviceCollection.AddTransient(typeof(IPipelineBehavior<,>), typeof(TransactionalPipelineBehavior<,>));
 
         serviceCollection.AddValidatorsFromAssemblies(new Assembly[] { typeof(jim.wiki.back.application.Startup).Assembly });
-        
+
+        serviceCollection.AddTransient<IMapperServices, MapperService>();
 
         serviceCollection.AddScoped<IUserDataService, UserDataService>();
 
@@ -184,9 +186,20 @@ internal static class ServiceCollectionExtension
         //Configuramos comporatmineto de json para que use Strings en vez de los int de los enumerados
         serviceCollection.AddControllers().AddJsonOptions(options =>
         {
+            options.JsonSerializerOptions.ReferenceHandler = System.Text.Json.Serialization.ReferenceHandler.IgnoreCycles;
+            options.JsonSerializerOptions.DefaultIgnoreCondition = System.Text.Json.Serialization.JsonIgnoreCondition.WhenWritingNull;
             options.JsonSerializerOptions.Converters.Add(new FlexibleStatusJsonConverter<LogicalOperation>(true));
             options.JsonSerializerOptions.Converters.Add(new FlexibleStatusJsonConverter<OperatorEnum>(true));
         });
+
+        return serviceCollection;
+    }
+
+    internal static IServiceCollection ConfigureMappers(this IServiceCollection serviceCollection, IConfigurationManager configuration)
+    {
+        Console.WriteLine("- Cargando configuración de Mappers");
+
+        serviceCollection.AddAutoMapper(typeof(Startup).Assembly);
 
         return serviceCollection;
     }
@@ -196,6 +209,9 @@ internal static class ServiceCollectionExtension
         Console.WriteLine("- Cargando configuración de BBDD");
 
         var connectiontring = serviceCollection.GenerateConnectionString(configuration);
+
+
+        serviceCollection.AddScoped<IDataBaseSeeder<ModelBuilder>, DataBaseSeeder>();
 
         serviceCollection.AddDbContext<ApplicationContext>(config =>
        {
@@ -256,19 +272,7 @@ internal static class ServiceCollectionExtension
 
     internal static void GenerateAdminUser(this IServiceCollection serviceCollection, IConfiguration configuration)
     {
-        using (var scope = serviceCollection.BuildServiceProvider())
-        {
-            var repositoryUser = scope.GetService<IRepositoryBase<User>>();
-            var adminUser = repositoryUser.Query().FirstOrDefault(x => x.Name == "Admin");
-            var sender = scope.GetService<ISender>();
-            if(adminUser is null)
-            {
-                sender.Send(new CreateUserRequest() { Name = "Admin", 
-                                                      Email = "Admin@mail.com", 
-                                                      Password = "@12345678!" })
-                                                      .Wait();
-            }
-        }
+        
     }
 }
 

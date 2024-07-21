@@ -26,9 +26,13 @@ namespace jim.wiki.back.infrastructure.test.Application
                                               .GetMethod("Handle");
 
                 var returnType = handleMethod.ReturnType;
-                
-                var resultType = returnType.GetGenericArguments().First();
-                resultType.GetGenericTypeDefinition().Should().Be(typeof(Result<>), $"la clase ${handlerType.Name} deberia devolver un Result");
+
+                returnType.IsGenericType.Should().BeTrue($" {handlerType.Name} Deberia ser una clase generica");
+
+                var returnedClass = returnType.GenericTypeArguments.First();
+
+
+                returnedClass.Should().BeAssignableTo(typeof(Result), $"la clase ${handlerType.Name} deberia devolver un Result");
             }
         }
     }

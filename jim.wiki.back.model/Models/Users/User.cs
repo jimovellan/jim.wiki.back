@@ -2,29 +2,33 @@
 using jim.wiki.back.model.Models.ObjectsValue;
 using jim.wiki.back.model.Services;
 using jim.wiki.core.Repository.Interfaces;
+using System.ComponentModel.DataAnnotations.Schema;
 
 namespace jim.wiki.back.model.Models.Users
 {
     public class User:AggregateLogical
     {
-        private User()
+        internal User()
         {
-            RolesUser ??= new List<UserRole>();
+           
         }
         
-        public Guid Guid { get; private set; }
+        public Guid Guid { get; internal set; }
 
-        public string Name { get; private set; }
+        public string Name { get; internal set; }
 
-        public string Email { get; private set; }
+        public string Email { get; internal set; }
 
-        public string Hash { get; private set; }
+        public string Hash { get; internal set; }
 
-        public virtual ICollection<UserRole> RolesUser { get; private set; }
+        public long RolId { get; internal set; }
+
+        
+        public virtual Rol Rol { get; internal set; }
         public virtual ICollection<UserToken> Tokens { get; set; }
 
 
-        public static User Create(string name, Email email, string hash)
+        public static User Create(string name, Email email, string hash, int rolId)
         {
             
             ArgumentNullException.ThrowIfNullOrWhiteSpace(name);
@@ -35,11 +39,16 @@ namespace jim.wiki.back.model.Models.Users
             user.Email = email.Value;
             user.Hash = hash;
             user.Name = name;
+            user.RolId = rolId;
 
-            return user; 
+            return user;
 
         }
 
+        public void ChangeRol(int rolId)
+        {
+            this.RolId = rolId;
+        }
         public void UpdateEmail(Email email)
         {
             this.Email = email.Value;

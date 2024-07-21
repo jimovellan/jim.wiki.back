@@ -6,12 +6,5 @@ using System.Threading.Tasks;
 
 namespace jim.wiki.back.application.Features.Users.Dto
 {
-    public class UserDto
-    {
-        public Guid Guid { get; set; }
-        public string Name { get; set; }
-        public string Email { get; set; }
-
-        public ICollection<RolDto> Roles { get; set; }
-    }
+    public record UserDto(long Id, Guid Guid, string Name, string Email, long RolId, string RolName);
 }

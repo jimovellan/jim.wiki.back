@@ -1,4 +1,5 @@
 ﻿using jim.wiki.back.application.Features.Users;
+using jim.wiki.back.application.Features.Users.Dto;
 using jim.wiki.back.model.Models.Users;
 using jim.wiki.core.Repository.Models.Search;
 using jim.wiki.core.Results;
@@ -26,15 +27,15 @@ namespace jim.wiki.back.api.Controllers
         }
 
 
-        [HttpPost("Users")]
+        [HttpPost("Filter")]
         [AllowAnonymous]
-        public async Task<ResultSearch<User>> GetAll(FilterSearch filter)
+        public async Task<ResultSearch<UserDto>> GetAll(FilterSearch? filter)
         {
             return await sender.Send(new GetUserAllRequest() { Filter = filter});
         }
 
         [HttpDelete("{id}")]
-        public async Task<ActionResult<DeleteUserResponse>> CreateUser(Guid id)
+        public async Task<ActionResult<DeleteUserResponse>> DeleteUser(Guid id)
         {
             return await sender.Send(new DeleteUserRequest() { Guid = id});
         }
